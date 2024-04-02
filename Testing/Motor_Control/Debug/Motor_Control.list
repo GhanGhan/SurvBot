@@ -381,11 +381,11 @@ int main(void)
  80004da:	f000 f8ab 	bl	8000634 <MX_TIM2_Init>
   MX_TIM3_Init();
  80004de:	f000 f913 	bl	8000708 <MX_TIM3_Init>
-    /* USER CODE END WHILE */
 
 	  //__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1,255);
 	  //__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1,255);
 
+	  //Rotate forward with increasing speed
 	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2,0);
  80004e2:	4b1c      	ldr	r3, [pc, #112]	@ (8000554 <main+0x90>)
  80004e4:	681b      	ldr	r3, [r3, #0]
@@ -423,6 +423,7 @@ int main(void)
  8000518:	ddee      	ble.n	80004f8 <main+0x34>
 	  }
 
+	  	 //
 	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1,0);
  800051a:	4b0e      	ldr	r3, [pc, #56]	@ (8000554 <main+0x90>)
  800051c:	681b      	ldr	r3, [r3, #0]
