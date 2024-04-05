@@ -47,7 +47,6 @@ UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
 
-GPIO_PinState encA, encB, encAprev, encBprev;
 volatile int pulseCount = 0;
 volatile uint32_t last_counter_value = 0;
 volatile int pulses;
@@ -110,10 +109,6 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Encoder_Start_IT(&htim4, TIM_CHANNEL_ALL);  //ALL Because we are capturing signal from both channels
-  encA = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6);
-  encB = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_7);
-  encAprev = encA;
-  encBprev = encB;
 
   /* USER CODE END 2 */
 
@@ -391,20 +386,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 
 }
 
-/*
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN)
-{
-
-	encA = HAL_GPIO_ReadPin(GPIO_B_ GPIO_PIN_6);
-	if(encAprev == GPIO_PIN_RESET && encA == GPIO_PIN_SET)
-	{
-		encB = HAL_GPIO_ReadPin(GPIO_B_ GPIO_PIN_7);
-		if(encB == GPIO_PIN_RESET && __HAL_TIM_IS_TIM_COUNTING_DOWN(&htim4))
-		{
-
-		}
-	}
-}*/
 
 /* USER CODE END 4 */
 
