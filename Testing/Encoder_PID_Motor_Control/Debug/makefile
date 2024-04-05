@@ -85,7 +85,7 @@ main-build: Encoder_PID_Motor_Control.elf secondary-outputs
 
 # Tool invocations
 Encoder_PID_Motor_Control.elf Encoder_PID_Motor_Control.map: $(OBJS) $(USER_OBJS) D:\ECE_Projects\SurvBot\Testing\Encoder_PID_Motor_Control\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "Encoder_PID_Motor_Control.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\ECE_Projects\SurvBot\Testing\Encoder_PID_Motor_Control\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Encoder_PID_Motor_Control.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+	arm-none-eabi-g++ -o "Encoder_PID_Motor_Control.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\ECE_Projects\SurvBot\Testing\Encoder_PID_Motor_Control\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Encoder_PID_Motor_Control.map" -Wl,--gc-sections -static -u _scanf_float -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

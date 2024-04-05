@@ -1,27 +1,10 @@
-16:04:06 **** Incremental Build of configuration Debug for project Encoder_PID_Motor_Control ****
+23:29:10 **** Incremental Build of configuration Debug for project Encoder_PID_Motor_Control ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:112:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  112 |         sprintf(MSG, "Encoder Switch Released, Encoder Ticks = %ld\n\r", __HAL_TIM_GET_COUNTER(&htim4));
-      |                 ^~~
-      |                 |
-      |                 uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:24:
-C:\ST\STM32CubeIDE_1.15.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:250:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-  250 | int     sprintf (char *__restrict, const char *__restrict, ...)
-      |                  ^
-arm-none-eabi-g++ -o "Encoder_PID_Motor_Control.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ECE_Projects\SurvBot\Testing\Encoder_PID_Motor_Control\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Encoder_PID_Motor_Control.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
-Finished building target: Encoder_PID_Motor_Control.elf
- 
 arm-none-eabi-size  Encoder_PID_Motor_Control.elf 
-arm-none-eabi-objdump -h -S Encoder_PID_Motor_Control.elf  > "Encoder_PID_Motor_Control.list"
    text	   data	    bss	    dec	    hex	filename
-  12612	     92	   2044	  14748	   399c	Encoder_PID_Motor_Control.elf
+  35144	    476	   2140	  37760	   9380	Encoder_PID_Motor_Control.elf
 Finished building: default.size.stdout
  
-Finished building: Encoder_PID_Motor_Control.list
- 
 
-16:04:07 Build Finished. 0 errors, 1 warnings. (took 1s.400ms)
+23:29:10 Build Finished. 0 errors, 0 warnings. (took 418ms)
 

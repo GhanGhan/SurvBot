@@ -40,12 +40,21 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+TIM_HandleTypeDef htim2;
 TIM_HandleTypeDef htim4;
 
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
 
+GPIO_PinState encA, encB, encAprev, encBprev;
+volatile int pulseCount = 0;
+volatile uint32_t last_counter_value = 0;
+volatile int pulses;
+float speed = 0;
+int pulses_per_rotation = 1920;
+float speed_check_frequency = 100; //milliseconds
+float kRPM;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -53,6 +62,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
 static void MX_TIM4_Init(void);
+static void MX_TIM2_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -71,6 +81,8 @@ int main(void)
 
   /* USER CODE BEGIN 1 */
 	uint8_t MSG[50] = {'\0'};
+	uint8_t MSG2[50] = {'\0'};
+	kRPM = 60*speed_check_frequency/(float)pulses_per_rotation;
 
 
   /* USER CODE END 1 */
@@ -95,8 +107,13 @@ int main(void)
   MX_GPIO_Init();
   MX_USART2_UART_Init();
   MX_TIM4_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_Encoder_Start(&htim4, TIM_CHANNEL_ALL);
+  HAL_TIM_Encoder_Start_IT(&htim4, TIM_CHANNEL_ALL);  //ALL Because we are capturing signal from both channels
+  encA = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6);
+  encB = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_7);
+  encAprev = encA;
+  encBprev = encB;
 
   /* USER CODE END 2 */
 
@@ -109,9 +126,12 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	sprintf(MSG, "Encoder Switch Released, Encoder Ticks = %ld\n\r", __HAL_TIM_GET_COUNTER(&htim4));
+	sprintf(MSG, "Encoder Ticks = %ld, Time Ticks: %d ", TIM4->CNT, HAL_GetTick());
 	HAL_UART_Transmit(&huart2, MSG, sizeof(MSG), 10);
-	HAL_Delay(100);
+	speed = kRPM*pulses;
+	sprintf(MSG2, "Current speed = %.2f \n\r", speed);
+	HAL_UART_Transmit(&huart2, MSG2, sizeof(MSG2), 10);
+	HAL_Delay(20);
   }
   /* USER CODE END 3 */
 }
@@ -163,6 +183,53 @@ void SystemClock_Config(void)
 }
 
 /**
+  * @brief TIM2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM2_Init(void)
+{
+
+  /* USER CODE BEGIN TIM2_Init 0 */
+
+  /* USER CODE END TIM2_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM2_Init 1 */
+
+  /* USER CODE END TIM2_Init 1 */
+  htim2.Instance = TIM2;
+  htim2.Init.Prescaler = 8399;
+  htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim2.Init.Period = 99;
+  htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim2, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim2, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM2_Init 2 */
+  HAL_TIM_Base_Start_IT(&htim2);
+  HAL_TIM_Base_Start(&htim2);
+
+  /* USER CODE END TIM2_Init 2 */
+
+}
+
+/**
   * @brief TIM4 Initialization Function
   * @param None
   * @retval None
@@ -181,7 +248,7 @@ static void MX_TIM4_Init(void)
 
   /* USER CODE END TIM4_Init 1 */
   htim4.Instance = TIM4;
-  htim4.Init.Prescaler = 0;
+  htim4.Init.Prescaler = 1;
   htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim4.Init.Period = 65535;
   htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
@@ -282,6 +349,62 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+
+	if(last_counter_value == TIM4->CNT)
+	{
+		pulses = 0;
+		last_counter_value = TIM4->CNT;
+		return;
+	}
+	else if(!__HAL_TIM_IS_TIM_COUNTING_DOWN(&htim4)) //forwards
+	{
+		if(TIM4->CNT < 100 &&  last_counter_value > 65436)
+		{
+			pulses = (65535 - last_counter_value) + TIM4->CNT;
+		}
+		else
+		{
+			pulses = TIM4->CNT - last_counter_value;
+		}
+
+		last_counter_value = TIM4->CNT;
+	}
+	else //bakwards
+	{
+		if(last_counter_value < 100 && TIM4->CNT > 65436)
+		{
+			pulses = (65535 - TIM4->CNT) + last_counter_value;
+		}
+		else
+		{
+			pulses = last_counter_value - TIM4->CNT;
+		}
+		pulses = 0 - pulses;
+
+		last_counter_value = TIM4->CNT;
+	}
+
+	return;
+
+}
+
+/*
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN)
+{
+
+	encA = HAL_GPIO_ReadPin(GPIO_B_ GPIO_PIN_6);
+	if(encAprev == GPIO_PIN_RESET && encA == GPIO_PIN_SET)
+	{
+		encB = HAL_GPIO_ReadPin(GPIO_B_ GPIO_PIN_7);
+		if(encB == GPIO_PIN_RESET && __HAL_TIM_IS_TIM_COUNTING_DOWN(&htim4))
+		{
+
+		}
+	}
+}*/
 
 /* USER CODE END 4 */
 
