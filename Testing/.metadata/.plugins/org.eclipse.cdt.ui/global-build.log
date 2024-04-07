@@ -1,78 +1,21 @@
-15:30:41 **** Incremental Build of configuration Debug for project Encoder_PID_Motor_Control ****
+14:55:58 **** Incremental Build of configuration Debug for project UART_Communication ****
 make -j4 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:124:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  124 |         sprintf(MSG, "Encoder Ticks = %ld, Time Ticks: %d ", TIM4->CNT, HAL_GetTick());
-      |                 ^~~
-      |                 |
-      |                 uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:24:
-C:\ST\STM32CubeIDE_1.15.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:250:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-  250 | int     sprintf (char *__restrict, const char *__restrict, ...)
-      |                  ^
-../Core/Src/main.c:124:57: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-  124 |         sprintf(MSG, "Encoder Ticks = %ld, Time Ticks: %d ", TIM4->CNT, HAL_GetTick());
-      |                                                        ~^               ~~~~~~~~~~~~~
-      |                                                         |               |
-      |                                                         int             uint32_t {aka long unsigned int}
-      |                                                        %ld
-../Core/Src/main.c:127:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  127 |         sprintf(MSG2, "Current speed = %.2f \n\r", speed);
-      |                 ^~~~
-      |                 |
-      |                 uint8_t * {aka unsigned char *}
-C:\ST\STM32CubeIDE_1.15.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:250:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-  250 | int     sprintf (char *__restrict, const char *__restrict, ...)
-      |                  ^
-arm-none-eabi-g++ -o "Encoder_PID_Motor_Control.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ECE_Projects\SurvBot\Testing\Encoder_PID_Motor_Control\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Encoder_PID_Motor_Control.map" -Wl,--gc-sections -static -u _scanf_float -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
-Finished building target: Encoder_PID_Motor_Control.elf
+arm-none-eabi-gcc -o "UART_Communication.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ECE_Projects\SurvBot\Testing\UART_Communication\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_Communication.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART_Communication.elf
  
-arm-none-eabi-size  Encoder_PID_Motor_Control.elf 
-arm-none-eabi-objdump -h -S Encoder_PID_Motor_Control.elf  > "Encoder_PID_Motor_Control.list"
+arm-none-eabi-size  UART_Communication.elf 
+arm-none-eabi-objdump -h -S UART_Communication.elf  > "UART_Communication.list"
    text	   data	    bss	    dec	    hex	filename
-  35024	    476	   2140	  37640	   9308	Encoder_PID_Motor_Control.elf
+   8424	     44	   1644	  10112	   2780	UART_Communication.elf
 Finished building: default.size.stdout
  
-Finished building: Encoder_PID_Motor_Control.list
+Finished building: UART_Communication.list
  
-14:05:58 **** Incremental Build of configuration Debug for project Encoder_PID_Motor_Control ****
+14:56:00 **** Incremental Build of configuration Debug for project UART_Communication ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:124:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  124 |         sprintf(MSG, "Encoder Ticks = %ld, Time Ticks: %d ", TIM4->CNT, HAL_GetTick());
-      |                 ^~~
-      |                 |
-      |                 uint8_t * {aka unsigned char *}
-In file included from ../Core/Src/main.c:24:
-C:\ST\STM32CubeIDE_1.15.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:250:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-  250 | int     sprintf (char *__restrict, const char *__restrict, ...)
-      |                  ^
-../Core/Src/main.c:124:57: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-  124 |         sprintf(MSG, "Encoder Ticks = %ld, Time Ticks: %d ", TIM4->CNT, HAL_GetTick());
-      |                                                        ~^               ~~~~~~~~~~~~~
-      |                                                         |               |
-      |                                                         int             uint32_t {aka long unsigned int}
-      |                                                        %ld
-../Core/Src/main.c:127:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  127 |         sprintf(MSG2, "Current speed = %.2f \n\r", speed);
-      |                 ^~~~
-      |                 |
-      |                 uint8_t * {aka unsigned char *}
-C:\ST\STM32CubeIDE_1.15.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:250:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-  250 | int     sprintf (char *__restrict, const char *__restrict, ...)
-      |                  ^
-arm-none-eabi-g++ -o "Encoder_PID_Motor_Control.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ECE_Projects\SurvBot\Testing\Encoder_PID_Motor_Control\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Encoder_PID_Motor_Control.map" -Wl,--gc-sections -static -u _scanf_float -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
-Finished building target: Encoder_PID_Motor_Control.elf
- 
-arm-none-eabi-size  Encoder_PID_Motor_Control.elf 
-arm-none-eabi-objdump -h -S Encoder_PID_Motor_Control.elf  > "Encoder_PID_Motor_Control.list"
+arm-none-eabi-size  UART_Communication.elf 
    text	   data	    bss	    dec	    hex	filename
-  35024	    476	   2140	  37640	   9308	Encoder_PID_Motor_Control.elf
+   8424	     44	   1644	  10112	   2780	UART_Communication.elf
 Finished building: default.size.stdout
- 
-Finished building: Encoder_PID_Motor_Control.list
  
