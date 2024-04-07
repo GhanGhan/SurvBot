@@ -58,12 +58,12 @@ static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN 0 */
 uint8_t tx_buffer[] = "Hello World !!\r\n";
 uint8_t tx_buffer_digits[] = {'0','1','2','3','4','5','6','7','8','9', '\n'};
-uint8_t success_buff[] = " - HAL OK \n";
+uint8_t success_buff[] = "HAL OK \n";
 uint8_t no_pass[] = "Not OK!!!!!!!!!!!! \n";
 
 uint8_t rx_buffer[10];
 uint8_t num[5];
-int command = 0;
+uint8_t command = 0;
 /* USER CODE END 0 */
 
 /**
@@ -107,34 +107,28 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	uint8_t MSG[50] = {'\0'};
+
 	//HAL_UART_Transmit(&huart2, tx_buffer, sizeof(tx_buffer), 10);
 	//HAL_UART_Transmit(&huart2, tx_buffer_digits, sizeof(tx_buffer_digits), 10);
 
-	if(HAL_UART_Receive(&huart2, rx_buffer, 5, 100) == HAL_OK)
+	if(HAL_UART_Receive(&huart2, rx_buffer, 10, 100) == HAL_OK)
 	{
-		int mult = 1;
 		if(rx_buffer[0] == 'p'){//this is a positive value
-			int digits = rx_buffer[1] - '0';
-			for(int i = digits + 1; i > 1; i--){
+			int mult = 1;
+			for(int i = 2; i <= rx_buffer[i] + 2; i++){
 				command += (rx_buffer[i] - '0')*mult;
 				num[i-2] = rx_buffer[i];
-				mult *= 10;
 			}
 		}else if(rx_buffer[0] == 'n'){//this is a positive value
-			int digits = rx_buffer[1] - '0';
+			int mult = 1;
 			num[0] = '-';
-			for(int i = digits + 1; i > 1; i--){
+			for(int i = 2; i <= rx_buffer[i] + 2; i++){
 				command -= (rx_buffer[i] - '0')*mult;
 				num[i-1] = rx_buffer[i];
-				mult *= 10;
 			}
 			//command = -command;
 		}
-
-		//HAL_UART_Transmit(&huart2, num, sizeof(num), 10);
-		sprintf(MSG, "The receive command is %d ", command);
-		HAL_UART_Transmit(&huart2, MSG, sizeof(MSG), 10);
+		HAL_UART_Transmit(&huart2, num, sizeof(num), 10);
 		HAL_UART_Transmit(&huart2, success_buff, sizeof(success_buff), 10);
 
 	}else{

@@ -113,25 +113,23 @@ int main(void)
 
 	if(HAL_UART_Receive(&huart2, rx_buffer, 5, 100) == HAL_OK)
 	{
-		int mult = 1;
 		if(rx_buffer[0] == 'p'){//this is a positive value
-			int digits = rx_buffer[1] - '0';
-			for(int i = digits + 1; i > 1; i--){
+			int mult = 1;
+			for(int i = 2; i < rx_buffer[1] + 2; i++){
 				command += (rx_buffer[i] - '0')*mult;
 				num[i-2] = rx_buffer[i];
 				mult *= 10;
 			}
 		}else if(rx_buffer[0] == 'n'){//this is a positive value
-			int digits = rx_buffer[1] - '0';
+			int mult = 1;
 			num[0] = '-';
-			for(int i = digits + 1; i > 1; i--){
+			for(int i = 2; i < rx_buffer[1] + 2; i++){
 				command -= (rx_buffer[i] - '0')*mult;
 				num[i-1] = rx_buffer[i];
 				mult *= 10;
 			}
 			//command = -command;
 		}
-
 		//HAL_UART_Transmit(&huart2, num, sizeof(num), 10);
 		sprintf(MSG, "The receive command is %d ", command);
 		HAL_UART_Transmit(&huart2, MSG, sizeof(MSG), 10);

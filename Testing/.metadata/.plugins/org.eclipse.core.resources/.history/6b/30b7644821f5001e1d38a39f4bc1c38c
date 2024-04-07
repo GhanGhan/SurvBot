@@ -116,6 +116,7 @@ int main(void)
 		int mult = 1;
 		if(rx_buffer[0] == 'p'){//this is a positive value
 			int digits = rx_buffer[1] - '0';
+			//for(int i = 2; i < (int)(rx_buffer[1] - '0') + 2; i++)
 			for(int i = digits + 1; i > 1; i--){
 				command += (rx_buffer[i] - '0')*mult;
 				num[i-2] = rx_buffer[i];
@@ -131,7 +132,6 @@ int main(void)
 			}
 			//command = -command;
 		}
-
 		//HAL_UART_Transmit(&huart2, num, sizeof(num), 10);
 		sprintf(MSG, "The receive command is %d ", command);
 		HAL_UART_Transmit(&huart2, MSG, sizeof(MSG), 10);
