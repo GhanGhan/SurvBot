@@ -58,8 +58,7 @@ static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN 0 */
 uint8_t tx_buffer[] = "Hello World !!\r\n";
 uint8_t tx_buffer_digits[] = {'0','1','2','3','4','5','6','7','8','9', '\n'};
-uint8_t success_buff[] = "HAL OK \n";
-uint8_t no_pass[] = "Not OK!!!!!!!!!!!! \n";
+uint8_t success_buff[] = "Got the message \n";
 
 uint8_t rx_buffer[10];
 /* USER CODE END 0 */
@@ -106,21 +105,15 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	//HAL_UART_Transmit(&huart2, tx_buffer, sizeof(tx_buffer), 10);
-	//HAL_UART_Transmit(&huart2, tx_buffer_digits, sizeof(tx_buffer_digits), 10);
+	HAL_UART_Transmit(&huart2, tx_buffer, sizeof(tx_buffer), 10);
+	HAL_UART_Transmit(&huart2, tx_buffer_digits, sizeof(tx_buffer_digits), 10);
 
 	if(HAL_UART_Receive(&huart2, rx_buffer, 10, 100) == HAL_OK)
 	{
 		HAL_UART_Transmit(&huart2, success_buff, sizeof(success_buff), 10);
-		HAL_UART_Transmit(&huart2, rx_buffer, sizeof(rx_buffer), 10);
 	}else{
-		HAL_UART_Transmit(&huart2, no_pass, sizeof(no_pass), 10);
-		HAL_UART_Transmit(&huart2, rx_buffer, sizeof(rx_buffer), 10);
-	}
-	for(int i = 0; i < sizeof(rx_buffer); i++){
-		rx_buffer[i] = '\0';
-	}
 
+	}
 	HAL_Delay(100);
   }
   /* USER CODE END 3 */

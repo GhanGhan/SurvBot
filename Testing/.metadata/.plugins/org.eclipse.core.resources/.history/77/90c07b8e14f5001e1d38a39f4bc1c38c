@@ -117,10 +117,6 @@ int main(void)
 		HAL_UART_Transmit(&huart2, no_pass, sizeof(no_pass), 10);
 		HAL_UART_Transmit(&huart2, rx_buffer, sizeof(rx_buffer), 10);
 	}
-	for(int i = 0; i < sizeof(rx_buffer); i++){
-		rx_buffer[i] = '\0';
-	}
-
 	HAL_Delay(100);
   }
   /* USER CODE END 3 */

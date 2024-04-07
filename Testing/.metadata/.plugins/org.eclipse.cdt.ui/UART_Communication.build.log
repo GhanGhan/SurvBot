@@ -1,10 +1,10 @@
-14:56:00 **** Incremental Build of configuration Debug for project UART_Communication ****
+15:25:46 **** Incremental Build of configuration Debug for project UART_Communication ****
 make -j4 all 
 arm-none-eabi-size  UART_Communication.elf 
    text	   data	    bss	    dec	    hex	filename
-   8424	     44	   1644	  10112	   2780	UART_Communication.elf
+   8800	     48	   1656	  10504	   2908	UART_Communication.elf
 Finished building: default.size.stdout
  
 
-14:56:01 Build Finished. 0 errors, 0 warnings. (took 549ms)
+15:25:47 Build Finished. 0 errors, 0 warnings. (took 480ms)
 
