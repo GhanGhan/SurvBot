@@ -1,16 +1,10 @@
-16:39:53 **** Incremental Build of configuration Debug for project UART_Communication ****
+16:46:05 **** Incremental Build of configuration Debug for project UART_Communication ****
 make -j4 all 
-arm-none-eabi-gcc -o "UART_Communication.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ECE_Projects\SurvBot\Testing\UART_Communication\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_Communication.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: UART_Communication.elf
- 
 arm-none-eabi-size  UART_Communication.elf 
-arm-none-eabi-objdump -h -S UART_Communication.elf  > "UART_Communication.list"
    text	   data	    bss	    dec	    hex	filename
   13608	     92	   2052	  15752	   3d88	UART_Communication.elf
 Finished building: default.size.stdout
  
-Finished building: UART_Communication.list
- 
 
-16:39:54 Build Finished. 0 errors, 0 warnings. (took 1s.65ms)
+16:46:05 Build Finished. 0 errors, 0 warnings. (took 518ms)
 
