@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;UART_Communication/Core/Inc/Parsing.h&apos; to &apos;parsing.h&apos;" description="Rename resource &apos;Parsing.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/Parsing.h" name="parsing.h" stamp="1712600919118" updateReferences="true"/>
+</session>

@@ -9,6 +9,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\ECE_Projects\SurvBot\Testing"/>
 			<item value="C:\Users\Ghani\STM32CubeIDE\workspace_1.15.0"/>
 		</list>
 	</section>

@@ -15,6 +15,7 @@
   *
   ******************************************************************************
   */
+#include "parsing.h"
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
@@ -62,8 +63,7 @@ uint8_t success_buff[] = " - HAL OK \n";
 uint8_t no_pass[] = "Not OK!!!!!!!!!!!! \n";
 
 uint8_t rx_buffer[10];
-uint8_t num[5];
-int command = 0;
+int velocity = 0;
 /* USER CODE END 0 */
 
 /**
@@ -111,41 +111,25 @@ int main(void)
 	//HAL_UART_Transmit(&huart2, tx_buffer, sizeof(tx_buffer), 10);
 	//HAL_UART_Transmit(&huart2, tx_buffer_digits, sizeof(tx_buffer_digits), 10);
 
-	if(HAL_UART_Receive(&huart2, rx_buffer, 5, 100) == HAL_OK)
+	if(HAL_UART_Receive(&huart2, rx_buffer, 5, 1000) == HAL_OK)
 	{
-		int mult = 1;
-		if(rx_buffer[0] == 'p'){//this is a positive value
-			int digits = rx_buffer[1] - '0';
-			for(int i = digits + 1; i > 1; i--){
-				command += (rx_buffer[i] - '0')*mult;
-				num[i-2] = rx_buffer[i];
-				mult *= 10;
-			}
-		}else if(rx_buffer[0] == 'n'){//this is a positive value
-			int digits = rx_buffer[1] - '0';
-			num[0] = '-';
-			for(int i = digits + 1; i > 1; i--){
-				command -= (rx_buffer[i] - '0')*mult;
-				num[i-1] = rx_buffer[i];
-				mult *= 10;
-			}
-			//command = -command;
-		}
+
+		velocity = parseVelocityFromUART(rx_buffer);
 
 		//HAL_UART_Transmit(&huart2, num, sizeof(num), 10);
-		sprintf(MSG, "The receive command is %d ", command);
+		sprintf(MSG, "The received velocity command is %d ", velocity);
 		HAL_UART_Transmit(&huart2, MSG, sizeof(MSG), 10);
 		HAL_UART_Transmit(&huart2, success_buff, sizeof(success_buff), 10);
 
 	}else{
-		HAL_UART_Transmit(&huart2, no_pass, sizeof(no_pass), 10);
-		HAL_UART_Transmit(&huart2, rx_buffer, sizeof(rx_buffer), 10);
+		//HAL_UART_Transmit(&huart2, no_pass, sizeof(no_pass), 10);
+		//HAL_UART_Transmit(&huart2, rx_buffer, sizeof(rx_buffer), 10);
 	}
 
 	for(int i = 0; i < sizeof(rx_buffer); i++){
 		rx_buffer[i] = '\0';
 	}
-	command = 0;
+	velocity = 0;
 
 	HAL_Delay(100);
   }
