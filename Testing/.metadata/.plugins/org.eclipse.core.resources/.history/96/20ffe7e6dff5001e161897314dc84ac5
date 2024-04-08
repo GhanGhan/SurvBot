@@ -62,7 +62,7 @@ uint8_t tx_buffer_digits[] = {'0','1','2','3','4','5','6','7','8','9', '\n'};
 uint8_t success_buff[] = " - HAL OK \n";
 uint8_t no_pass[] = "Not OK!!!!!!!!!!!! \n";
 
-uint8_t rx_buffer[20];
+uint8_t rx_buffer[10];
 uint8_t MSG[50] = {'\0'};
 int velocity = 0, last_velocity = 0;
 
@@ -100,7 +100,7 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  HAL_UART_Receive_IT(&huart2, rx_buffer, 6);
+  HAL_UART_Receive_IT(&huart2, rx_buffer, 5);
 
   /* USER CODE END 2 */
 
@@ -133,7 +133,6 @@ int main(void)
 	if(velocity != last_velocity)
 	{
 		HAL_UART_Transmit_IT(&huart2, MSG, sizeof(MSG));
-		last_velocity = velocity;
 	}
 
 	/*
@@ -268,10 +267,10 @@ static void MX_GPIO_Init(void)
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
 
-	if(HAL_UART_Receive_IT(&huart2, rx_buffer, 6) == HAL_OK)
+	if(HAL_UART_Receive_IT(&huart2, rx_buffer, 5) == HAL_OK)
 	{
 		velocity = parseVelocityFromUART(rx_buffer);
-		sprintf(MSG, "The received velocity command is %d \n", velocity);
+		sprintf(MSG, "The received velocity command is %d", velocity);
 	}
 }
 

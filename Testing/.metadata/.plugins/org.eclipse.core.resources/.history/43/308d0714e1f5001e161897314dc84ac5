@@ -20,6 +20,5 @@ int parseVelocityFromUART(uint8_t * rx_buffer)
 			mult *= 10;
 		}
 	}
-
 	return velocity;
 }

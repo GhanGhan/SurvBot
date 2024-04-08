@@ -100,7 +100,7 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  HAL_UART_Receive_IT(&huart2, rx_buffer, 6);
+  HAL_UART_Receive_IT(&huart2, rx_buffer, 5);
 
   /* USER CODE END 2 */
 
@@ -268,7 +268,7 @@ static void MX_GPIO_Init(void)
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
 
-	if(HAL_UART_Receive_IT(&huart2, rx_buffer, 6) == HAL_OK)
+	if(HAL_UART_Receive_IT(&huart2, rx_buffer, 5) == HAL_OK)
 	{
 		velocity = parseVelocityFromUART(rx_buffer);
 		sprintf(MSG, "The received velocity command is %d \n", velocity);
