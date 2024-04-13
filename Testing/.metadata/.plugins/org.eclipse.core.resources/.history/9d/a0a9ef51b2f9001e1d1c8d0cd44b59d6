@@ -123,6 +123,10 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	//sprintf(MSG, "Encoder Ticks = %ld, Time Ticks: %d \n", TIM4->CNT, HAL_GetTick());
+	//HAL_UART_Transmit(&huart2, MSG, sizeof(MSG), 10);
+	//HAL_Delay(20);
+
 
 	__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
 	for(int i = 0; i < 255; i++)
