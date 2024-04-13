@@ -7,4 +7,4 @@
 ../Core/Src/stm32f4xx_hal_msp.c:225:6:HAL_TIM_PWM_MspDeInit	2
 ../Core/Src/stm32f4xx_hal_msp.c:247:6:HAL_TIM_Encoder_MspDeInit	2
 ../Core/Src/stm32f4xx_hal_msp.c:276:6:HAL_UART_MspInit	2
-../Core/Src/stm32f4xx_hal_msp.c:312:6:HAL_UART_MspDeInit	2
+../Core/Src/stm32f4xx_hal_msp.c:315:6:HAL_UART_MspDeInit	2
