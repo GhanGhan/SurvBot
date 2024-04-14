@@ -1,0 +1,24 @@
+#include "PID.h"
+
+
+void initializePID(PIDController *pid, double Kp, double Ki, double Kd, double delay, int max, int min){
+	pid->Kp = Kp;
+	pid->Ki = Ki;
+	pid->Kd = Kd;
+
+	pid->current_error = 0;
+	pid->previous_error = 0;
+	pid->sum_error = 0;
+
+	pid->set_point = 0;
+	pid->control = 0;
+
+	pid->time_delay = delay;
+
+	pid->max = max;
+	pid->min = min;
+
+
+
+
+}
