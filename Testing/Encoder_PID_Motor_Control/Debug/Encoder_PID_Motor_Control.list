@@ -2353,35 +2353,35 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
  800163a:	2b00      	cmp	r3, #0
  800163c:	db09      	blt.n	8001652 <HAL_UART_RxCpltCallback+0x4e>
 		{
-			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, velocity);
- 800163e:	4b0e      	ldr	r3, [pc, #56]	@ (8001678 <HAL_UART_RxCpltCallback+0x74>)
- 8001640:	681a      	ldr	r2, [r3, #0]
- 8001642:	4b10      	ldr	r3, [pc, #64]	@ (8001684 <HAL_UART_RxCpltCallback+0x80>)
- 8001644:	681b      	ldr	r3, [r3, #0]
- 8001646:	635a      	str	r2, [r3, #52]	@ 0x34
-			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
- 8001648:	4b0e      	ldr	r3, [pc, #56]	@ (8001684 <HAL_UART_RxCpltCallback+0x80>)
- 800164a:	681b      	ldr	r3, [r3, #0]
- 800164c:	2200      	movs	r2, #0
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
+ 800163e:	4b11      	ldr	r3, [pc, #68]	@ (8001684 <HAL_UART_RxCpltCallback+0x80>)
+ 8001640:	681b      	ldr	r3, [r3, #0]
+ 8001642:	2200      	movs	r2, #0
+ 8001644:	635a      	str	r2, [r3, #52]	@ 0x34
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, velocity);
+ 8001646:	4b0c      	ldr	r3, [pc, #48]	@ (8001678 <HAL_UART_RxCpltCallback+0x74>)
+ 8001648:	681a      	ldr	r2, [r3, #0]
+ 800164a:	4b0e      	ldr	r3, [pc, #56]	@ (8001684 <HAL_UART_RxCpltCallback+0x80>)
+ 800164c:	681b      	ldr	r3, [r3, #0]
  800164e:	639a      	str	r2, [r3, #56]	@ 0x38
 		{
-			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
-			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, -velocity);
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, -velocity);
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
 		}
 	}
 }
  8001650:	e009      	b.n	8001666 <HAL_UART_RxCpltCallback+0x62>
-			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
- 8001652:	4b0c      	ldr	r3, [pc, #48]	@ (8001684 <HAL_UART_RxCpltCallback+0x80>)
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, -velocity);
+ 8001652:	4b09      	ldr	r3, [pc, #36]	@ (8001678 <HAL_UART_RxCpltCallback+0x74>)
  8001654:	681b      	ldr	r3, [r3, #0]
- 8001656:	2200      	movs	r2, #0
- 8001658:	635a      	str	r2, [r3, #52]	@ 0x34
-			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, -velocity);
- 800165a:	4b07      	ldr	r3, [pc, #28]	@ (8001678 <HAL_UART_RxCpltCallback+0x74>)
- 800165c:	681b      	ldr	r3, [r3, #0]
- 800165e:	425a      	negs	r2, r3
- 8001660:	4b08      	ldr	r3, [pc, #32]	@ (8001684 <HAL_UART_RxCpltCallback+0x80>)
- 8001662:	681b      	ldr	r3, [r3, #0]
+ 8001656:	425a      	negs	r2, r3
+ 8001658:	4b0a      	ldr	r3, [pc, #40]	@ (8001684 <HAL_UART_RxCpltCallback+0x80>)
+ 800165a:	681b      	ldr	r3, [r3, #0]
+ 800165c:	635a      	str	r2, [r3, #52]	@ 0x34
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
+ 800165e:	4b09      	ldr	r3, [pc, #36]	@ (8001684 <HAL_UART_RxCpltCallback+0x80>)
+ 8001660:	681b      	ldr	r3, [r3, #0]
+ 8001662:	2200      	movs	r2, #0
  8001664:	639a      	str	r2, [r3, #56]	@ 0x38
 }
  8001666:	bf00      	nop

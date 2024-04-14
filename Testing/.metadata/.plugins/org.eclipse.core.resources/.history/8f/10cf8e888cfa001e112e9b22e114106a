@@ -462,13 +462,13 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 		sprintf(MSG, "The received velocity command is %d \n", velocity);
 		if(velocity >= 0 ) //forward
 		{
-			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
-			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, velocity);
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, velocity);
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
 		}
 		else //reverse
 		{
-			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, -velocity);
-			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, -velocity);
 		}
 	}
 }

@@ -1,10 +1,81 @@
-14:23:33 **** Incremental Build of configuration Debug for project Encoder_PID_Motor_Control ****
+14:26:39 **** Incremental Build of configuration Debug for project Encoder_PID_Motor_Control ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/PID.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/PID.d" -MT"Core/Src/PID.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/PID.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
-arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
-arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
-arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:134:25: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  134 |                 sprintf(MSG2, "PWM Command: %d\n\r", velocity);
+      |                         ^~~~
+      |                         |
+      |                         uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:24:
+C:\ST\STM32CubeIDE_1.15.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:250:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  250 | int     sprintf (char *__restrict, const char *__restrict, ...)
+      |                  ^
+../Core/Src/main.c:140:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  140 |         sprintf(MSG2, "Current speed = %.2f \n\r", speed);
+      |                 ^~~~
+      |                 |
+      |                 uint8_t * {aka unsigned char *}
+C:\ST\STM32CubeIDE_1.15.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:250:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  250 | int     sprintf (char *__restrict, const char *__restrict, ...)
+      |                  ^
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:462:25: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  462 |                 sprintf(MSG, "The received velocity command is %d \n", velocity);
+      |                         ^~~
+      |                         |
+      |                         uint8_t * {aka unsigned char *}
+C:\ST\STM32CubeIDE_1.15.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:250:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  250 | int     sprintf (char *__restrict, const char *__restrict, ...)
+      |                  ^
+arm-none-eabi-g++ -o "Encoder_PID_Motor_Control.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ECE_Projects\SurvBot\Testing\Encoder_PID_Motor_Control\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Encoder_PID_Motor_Control.map" -Wl,--gc-sections -static -u _scanf_float -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Encoder_PID_Motor_Control.elf
+ 
+arm-none-eabi-size  Encoder_PID_Motor_Control.elf 
+arm-none-eabi-objdump -h -S Encoder_PID_Motor_Control.elf  > "Encoder_PID_Motor_Control.list"
+   text	   data	    bss	    dec	    hex	filename
+  39552	    476	   2340	  42368	   a580	Encoder_PID_Motor_Control.elf
+Finished building: default.size.stdout
+ 
+Finished building: Encoder_PID_Motor_Control.list
+ 
+14:26:57 **** Incremental Build of configuration Debug for project Encoder_PID_Motor_Control ****
+make -j4 all 
+arm-none-eabi-size  Encoder_PID_Motor_Control.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39552	    476	   2340	  42368	   a580	Encoder_PID_Motor_Control.elf
+Finished building: default.size.stdout
+ 
+14:28:45 **** Incremental Build of configuration Debug for project Encoder_PID_Motor_Control ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:134:25: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  134 |                 sprintf(MSG2, "PWM Command: %d\n\r", velocity);
+      |                         ^~~~
+      |                         |
+      |                         uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:24:
+C:\ST\STM32CubeIDE_1.15.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:250:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  250 | int     sprintf (char *__restrict, const char *__restrict, ...)
+      |                  ^
+../Core/Src/main.c:140:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  140 |         sprintf(MSG2, "Current speed = %.2f \n\r", speed);
+      |                 ^~~~
+      |                 |
+      |                 uint8_t * {aka unsigned char *}
+C:\ST\STM32CubeIDE_1.15.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:250:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  250 | int     sprintf (char *__restrict, const char *__restrict, ...)
+      |                  ^
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:462:25: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  462 |                 sprintf(MSG, "The received velocity command is %d \n", velocity);
+      |                         ^~~
+      |                         |
+      |                         uint8_t * {aka unsigned char *}
+C:\ST\STM32CubeIDE_1.15.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:250:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  250 | int     sprintf (char *__restrict, const char *__restrict, ...)
+      |                  ^
 arm-none-eabi-g++ -o "Encoder_PID_Motor_Control.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\ECE_Projects\SurvBot\Testing\Encoder_PID_Motor_Control\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Encoder_PID_Motor_Control.map" -Wl,--gc-sections -static -u _scanf_float -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 Finished building target: Encoder_PID_Motor_Control.elf
  
