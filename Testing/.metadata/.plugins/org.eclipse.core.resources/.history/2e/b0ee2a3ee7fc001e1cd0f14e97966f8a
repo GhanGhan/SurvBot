@@ -63,7 +63,7 @@ uint8_t rx_buffer[20];
 int velocity_command = 0;
 
 uint8_t MSG[50] = {'\0'};
-uint8_t MSG2[120] = {'\0'};
+uint8_t MSG2[100] = {'\0'};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -133,7 +133,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	sprintf(MSG2, "Velocity command = %d, Current wheel velocity = %.3f, u(n) = %d, e(n) = %.3f, Sum_e(n) = %.3f, pulses = %d \n\r", velocity_command,
+	sprintf(MSG2, "Velocity command = %d, Current wheel velocity %.3f, u(n) = %d, e(n) = %.3f, Sum_e(n) = %.3f pulses = %d \n\r", velocity_command,
 			wheel_velocity, controller.control, controller.current_error, controller.sum_error, pulses);
 	HAL_UART_Transmit_IT(&huart2, MSG2, sizeof(MSG2));
 	HAL_Delay(20);

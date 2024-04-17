@@ -63,7 +63,7 @@ uint8_t rx_buffer[20];
 int velocity_command = 0;
 
 uint8_t MSG[50] = {'\0'};
-uint8_t MSG2[120] = {'\0'};
+uint8_t MSG2[100] = {'\0'};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
