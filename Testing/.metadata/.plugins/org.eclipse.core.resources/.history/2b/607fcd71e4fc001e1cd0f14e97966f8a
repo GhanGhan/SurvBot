@@ -412,7 +412,7 @@ static void MX_GPIO_Init(void)
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
 	int output;
-	if(last_counter_value == TIM4->CNT) //There has been no rotation
+	if(last_counter_value == TIM4->CNT)
 	{
 		pulses = 0;
 		last_counter_value = TIM4->CNT;
@@ -420,39 +420,46 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 		speed = kRPM*pulses;
 		output = calcControl(&controller, speed);
 
-		if(output > 0 ) //rotate in forward direction
+		if(output > 0 ) //forward
 		{
 			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
 			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, output);
 		}
-		else if(output < 0) //rotate in reverse direction
+		else if(output < 0) //reverse
 		{
 			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, -output);
 			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
 		}
-		else // stop rotating
+		else // stop
 		{
 			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
 			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
 		}
 	}
-	else if(!__HAL_TIM_IS_TIM_COUNTING_DOWN(&htim4)) //wheel is rotating forwards
+	else if(!__HAL_TIM_IS_TIM_COUNTING_DOWN(&htim4)) //forwards
 	{
 		if(TIM4->CNT < 100 &&  last_counter_value > 65436)
+		{
 			pulses = (65535 - last_counter_value) + TIM4->CNT;
+		}
 		else
+		{
 			pulses = TIM4->CNT - last_counter_value;
+		}
 
 		last_counter_value = TIM4->CNT;
 	}
-	else //wheel is rotating backwards
+	else //backwards
 	{
 		if(last_counter_value < 100 && TIM4->CNT > 65436)
+		{
 			pulses = (65535 - TIM4->CNT) + last_counter_value;
+		}
 		else
+		{
 			pulses = last_counter_value - TIM4->CNT;
-
-		pulses = -pulses;
+		}
+		pulses = 0 - pulses;
 
 		last_counter_value = TIM4->CNT;
 	}
@@ -461,17 +468,17 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 	speed = kRPM*pulses;
 	output = calcControl(&controller, speed);
 
-	if(output > 0 ) //rotate in forward direction
+	if(output > 0 ) //forward
 	{
 		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
 		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, output);
 	}
-	else if(output < 0) //reverse in reverse direction
+	else if(output < 0) //reverse
 	{
 		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, -output);
 		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
 	}
-	else // stop rotating
+	else
 	{
 		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
 		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
