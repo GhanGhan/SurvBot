@@ -133,7 +133,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	sprintf(MSG2, "Velocity command = %d, Current wheel velocity %.2f, u(n) = %d, e(n) = %.3f, pulses = %d \n\r", velocity_command, wheel_velocity, controller.control, controller.current_error, pulses);
+	sprintf(MSG2, "Velocity command = %0.2f, Current wheel velocity %.2f, u(n) = %d, e(n) = %.3f, pulses = %d \n\r", velocity_command, wheel_velocity, controller.control, controller.current_error, pulses);
 	HAL_UART_Transmit_IT(&huart2, MSG2, sizeof(MSG2));
 	HAL_Delay(20);
 

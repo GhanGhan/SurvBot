@@ -54,13 +54,13 @@ PIDController controller;
 
 volatile uint32_t last_counter_value = 0;
 int pulses;
-volatile float wheel_velocity = 0;
+volatile float speed = 0;
 int pulses_per_rotation = 1920;
 float speed_check_frequency = 100; //Hz
 float kRPM;
 
 uint8_t rx_buffer[20];
-int velocity_command = 0;
+int velocity = 0;
 
 uint8_t MSG[50] = {'\0'};
 uint8_t MSG2[100] = {'\0'};
@@ -133,7 +133,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	sprintf(MSG2, "Velocity command = %d, Current wheel velocity %.2f, u(n) = %d, e(n) = %.3f, pulses = %d \n\r", velocity_command, wheel_velocity, controller.control, controller.current_error, pulses);
+	sprintf(MSG2, "Velocity command = %0.2f, Current speed %.2f, u(n) = %d, e(n) = %.3f, pulses = %d \n\r", controller.set_point, speed, controller.control, controller.current_error, pulses);
 	HAL_UART_Transmit_IT(&huart2, MSG2, sizeof(MSG2));
 	HAL_Delay(20);
 
@@ -417,8 +417,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 		pulses = 0;
 		last_counter_value = TIM4->CNT;
 
-		wheel_velocity = kRPM*pulses;
-		output = calcControl(&controller, wheel_velocity);
+		speed = kRPM*pulses;
+		output = calcControl(&controller, speed);
 
 		if(output > 0 ) //rotate in forward direction
 		{
@@ -458,8 +458,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 	}
 
 	///////////////////
-	wheel_velocity = kRPM*pulses;
-	output = calcControl(&controller, wheel_velocity);
+	speed = kRPM*pulses;
+	output = calcControl(&controller, speed);
 
 	if(output > 0 ) //rotate in forward direction
 	{
@@ -485,8 +485,8 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
 	if(HAL_UART_Receive_IT(&huart2, rx_buffer, 6) == HAL_OK)
 	{
-		velocity_command = parseVelocityFromUART(rx_buffer);
-		updateSetPoint(&controller, velocity_command);
+		velocity = parseVelocityFromUART(rx_buffer);
+		updateSetPoint(&controller, velocity);
 	}
 
 }
