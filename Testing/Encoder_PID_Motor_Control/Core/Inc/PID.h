@@ -31,7 +31,10 @@ typedef struct PIDController{
 
 void initializePID(PIDController *pid, double Kp, double Ki, double Kd, double delay, int max, int min);
 
-int calcControl(PIDController *pid, double input, double current_speed);
+int calcControl(PIDController *pid, double current_speed);
+
+void updateSetPoint(PIDController *pid, double input);
+
 
 
 

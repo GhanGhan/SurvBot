@@ -23,6 +23,7 @@
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
 #include "parsing.h"
+#include "PID.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -48,11 +49,12 @@ TIM_HandleTypeDef htim4;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
+PIDController controller;
 
 volatile int pulseCount = 0;
 volatile uint32_t last_counter_value = 0;
-volatile int pulses;
-float speed = 0;
+int pulses;
+volatile float speed = 0;
 int pulses_per_rotation = 1920;
 float speed_check_frequency = 100; //milliseconds
 float kRPM;
@@ -61,7 +63,7 @@ uint8_t rx_buffer[20];
 int velocity = 0, last_velocity = 0;
 
 uint8_t MSG[50] = {'\0'};
-uint8_t MSG2[50] = {'\0'};
+uint8_t MSG2[100] = {'\0'};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -89,6 +91,8 @@ int main(void)
 
   /* USER CODE BEGIN 1 */
 	kRPM = 60*speed_check_frequency/(float)pulses_per_rotation;
+	initializePID(&controller, 8, 5, 0.001, 0.01, 255, -255);
+	controller.set_point = 0;
 
 
   /* USER CODE END 1 */
@@ -136,8 +140,9 @@ int main(void)
 		last_velocity = velocity;
 	}
 
-	speed = kRPM*pulses;
-	sprintf(MSG2, "Current speed = %.2f \n\r", speed);
+	//speed = kRPM*pulses;
+	sprintf(MSG2, "Velocity command = %0.2f, Current speed %.2f, u(n) = %d, e(n) = %.3f, pulses = %d \n\r", controller.set_point, speed, controller.control, controller.current_error, pulses);
+	//sprintf(MSG2, "Current speed = %.2f, Velocity command = %d \n\r", speed, velocity);
 	HAL_UART_Transmit_IT(&huart2, MSG2, sizeof(MSG2));
 	HAL_Delay(20);
 
@@ -415,12 +420,30 @@ static void MX_GPIO_Init(void)
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
-
+	int output;
 	if(last_counter_value == TIM4->CNT)
 	{
 		pulses = 0;
 		last_counter_value = TIM4->CNT;
-		return;
+
+		speed = kRPM*pulses;
+		output = calcControl(&controller, speed);
+
+		if(output > 0 ) //forward
+		{
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, output);
+		}
+		else if(output < 0) //reverse
+		{
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, -output);
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
+		}
+		else // stop
+		{
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
+			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
+		}
 	}
 	else if(!__HAL_TIM_IS_TIM_COUNTING_DOWN(&htim4)) //forwards
 	{
@@ -450,6 +473,26 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 		last_counter_value = TIM4->CNT;
 	}
 
+	///////////////////
+	speed = kRPM*pulses;
+	output = calcControl(&controller, speed);
+
+	if(output > 0 ) //forward
+	{
+		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
+		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, output);
+	}
+	else if(output < 0) //reverse
+	{
+		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, -output);
+		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
+	}
+	else
+	{
+		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
+		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
+	}
+
 	return;
 
 }
@@ -459,7 +502,11 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 	if(HAL_UART_Receive_IT(&huart2, rx_buffer, 6) == HAL_OK)
 	{
 		velocity = parseVelocityFromUART(rx_buffer);
-		sprintf(MSG, "The received velocity command is %d \n", velocity);
+
+		updateSetPoint(&controller, velocity);
+
+		sprintf(MSG, "**The received velocity command is %d \n", velocity);
+		/*
 		if(velocity >= 0 ) //forward
 		{
 			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0);
@@ -470,7 +517,9 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, -velocity);
 			__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, 0);
 		}
+		*/
 	}
+
 }
 
 
