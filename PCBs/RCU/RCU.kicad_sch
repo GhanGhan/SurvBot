@@ -1,0 +1,33 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 33.7312 26.8732) (size 71.0184 61.722) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid c46a482e-bfa4-4ed5-a49f-3179709c39a1)
+    (property "Sheet name" "Microcontroller" (id 0) (at 33.7312 24.2966 0)
+      (effects (font (size 5 5) bold) (justify left bottom))
+    )
+    (property "Sheet file" "microcontroller.kicad_sch" (id 1) (at 33.7312 89.1798 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/b6a46fb0-4feb-450f-9381-2291f852e487"
+      (reference "U?") (unit 1) (value "STM32G0B1CBT6") (footprint "LQFP48_STM32G0B1CBT_STM")
+    )
+  )
+)
