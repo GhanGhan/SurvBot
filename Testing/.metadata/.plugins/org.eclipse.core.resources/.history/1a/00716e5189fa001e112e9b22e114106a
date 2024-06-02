@@ -1,6 +1,0 @@
-#include "PID.h"
-
-
-void initializePID(PIDController *pid, double Kp, double Ki, double Kd, double delay, int max, int min){
-	PID
-}
