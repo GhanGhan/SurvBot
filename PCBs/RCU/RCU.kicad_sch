@@ -8,6 +8,18 @@
   )
 
 
+  (sheet (at 139.7 26.67) (size 73.66 60.96) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2537d888-fd78-4661-a6de-7d85959a9016)
+    (property "Sheet name" "Motor_Control" (id 0) (at 139.7 24.0934 0)
+      (effects (font (size 5 5) bold) (justify left bottom))
+    )
+    (property "Sheet file" "motor_control.kicad_sch" (id 1) (at 139.7 88.2146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 33.7312 26.8732) (size 71.0184 61.722) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -23,11 +35,42 @@
   (sheet_instances
     (path "/" (page "1"))
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1" (page "2"))
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016" (page "3"))
   )
 
   (symbol_instances
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/8f435151-c909-4cdf-a7f9-67c1f7b1e16c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/c8450c73-a493-44d4-8027-fc07076efa8b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/d83684cc-8cc6-4e75-ba87-39c1c6e5d2a2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/f4123535-8722-4c87-8b4b-05782cbf9e36"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/14fed118-9356-4bd7-9725-712b0ee562db"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/87164916-93ae-4140-86aa-59470124ec1a"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/f0f3dad0-df0a-4b6f-bcb1-cfd0a262d609"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/1574ac1c-14f2-474d-b3db-c10040047c62"
+      (reference "U?") (unit 1) (value "DRV8876") (footprint "")
+    )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/b6a46fb0-4feb-450f-9381-2291f852e487"
       (reference "U?") (unit 1) (value "STM32G0B1CBT6") (footprint "LQFP48_STM32G0B1CBT_STM")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/b8f09fbb-4af2-4957-adf9-6156648546de"
+      (reference "U?") (unit 1) (value "DRV8876") (footprint "")
+    )
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/65321985-657f-4e17-a0a5-f2f7935eae83"
+      (reference "Y?") (unit 1) (value "Crystal") (footprint "")
     )
   )
 )

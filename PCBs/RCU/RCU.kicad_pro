@@ -324,6 +324,10 @@
     [
       "c46a482e-bfa4-4ed5-a49f-3179709c39a1",
       "Microcontroller"
+    ],
+    [
+      "2537d888-fd78-4661-a6de-7d85959a9016",
+      "Motor_Control"
     ]
   ],
   "text_variables": {}
