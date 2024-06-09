@@ -328,6 +328,10 @@
     [
       "2537d888-fd78-4661-a6de-7d85959a9016",
       "Motor_Control"
+    ],
+    [
+      "6678d44b-178f-4b7c-833f-18a4e680f820",
+      "Sensors"
     ]
   ],
   "text_variables": {}
