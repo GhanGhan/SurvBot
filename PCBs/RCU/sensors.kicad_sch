@@ -1018,7 +1018,7 @@
     (property "Reference" "C?" (id 0) (at 165.1 46.9899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100nF" (id 1) (at 165.1 49.5299 0)
+    (property "Value" "" (id 1) (at 165.1 49.5299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "" (id 2) (at 160.3248 44.45 0)

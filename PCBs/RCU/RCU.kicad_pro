@@ -332,6 +332,10 @@
     [
       "6678d44b-178f-4b7c-833f-18a4e680f820",
       "Sensors"
+    ],
+    [
+      "d249f484-be7b-4fe1-aa74-bf5965c8a2c2",
+      "ADCs"
     ]
   ],
   "text_variables": {}
