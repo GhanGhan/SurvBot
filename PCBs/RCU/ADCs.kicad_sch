@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 01a0daa4-24f8-4c6b-a98d-5a6ce5ec2c79)
+  (uuid 91a3ada8-5ea6-489f-ba7d-9ec0c44fa79c)
 
   (paper "A5")
 
@@ -657,7 +657,7 @@
     (property "Reference" "U?" (id 0) (at 124.9806 69.85 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "TLV2371DBV" (id 1) (at 124.9806 72.39 0)
+    (property "Value" "" (id 1) (at 124.9806 72.39 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 124.46 85.09 0)

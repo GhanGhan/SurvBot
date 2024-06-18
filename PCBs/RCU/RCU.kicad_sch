@@ -288,13 +288,13 @@
       (reference "U?") (unit 1) (value "DRV8876") (footprint "")
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/3865ebee-a15c-453b-bf9a-2288810c0237"
-      (reference "U?") (unit 1) (value "TLV2371DBV") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U?") (unit 1) (value "TLV333IDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/455511d5-40a2-4651-ab9c-da84f8d67b49"
       (reference "U?") (unit 1) (value "SHT30-DIS") (footprint "Sensor_Humidity:Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm")
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/515bebc9-1ab2-413f-b2a9-61ad67eff9cf"
-      (reference "U?") (unit 1) (value "TLV2371DBV") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U?") (unit 1) (value "TLV333IDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/7feb8a1b-3f2a-4be2-82b2-706f9df82096"
       (reference "U?") (unit 1) (value "MCP3021A5T-E/OT") (footprint "")
