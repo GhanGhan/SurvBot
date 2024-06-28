@@ -336,6 +336,10 @@
     [
       "d249f484-be7b-4fe1-aa74-bf5965c8a2c2",
       "ADCs"
+    ],
+    [
+      "2af55460-e33d-4dc0-b588-5a5fc90e3fb4",
+      "Bluetooth"
     ]
   ],
   "text_variables": {}

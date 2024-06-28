@@ -8,26 +8,38 @@
   )
 
 
-  (sheet (at 139.7 26.67) (size 73.66 60.96) (fields_autoplaced)
+  (sheet (at 111.76 26.67) (size 73.66 60.96) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 2537d888-fd78-4661-a6de-7d85959a9016)
-    (property "Sheet name" "Motor_Control" (id 0) (at 139.7 24.0934 0)
+    (property "Sheet name" "Motor_Control" (id 0) (at 111.76 24.0934 0)
       (effects (font (size 5 5) bold) (justify left bottom))
     )
-    (property "Sheet file" "motor_control.kicad_sch" (id 1) (at 139.7 88.2146 0)
+    (property "Sheet file" "motor_control.kicad_sch" (id 1) (at 111.76 88.2146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 33.02 118.11) (size 71.12 67.31) (fields_autoplaced)
+  (sheet (at 123.19 110.49) (size 60.96 49.53) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2af55460-e33d-4dc0-b588-5a5fc90e3fb4)
+    (property "Sheet name" "Bluetooth" (id 0) (at 123.19 107.9134 0)
+      (effects (font (size 5 5) bold) (justify left bottom))
+    )
+    (property "Sheet file" "bluetooth.kicad_sch" (id 1) (at 123.19 160.6046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 193.04 25.4) (size 71.12 67.31) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 6678d44b-178f-4b7c-833f-18a4e680f820)
-    (property "Sheet name" "Sensors" (id 0) (at 33.02 115.5334 0)
+    (property "Sheet name" "Sensors" (id 0) (at 193.04 22.8234 0)
       (effects (font (size 5 5) bold) (justify left bottom))
     )
-    (property "Sheet file" "sensors.kicad_sch" (id 1) (at 33.02 186.0046 0)
+    (property "Sheet file" "sensors.kicad_sch" (id 1) (at 193.04 93.2946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -44,14 +56,14 @@
     )
   )
 
-  (sheet (at 139.7 114.3) (size 71.12 48.26) (fields_autoplaced)
+  (sheet (at 34.29 110.49) (size 71.12 48.26) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid d249f484-be7b-4fe1-aa74-bf5965c8a2c2)
-    (property "Sheet name" "ADCs" (id 0) (at 139.7 111.7234 0)
+    (property "Sheet name" "ADCs" (id 0) (at 34.29 107.9134 0)
       (effects (font (size 5 5) bold) (justify left bottom))
     )
-    (property "Sheet file" "ADCs.kicad_sch" (id 1) (at 139.7 163.1446 0)
+    (property "Sheet file" "ADCs.kicad_sch" (id 1) (at 34.29 159.3346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -62,6 +74,7 @@
     (path "/2537d888-fd78-4661-a6de-7d85959a9016" (page "3"))
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820" (page "4"))
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2" (page "5"))
+    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4" (page "6"))
   )
 
   (symbol_instances
@@ -137,6 +150,9 @@
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/88535f27-55eb-4f92-a5b1-1806e72e8b41"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/890956a6-3f07-43bc-974d-ebd2244f048f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/8f435151-c909-4cdf-a7f9-67c1f7b1e16c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -164,6 +180,9 @@
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/b7d55933-001a-4c1b-abfa-616128e9c8d1"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/b87ed7b4-61ef-4f86-b3eb-1f4aab40dcdb"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/bc0f5d15-d5e7-48e9-a52f-8746301523de"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -178,6 +197,9 @@
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/d83684cc-8cc6-4e75-ba87-39c1c6e5d2a2"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/e6783f94-afe7-4afe-bf64-528e13b691e6"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/eb697269-33ec-4812-82a3-54942437b68e"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
@@ -316,6 +338,9 @@
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/b8f09fbb-4af2-4957-adf9-6156648546de"
       (reference "U?") (unit 1) (value "DRV8876") (footprint "")
+    )
+    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/bc18ee3a-4ef4-47ff-b72c-4578b85f91f7"
+      (reference "U?") (unit 1) (value "ESP32-MINI-1") (footprint "")
     )
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/d7ca4669-23a4-4571-85ab-fbd03c4b29b9"
       (reference "U?") (unit 1) (value "LSM6DS3") (footprint "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y")
