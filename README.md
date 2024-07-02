@@ -9,7 +9,7 @@ Remote controlled robot that surveys the environment it is travelling in.
   - Ambient temperature
   - Ambient light hitting the robot
   - Humidity
-  - Orientation (or just the tilt angle, TDB)
+  - Orientation (or just the tilt angle, TBD)
 - Possess Bluetooth communication
 - Entire system is powered by a 9V-12V battery
 
