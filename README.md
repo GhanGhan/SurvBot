@@ -13,4 +13,7 @@ Remote controlled robot that surveys the environment it is travelling in
 - Possess Bluetooth communication
 - Entire system is powered by a 9V-12V battery
 
+## Block Diagaram
+![Block Diagaram](https://github.com/GhanGhan/SurvBot/assets/17633599/19cccab5-bd07-4712-8cb4-4cb47a3bdbdd)
+***Figure 1: SYSTEM BLOCK DIAGRAM (SIMPLE)***
 
