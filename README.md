@@ -1,5 +1,5 @@
 # SurvBot
-Remote controlled robot that surveys the environment it is travelling in
+Remote controlled robot that surveys the environment it is travelling in.
 
 # Part One - Robot Control Unit (RCU)
 ## Project Overview
