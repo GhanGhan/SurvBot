@@ -340,6 +340,10 @@
     [
       "2af55460-e33d-4dc0-b588-5a5fc90e3fb4",
       "Bluetooth"
+    ],
+    [
+      "b265f195-de32-404f-a73c-b2d5ee499e9b",
+      "Power"
     ]
   ],
   "text_variables": {}

@@ -44,6 +44,18 @@
     )
   )
 
+  (sheet (at 196.85 109.22) (size 69.85 46.99) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b265f195-de32-404f-a73c-b2d5ee499e9b)
+    (property "Sheet name" "Power" (id 0) (at 196.85 106.6434 0)
+      (effects (font (size 5 5) bold) (justify left bottom))
+    )
+    (property "Sheet file" "Power.kicad_sch" (id 1) (at 196.85 156.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 33.7312 26.8732) (size 71.0184 61.722) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -75,6 +87,7 @@
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820" (page "4"))
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2" (page "5"))
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4" (page "6"))
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b" (page "7"))
   )
 
   (symbol_instances
@@ -393,8 +406,14 @@
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/1574ac1c-14f2-474d-b3db-c10040047c62"
       (reference "U?") (unit 1) (value "DRV8876") (footprint "")
     )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/251cc7e0-05f8-4ffb-916c-a28f1d284645"
+      (reference "U?") (unit 1) (value "AP63203WU") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
+    )
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/455511d5-40a2-4651-ab9c-da84f8d67b49"
       (reference "U?") (unit 1) (value "SHT30-DIS") (footprint "Sensor_Humidity:Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm")
+    )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/7c239421-0ca0-4d78-b32c-940aa174322b"
+      (reference "U?") (unit 1) (value "AZ1117-3.3") (footprint "")
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/7feb8a1b-3f2a-4be2-82b2-706f9df82096"
       (reference "U?") (unit 1) (value "MCP3021A5T-E/OT") (footprint "")
@@ -407,6 +426,9 @@
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/9888ccfe-5c4c-47f1-9166-d9f5b3ea6045"
       (reference "U?") (unit 1) (value "OPA365xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/a3770f69-657c-4417-b746-239881687437"
+      (reference "U?") (unit 1) (value "AP63203WU") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/a6943a68-4b84-4b97-bc31-8d22c0a001ae"
       (reference "U?") (unit 1) (value "OPA365xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
