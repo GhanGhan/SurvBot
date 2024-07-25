@@ -166,9 +166,6 @@
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/4993a142-e774-4850-854f-e26af5f6153a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/4c1ec492-57a6-4f91-aeff-24a84fd4cbc5"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/4c6a6410-1035-442a-9335-dab535befe4e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -183,9 +180,6 @@
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/553623a7-af19-40de-beaf-af73a3ace7cc"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/5545570d-1f9a-4d13-950f-c87de7d5a636"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/6063db84-ec75-4a79-abd9-706fd5b5c616"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
@@ -523,9 +517,6 @@
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/f94170b5-b8fb-4ccd-acfd-48078475841f"
       (reference "Q?") (unit 1) (value "Q_NMOS_DGS") (footprint "")
     )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/d7b67ce3-afb1-4c3e-a24b-449e76e4d9d0"
-      (reference "R") (unit 1) (value "10k") (footprint "")
-    )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/d5dbb69a-38e3-4fc9-a4d2-978ad6b34ccc"
       (reference "R5.1k") (unit 1) (value "R?") (footprint "")
     )
@@ -573,9 +564,6 @@
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/6f117f6f-ff32-44da-a11c-21438911514e"
       (reference "R?") (unit 1) (value "2.2k") (footprint "")
-    )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/7685c076-d0a6-42a0-b7f5-61409c0f1267"
-      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/7b3d26cf-e9ba-4887-844a-265257628c3e"
       (reference "R?") (unit 1) (value "10k") (footprint "")
