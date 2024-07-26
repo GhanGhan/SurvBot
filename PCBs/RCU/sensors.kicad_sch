@@ -836,7 +836,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6ee166c8-5f80-496d-9733-3b93a836871c)
   )
-  (text "[3] Sensors" (at 21.59 27.94 0)
+  (text "[5] Sensors" (at 21.59 27.94 0)
     (effects (font (size 5.08 5.08) (thickness 1.016) bold italic) (justify left bottom))
     (uuid 94f09e02-8d68-4b20-82d6-4828600c643c)
   )
