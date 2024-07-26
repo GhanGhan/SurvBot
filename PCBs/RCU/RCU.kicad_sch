@@ -452,7 +452,7 @@
       (reference "C?") (unit 1) (value "100nF") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/d3e6fbee-2e5f-4037-9e49-68f2d9dd325d"
-      (reference "C?") (unit 1) (value "1u") (footprint "")
+      (reference "C?") (unit 1) (value "470u") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/d8ecc736-5ebe-47f0-8d61-a18d470acc37"
       (reference "C?") (unit 1) (value "100nF") (footprint "")
