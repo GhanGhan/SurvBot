@@ -199,6 +199,9 @@
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/4e0f437f-39f2-4312-85cf-7e0c747c93bc"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/50993d02-3649-4cdb-a948-4aa9e041c310"
+      (reference "#PWR?") (unit 1) (value "+9V") (footprint "")
+    )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/52a5209d-bd4b-4508-82e2-8246371d86e8"
       (reference "#PWR?") (unit 1) (value "+3.3VA") (footprint "")
     )
@@ -261,6 +264,9 @@
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/9348e8ac-f496-416f-9c79-4582e713c41e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/95b11fa5-9992-4e9d-90eb-2174ffdb8f2f"
+      (reference "#PWR?") (unit 1) (value "+9V") (footprint "")
     )
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/96068ed0-4c2c-4cb9-9d68-483ed6507125"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
@@ -557,16 +563,16 @@
       (reference "J201") (unit 1) (value "Conn_01x05") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/7c199a1e-bd59-43a9-838c-4cce47bc2d5d"
-      (reference "J300") (unit 1) (value "Conn_01x04") (footprint "")
+      (reference "J300") (unit 1) (value "Right_Encoder_Conn_01x04") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/5e3aabe0-81fe-4111-bf58-7d47c2f8f111"
-      (reference "J301") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J301") (unit 1) (value "Right_Motor_Screw_Terminal_01x02") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/ef128562-db89-4d1a-999a-ec1cd851770f"
-      (reference "J302") (unit 1) (value "Conn_01x04") (footprint "")
+      (reference "J302") (unit 1) (value "Left_Encoder_Conn_01x04") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/ff6d825c-4531-44cb-b3bd-248babeabddf"
-      (reference "J303") (unit 1) (value "Screw_Terminal_01x02") (footprint "")
+      (reference "J303") (unit 1) (value "Left_Motor_Screw_Terminal_01x02") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/a0157a5c-ddb6-4ae7-932d-0dccd856cb11"
       (reference "J400") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
