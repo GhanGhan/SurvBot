@@ -3380,7 +3380,7 @@
     (in_bom yes) (on_board yes)
     (uuid d5dbb69a-38e3-4fc9-a4d2-978ad6b34ccc)
     (property "Reference" "R5.1k" (id 0) (at 77.47 95.25 90))
-    (property "Value" "" (id 1) (at 77.47 92.71 90))
+    (property "Value" "R401" (id 1) (at 77.47 92.71 90))
     (property "Footprint" "" (id 2) (at 77.47 91.948 90)
       (effects (font (size 1.27 1.27)) hide)
     )

@@ -97,9 +97,6 @@
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/05cc657e-9df0-430f-b6fb-3f6695e7a346"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/08193185-0c76-43df-9da6-b90aa48cab59"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/0898a3e9-2093-483b-9490-57fe5fb2f642"
       (reference "#PWR?") (unit 1) (value "+3.3VP") (footprint "")
     )
@@ -159,9 +156,6 @@
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/40886d90-cda1-45d3-84c9-605575893f32"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/4167a397-c2d4-4204-ad2e-b2450824d5f7"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/4232db08-69fa-4e5c-a833-0fe5b8e1b1be"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -619,12 +613,6 @@
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/01bffce6-b469-4cf2-a186-0fdef6e3159a"
       (reference "R202") (unit 1) (value "10k") (footprint "")
     )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/80644dd3-0432-455e-8c2b-c15959bb44d9"
-      (reference "R203") (unit 1) (value "10K") (footprint "")
-    )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/3c2e139b-8a4e-410d-85c4-fd9ac076235f"
-      (reference "R204") (unit 1) (value "10K") (footprint "")
-    )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/bcd541bb-9185-487b-bde0-781fda837794"
       (reference "R205") (unit 1) (value "5.1k") (footprint "")
     )
@@ -690,9 +678,6 @@
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/c4aa8b88-43e8-4259-97d0-3217aea61f36"
       (reference "R601") (unit 1) (value "1.6k") (footprint "")
-    )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/7334d3b7-3276-4919-8353-1d1705622dab"
-      (reference "SW200") (unit 1) (value "SW_SPDT") (footprint "")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/1c4e8ccf-abbc-46c4-94e8-2c9a711e8071"
       (reference "SW201") (unit 1) (value "SW_Push") (footprint "")
