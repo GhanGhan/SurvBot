@@ -547,6 +547,9 @@
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/39945e64-02be-40f9-892a-a11624471219"
       (reference "D408") (unit 1) (value "LED") (footprint "")
     )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/ebd7f6d0-8eab-4f9f-811f-5636efea042e"
+      (reference "D?") (unit 1) (value "SM5817") (footprint "")
+    )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/60322306-0396-46bc-8f22-4b543defb134"
       (reference "J100") (unit 1) (value "Conn_01x02") (footprint "")
     )
