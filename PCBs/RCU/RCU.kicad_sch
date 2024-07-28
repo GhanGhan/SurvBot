@@ -413,10 +413,10 @@
       (reference "C115") (unit 1) (value "22uF") (footprint "")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/87164916-93ae-4140-86aa-59470124ec1a"
-      (reference "C200") (unit 1) (value "C") (footprint "")
+      (reference "C200") (unit 1) (value "14pF") (footprint "")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/14fed118-9356-4bd7-9725-712b0ee562db"
-      (reference "C201") (unit 1) (value "C") (footprint "")
+      (reference "C201") (unit 1) (value "14pF") (footprint "")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/ef739e25-c56f-4d15-8f7c-16c35722238c"
       (reference "C202") (unit 1) (value "0.1u") (footprint "")
@@ -608,7 +608,7 @@
       (reference "R100") (unit 1) (value "10") (footprint "")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/f0f3dad0-df0a-4b6f-bcb1-cfd0a262d609"
-      (reference "R200") (unit 1) (value "R") (footprint "")
+      (reference "R200") (unit 1) (value "770") (footprint "")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/1ea3e79d-5abe-4d02-a107-1f831b7579b4"
       (reference "R201") (unit 1) (value "10k") (footprint "")
@@ -742,8 +742,8 @@
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/9888ccfe-5c4c-47f1-9166-d9f5b3ea6045"
       (reference "U603") (unit 1) (value "OPA365xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/65321985-657f-4e17-a0a5-f2f7935eae83"
-      (reference "Y200") (unit 1) (value "Crystal") (footprint "")
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/29eeaf52-5c5c-474e-9bf9-93b8570a7d73"
+      (reference "Y200") (unit 1) (value "16MHz") (footprint "")
     )
   )
 )
