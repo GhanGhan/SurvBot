@@ -496,6 +496,9 @@
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/3a0f12b5-c923-482f-918a-8beca7dc282f"
       (reference "D102") (unit 1) (value "1N4148W") (footprint "Diode_SMD:D_SOD-123")
     )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/ebd7f6d0-8eab-4f9f-811f-5636efea042e"
+      (reference "D103") (unit 1) (value "SM5817") (footprint "")
+    )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/a3838116-9762-4b1b-9663-c5e34b707ac3"
       (reference "D200") (unit 1) (value "D_TVS") (footprint "")
     )
@@ -547,9 +550,6 @@
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/39945e64-02be-40f9-892a-a11624471219"
       (reference "D408") (unit 1) (value "LED") (footprint "")
     )
-    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/ebd7f6d0-8eab-4f9f-811f-5636efea042e"
-      (reference "D?") (unit 1) (value "SM5817") (footprint "")
-    )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/60322306-0396-46bc-8f22-4b543defb134"
       (reference "J100") (unit 1) (value "Conn_01x02") (footprint "")
     )
@@ -578,7 +578,7 @@
       (reference "L100") (unit 1) (value "3.9uH") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/89e4310c-bf0b-4019-8e48-7ee607afaedb"
-      (reference "L101") (unit 1) (value "3.9uH") (footprint "")
+      (reference "L101") (unit 1) (value "36uH") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/4a14f994-1f03-4d5e-a4d6-1e1f539abe99"
       (reference "L102") (unit 1) (value "3.9uH") (footprint "")
@@ -587,7 +587,7 @@
       (reference "L103") (unit 1) (value "3.9uH") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/8bdf77d2-21a9-44eb-8fcc-ec9667dd1abe"
-      (reference "L104") (unit 1) (value "3.9uH") (footprint "")
+      (reference "L104") (unit 1) (value "12uH") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/f2673113-78c4-42af-b21a-a076505cdf9c"
       (reference "Q400") (unit 1) (value "Q_NMOS_DGS") (footprint "")
