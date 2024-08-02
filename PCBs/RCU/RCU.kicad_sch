@@ -409,6 +409,12 @@
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/efd8d18f-a5fa-496b-a5e4-1f9d515e2589"
       (reference "C115") (unit 1) (value "22uF") (footprint "")
     )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/a25a80d6-c299-4cdd-8621-42fd5b44b313"
+      (reference "C116") (unit 1) (value "100u") (footprint "")
+    )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/150d7868-05b1-40cb-8e95-dae3186d8a2b"
+      (reference "C117") (unit 1) (value "1000uF") (footprint "")
+    )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/87164916-93ae-4140-86aa-59470124ec1a"
       (reference "C200") (unit 1) (value "14pF") (footprint "")
     )
@@ -484,12 +490,6 @@
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/16131d30-c61f-46b0-bdab-5474a52998a2"
       (reference "C605") (unit 1) (value "0.1u") (footprint "")
     )
-    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/150d7868-05b1-40cb-8e95-dae3186d8a2b"
-      (reference "C?") (unit 1) (value "1000uF") (footprint "")
-    )
-    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/a25a80d6-c299-4cdd-8621-42fd5b44b313"
-      (reference "C?") (unit 1) (value "100u") (footprint "")
-    )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/8a888a78-4b14-4632-9ecc-d31e8c291f42"
       (reference "D100") (unit 1) (value "SM5817") (footprint "")
     )
@@ -501,6 +501,9 @@
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/ebd7f6d0-8eab-4f9f-811f-5636efea042e"
       (reference "D103") (unit 1) (value "SM5817") (footprint "")
+    )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/00902929-b620-4ca3-a169-c4573f17853f"
+      (reference "D104") (unit 1) (value "1N5822") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/a3838116-9762-4b1b-9663-c5e34b707ac3"
       (reference "D200") (unit 1) (value "D_TVS") (footprint "")
@@ -553,9 +556,6 @@
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/39945e64-02be-40f9-892a-a11624471219"
       (reference "D408") (unit 1) (value "LED") (footprint "")
     )
-    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/00902929-b620-4ca3-a169-c4573f17853f"
-      (reference "D?") (unit 1) (value "1N5822") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
-    )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/60322306-0396-46bc-8f22-4b543defb134"
       (reference "J100") (unit 1) (value "Conn_01x02") (footprint "")
     )
@@ -593,7 +593,7 @@
       (reference "L104") (unit 1) (value "12uH") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/4a7f17fc-1b64-47ea-97a3-a912ab758fe6"
-      (reference "L?") (unit 1) (value "150uH") (footprint "")
+      (reference "L105") (unit 1) (value "150uH") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/f2673113-78c4-42af-b21a-a076505cdf9c"
       (reference "Q400") (unit 1) (value "Q_NMOS_DGS") (footprint "")
@@ -612,6 +612,12 @@
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/a4e74331-d1a5-4845-bdb6-5b9e6ac239dd"
       (reference "R100") (unit 1) (value "10") (footprint "")
+    )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/348518b7-f1f2-4cdb-83ca-82c8dcb024a9"
+      (reference "R101") (unit 1) (value "8.9k") (footprint "")
+    )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/8fc55ff8-5a1d-43e0-a5ad-27c799d24671"
+      (reference "R102") (unit 1) (value "1.5k") (footprint "")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/f0f3dad0-df0a-4b6f-bcb1-cfd0a262d609"
       (reference "R200") (unit 1) (value "0R") (footprint "")
@@ -688,12 +694,6 @@
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/c4aa8b88-43e8-4259-97d0-3217aea61f36"
       (reference "R601") (unit 1) (value "1.6k") (footprint "")
     )
-    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/348518b7-f1f2-4cdb-83ca-82c8dcb024a9"
-      (reference "R?") (unit 1) (value "8.9k") (footprint "")
-    )
-    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/8fc55ff8-5a1d-43e0-a5ad-27c799d24671"
-      (reference "R?") (unit 1) (value "1.5k") (footprint "")
-    )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/1c4e8ccf-abbc-46c4-94e8-2c9a711e8071"
       (reference "SW201") (unit 1) (value "SW_Push") (footprint "")
     )
@@ -708,6 +708,9 @@
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/a3770f69-657c-4417-b746-239881687437"
       (reference "U103") (unit 1) (value "AP63203WU") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
+    )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/296ba24a-3403-4948-a284-61d4c27d47d4"
+      (reference "U104") (unit 1) (value "LM2576S-ADJ") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/b6a46fb0-4feb-450f-9381-2291f852e487"
       (reference "U200") (unit 1) (value "STM32G0B1CBT6") (footprint "LQFP48_STM32G0B1CBT_STM")
@@ -753,9 +756,6 @@
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/9888ccfe-5c4c-47f1-9166-d9f5b3ea6045"
       (reference "U603") (unit 1) (value "OPA365xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/296ba24a-3403-4948-a284-61d4c27d47d4"
-      (reference "U?") (unit 1) (value "LM2576S-ADJ") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/29eeaf52-5c5c-474e-9bf9-93b8570a7d73"
       (reference "Y200") (unit 1) (value "16MHz") (footprint "")
