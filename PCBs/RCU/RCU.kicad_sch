@@ -428,7 +428,7 @@
       (reference "C301") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/a00878f2-8d2f-4913-a444-67c62f967c26"
-      (reference "C302") (unit 1) (value "22uF") (footprint "")
+      (reference "C302") (unit 1) (value "22nF") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/e51f450e-42a5-4c02-b707-fe1baa4d5e6b"
       (reference "C303") (unit 1) (value "0.1uF") (footprint "")
@@ -437,7 +437,7 @@
       (reference "C304") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/ae4b09e3-6502-4f4e-a59d-c4c57af5b5fa"
-      (reference "C305") (unit 1) (value "22uF") (footprint "")
+      (reference "C305") (unit 1) (value "22nF") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/02913007-bc29-4ddf-ac90-050d615d066b"
       (reference "C400") (unit 1) (value "0.1u") (footprint "")
