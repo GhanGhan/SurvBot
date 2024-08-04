@@ -32,6 +32,18 @@
     )
   )
 
+  (sheet (at 182.88 26.67) (size 63.5 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 30f70446-f8fc-40ff-92fb-56eae08fade9)
+    (property "Sheet name" "[7] External_Memory" (id 0) (at 182.88 24.0934 0)
+      (effects (font (size 5 5) bold) (justify left bottom))
+    )
+    (property "Sheet file" "external_memory.kicad_sch" (id 1) (at 182.88 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 100.33 83.82) (size 60.96 40.64) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -88,6 +100,7 @@
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2" (page "5"))
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4" (page "6"))
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b" (page "7"))
+    (path "/30f70446-f8fc-40ff-92fb-56eae08fade9" (page "8"))
   )
 
   (symbol_instances
@@ -135,6 +148,9 @@
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/256b3d94-ff8e-4336-82c0-0e2eaced389f"
       (reference "#PWR?") (unit 1) (value "+3.3VA") (footprint "")
+    )
+    (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/2c4a4823-3df4-4715-82e4-ace04f59e52b"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/2c9c7684-021c-41cf-9d0d-1fa35382c302"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -296,6 +312,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/a2514bdf-7683-4b2c-bb81-487c8fa57d73"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/a3d05544-1aaa-4025-afbf-bfda71669845"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/a8c64bdd-4bad-4dfe-9947-e954dc30b04b"
@@ -498,6 +517,9 @@
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/16131d30-c61f-46b0-bdab-5474a52998a2"
       (reference "C605") (unit 1) (value "0.1u") (footprint "")
+    )
+    (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/7de61893-ae1e-4617-b417-e465acfee189"
+      (reference "C?") (unit 1) (value "1uF") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/8a888a78-4b14-4632-9ecc-d31e8c291f42"
       (reference "D100") (unit 1) (value "SM5817") (footprint "")
@@ -765,6 +787,9 @@
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/9888ccfe-5c4c-47f1-9166-d9f5b3ea6045"
       (reference "U603") (unit 1) (value "OPA365xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/d9d8767a-f1c1-4f00-b775-6d4cbe435572"
+      (reference "U?") (unit 1) (value "SST26VF032BT-104I/SM") (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/29eeaf52-5c5c-474e-9bf9-93b8570a7d73"
       (reference "Y200") (unit 1) (value "16MHz") (footprint "")

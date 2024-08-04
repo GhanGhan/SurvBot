@@ -1112,7 +1112,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cc3b009f-5a4a-415c-a7ab-b2f4bf179c96)
     (property "Reference" "U600" (id 0) (at 74.93 38.1 0))
-    (property "Value" "" (id 1) (at 74.93 40.64 0))
+    (property "Value" "ADC121C027CIMK/NOPB" (id 1) (at 74.93 40.64 0))
     (property "Footprint" "" (id 2) (at 85.09 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )

@@ -344,6 +344,10 @@
     [
       "b265f195-de32-404f-a73c-b2d5ee499e9b",
       "[1] Power"
+    ],
+    [
+      "30f70446-f8fc-40ff-92fb-56eae08fade9",
+      "[7] External_Memory"
     ]
   ],
   "text_variables": {}
