@@ -134,9 +134,6 @@
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/13fd7262-0608-4d33-8fc1-3c2960451eb2"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/178dd7ad-e72d-4ddf-ba4f-66f4dc0ccffb"
-      (reference "#PWR?") (unit 1) (value "+6V") (footprint "")
-    )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/18e57048-928f-4cb6-ab6a-4888e999ee1f"
       (reference "#PWR?") (unit 1) (value "+6V") (footprint "")
     )
@@ -191,9 +188,6 @@
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/4232db08-69fa-4e5c-a833-0fe5b8e1b1be"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/43f244d5-2197-4bfe-a0c5-e1fd26776c80"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/43f3e986-5d59-4f80-b0a1-06efcc1c93a2"
       (reference "#PWR?") (unit 1) (value "+5F") (footprint "")
     )
@@ -212,10 +206,16 @@
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/4993a142-e774-4850-854f-e26af5f6153a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/49c99fc4-4d05-4d58-b181-5ef831bafe1d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/4a85109e-7caa-400b-9a3f-d5fc37b48af0"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/4c6a6410-1035-442a-9335-dab535befe4e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/4cdfb42a-09f8-4be1-b58e-2d828800e9c2"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/4d6e7593-5db0-439b-b5fa-1a63df3ad67e"
@@ -332,6 +332,9 @@
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/a8c64bdd-4bad-4dfe-9947-e954dc30b04b"
       (reference "#PWR?") (unit 1) (value "+3.3VA") (footprint "")
     )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/a8c85d0b-0bfd-4ecb-8151-9a0c59384ebc"
+      (reference "#PWR?") (unit 1) (value "+6V") (footprint "")
+    )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/ac6c9020-18df-42e7-9dbc-fa0e350749f6"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -357,6 +360,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/d83684cc-8cc6-4e75-ba87-39c1c6e5d2a2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/ddb41ca4-03ce-4db0-80c0-4837b4e5b729"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/e13567b8-2d5a-4e26-847d-d6e0b7bd3bb5"
@@ -599,6 +605,36 @@
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/39945e64-02be-40f9-892a-a11624471219"
       (reference "D408") (unit 1) (value "LED") (footprint "")
     )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/3331b230-0a3a-4efd-9876-d712629b2bd4"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/3aea70fe-55e1-4cfe-8faf-1fdffcaecef4"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/3de0e52d-6afc-44d2-b0c3-d702d102071e"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/79f22206-0e59-4139-8243-4fecd224985b"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/871115af-2c28-4671-b6fb-d872483ff92e"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/929bcc54-8ea5-40ef-a6f2-6fe2eed1dd42"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/e109c9d3-f3dc-4aeb-b692-c76c1d3cdd61"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/eea22c6f-20ac-42af-bde0-aecd5400560d"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/f985a2bd-1f1c-4dcb-be9c-3a86b8bb2caf"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/f9998448-940d-408b-bec5-3c4ae981cb02"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/60322306-0396-46bc-8f22-4b543defb134"
       (reference "J100") (unit 1) (value "Conn_01x02") (footprint "")
     )
@@ -609,19 +645,19 @@
       (reference "J201") (unit 1) (value "Conn_01x05") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/7c199a1e-bd59-43a9-838c-4cce47bc2d5d"
-      (reference "J300") (unit 1) (value "Right_Encoder_Conn_01x04") (footprint "")
+      (reference "J300") (unit 1) (value "Right_Encoder_Conn") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/5e3aabe0-81fe-4111-bf58-7d47c2f8f111"
-      (reference "J301") (unit 1) (value "Right_Motor_Screw_Terminal_01x02") (footprint "")
-    )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/ef128562-db89-4d1a-999a-ec1cd851770f"
-      (reference "J302") (unit 1) (value "Left_Encoder_Conn_01x04") (footprint "")
-    )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/ff6d825c-4531-44cb-b3bd-248babeabddf"
-      (reference "J303") (unit 1) (value "Left_Motor_Screw_Terminal_01x02") (footprint "")
+      (reference "J301") (unit 1) (value "Right_Motor_Screw_Terminal") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/a0157a5c-ddb6-4ae7-932d-0dccd856cb11"
       (reference "J400") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/30a50318-86e7-45ea-ab6b-ff7b5b0edd4a"
+      (reference "J?") (unit 1) (value "Left_Motor_Screw_Terminal") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/69e9706e-7f7e-44d1-8d3c-abf54139fe61"
+      (reference "J?") (unit 1) (value "Left_Encoder_Conn") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/89e4310c-bf0b-4019-8e48-7ee607afaedb"
       (reference "L101") (unit 1) (value "36uH") (footprint "")
