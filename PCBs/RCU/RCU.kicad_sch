@@ -560,14 +560,17 @@
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/00902929-b620-4ca3-a169-c4573f17853f"
       (reference "D104") (unit 1) (value "1N5822") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
     )
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/e67a4e73-fd63-4824-a216-9acaeade7f1f"
+      (reference "D200") (unit 1) (value "D_TVS") (footprint "")
+    )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/5a5b7ebf-81a2-4d33-acb2-45494f6f43dc"
-      (reference "D205") (unit 1) (value "D_TVS") (footprint "")
+      (reference "D201") (unit 1) (value "D_TVS") (footprint "")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/a0307271-7fdb-4020-b5da-0ddd7358fac0"
-      (reference "D206") (unit 1) (value "D_TVS") (footprint "")
+      (reference "D202") (unit 1) (value "D_TVS") (footprint "")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/5302954c-5baf-4286-9734-51d2e55e1ad8"
-      (reference "D207") (unit 1) (value "D_TVS") (footprint "")
+      (reference "D203") (unit 1) (value "D_TVS") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/f2a9306d-42a4-4b85-9b09-efc23b9f139a"
       (reference "D400") (unit 1) (value "D_TVS") (footprint "")
@@ -779,6 +782,9 @@
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/b6a46fb0-4feb-450f-9381-2291f852e487"
       (reference "U200") (unit 1) (value "STM32G0B1CBT6") (footprint "LQFP48_STM32G0B1CBT_STM")
     )
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/cbee7786-1cd7-4beb-90e5-37a31d62d961"
+      (reference "U201") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+    )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/a6943a68-4b84-4b97-bc31-8d22c0a001ae"
       (reference "U300") (unit 1) (value "OPA365xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
@@ -820,9 +826,6 @@
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/9888ccfe-5c4c-47f1-9166-d9f5b3ea6045"
       (reference "U603") (unit 1) (value "OPA365xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/cbee7786-1cd7-4beb-90e5-37a31d62d961"
-      (reference "U?") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/d9d8767a-f1c1-4f00-b775-6d4cbe435572"
       (reference "U?") (unit 1) (value "SST26VF032BT-104I/SM") (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm")
