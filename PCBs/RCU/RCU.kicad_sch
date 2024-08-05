@@ -206,6 +206,9 @@
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/48e87a16-8244-485f-b3e6-09b1c65d0b61"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/493a16c5-6c0b-4ae4-9b12-393191adca83"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/4993a142-e774-4850-854f-e26af5f6153a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -291,9 +294,6 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/90922180-c6e2-48e3-be87-14772182b3e6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/9348e8ac-f496-416f-9c79-4582e713c41e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/96068ed0-4c2c-4cb9-9d68-483ed6507125"
@@ -560,21 +560,6 @@
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/00902929-b620-4ca3-a169-c4573f17853f"
       (reference "D104") (unit 1) (value "1N5822") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
     )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/a3838116-9762-4b1b-9663-c5e34b707ac3"
-      (reference "D200") (unit 1) (value "D_TVS") (footprint "")
-    )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/b9ed4666-52ee-4a27-8c6f-f08c0adffe7e"
-      (reference "D201") (unit 1) (value "D_TVS") (footprint "")
-    )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/de474754-9519-484b-959f-ae79d96fd9dd"
-      (reference "D202") (unit 1) (value "D_TVS") (footprint "")
-    )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/a087e378-d3a1-4d71-b440-df6ecc8d281d"
-      (reference "D203") (unit 1) (value "D_TVS") (footprint "")
-    )
-    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/dcb98979-98d4-4142-9d14-da19554def4c"
-      (reference "D204") (unit 1) (value "D_TVS") (footprint "")
-    )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/5a5b7ebf-81a2-4d33-acb2-45494f6f43dc"
       (reference "D205") (unit 1) (value "D_TVS") (footprint "")
     )
@@ -835,6 +820,9 @@
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/9888ccfe-5c4c-47f1-9166-d9f5b3ea6045"
       (reference "U603") (unit 1) (value "OPA365xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/cbee7786-1cd7-4beb-90e5-37a31d62d961"
+      (reference "U?") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/d9d8767a-f1c1-4f00-b775-6d4cbe435572"
       (reference "U?") (unit 1) (value "SST26VF032BT-104I/SM") (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm")
