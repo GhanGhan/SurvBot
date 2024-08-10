@@ -200,9 +200,6 @@
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/4592a8d3-bc3f-48ff-aad4-bfd43da1ce84"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/489744cb-5ec3-46d4-83ec-8165b391c0da"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/48e87a16-8244-485f-b3e6-09b1c65d0b61"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -250,6 +247,9 @@
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/5c419c22-334f-4e39-9398-96e04a8cd644"
       (reference "#PWR?") (unit 1) (value "+3.3VP") (footprint "")
+    )
+    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/5d3c6fd8-37cf-4c6e-af34-419227e68ae8"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/607379be-c77f-4384-a78e-d798c4a42c0a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -596,21 +596,6 @@
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/5302954c-5baf-4286-9734-51d2e55e1ad8"
       (reference "D203") (unit 1) (value "D_TVS") (footprint "")
     )
-    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/f2a9306d-42a4-4b85-9b09-efc23b9f139a"
-      (reference "D400") (unit 1) (value "D_TVS") (footprint "")
-    )
-    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/a5191d06-62eb-4385-8077-5bc33992bd5a"
-      (reference "D401") (unit 1) (value "D_TVS") (footprint "")
-    )
-    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/7e7287c6-8def-4655-9684-f3af1496fe83"
-      (reference "D402") (unit 1) (value "D_TVS") (footprint "")
-    )
-    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/65c57052-1c31-4eae-9631-e7a39393b78a"
-      (reference "D403") (unit 1) (value "D_TVS") (footprint "")
-    )
-    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/3ce4ff06-9a3a-454c-9a86-1adf40c758dd"
-      (reference "D404") (unit 1) (value "D_TVS") (footprint "")
-    )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/b44030d6-a654-4a42-b082-a51ad2a6fcaa"
       (reference "D405") (unit 1) (value "LED") (footprint "")
     )
@@ -880,6 +865,9 @@
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/9888ccfe-5c4c-47f1-9166-d9f5b3ea6045"
       (reference "U603") (unit 1) (value "OPA365xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/1f7bce3c-0807-43db-ab4a-9e7a0aac8fdc"
+      (reference "U?") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/d9d8767a-f1c1-4f00-b775-6d4cbe435572"
       (reference "U?") (unit 1) (value "SST26VF032BT-104I/SM") (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm")
