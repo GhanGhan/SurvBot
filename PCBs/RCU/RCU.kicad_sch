@@ -441,7 +441,7 @@
       (reference "C107") (unit 1) (value "1u") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/0cd6f6ac-4d2c-469c-ba82-4799101d7634"
-      (reference "C108") (unit 1) (value "10u") (footprint "")
+      (reference "C108") (unit 1) (value "22uF") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/6a62e7e3-0b9f-433c-acde-e70c71a7ae8d"
       (reference "C109") (unit 1) (value "22uF") (footprint "")
@@ -711,7 +711,7 @@
       (reference "Q403") (unit 1) (value "Q_NMOS_DGS") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/a4e74331-d1a5-4845-bdb6-5b9e6ac239dd"
-      (reference "R100") (unit 1) (value "10") (footprint "")
+      (reference "R100") (unit 1) (value "5R") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/348518b7-f1f2-4cdb-83ca-82c8dcb024a9"
       (reference "R101") (unit 1) (value "8.9k") (footprint "")
