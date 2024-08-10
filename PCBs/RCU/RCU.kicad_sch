@@ -848,17 +848,17 @@
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/cc3b009f-5a4a-415c-a7ab-b2f4bf179c96"
       (reference "U600") (unit 1) (value "ADC121C027CIMK/NOPB") (footprint "")
     )
-    (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/899f4c1a-985b-472e-a9b0-465d356ef34c"
-      (reference "U601") (unit 1) (value "OPA365xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/38ab9a2f-93f8-48a8-b1ea-626b4296cf86"
       (reference "U602") (unit 1) (value "ADC121C027CIMK/NOPB") (footprint "")
     )
-    (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/9888ccfe-5c4c-47f1-9166-d9f5b3ea6045"
-      (reference "U603") (unit 1) (value "OPA365xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/1d20a6b1-49e0-4499-998a-d4c16353f680"
+      (reference "U?") (unit 1) (value "OPA320") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/1f7bce3c-0807-43db-ab4a-9e7a0aac8fdc"
       (reference "U?") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+    )
+    (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/d3fd4c52-119d-4dd4-a4e1-d3903199df98"
+      (reference "U?") (unit 1) (value "OPA320") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/d9d8767a-f1c1-4f00-b775-6d4cbe435572"
       (reference "U?") (unit 1) (value "SST26VF032BT-104I/SM") (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm")
