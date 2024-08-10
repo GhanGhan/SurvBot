@@ -1180,7 +1180,7 @@
     (property "Reference" "C501" (id 0) (at 127 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 127 59.69 0)
+    (property "Value" "0.1uF" (id 1) (at 127 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 119.6848 53.34 0)
