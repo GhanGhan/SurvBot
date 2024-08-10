@@ -560,6 +560,12 @@
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/0f20da89-bb24-4c10-a417-5bd11b80696c"
       (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
+    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/34fe4630-eb8b-4b2b-9420-64aeb41c379c"
+      (reference "C?") (unit 1) (value "0.1u") (footprint "")
+    )
+    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/5b472d93-1f73-4377-95b6-5d3d5ac1b17f"
+      (reference "C?") (unit 1) (value "10u") (footprint "")
+    )
     (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/7de61893-ae1e-4617-b417-e465acfee189"
       (reference "C?") (unit 1) (value "1uF") (footprint "")
     )
