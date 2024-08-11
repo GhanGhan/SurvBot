@@ -318,8 +318,8 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      ""
+      "b265f195-de32-404f-a73c-b2d5ee499e9b",
+      "[1] Power"
     ],
     [
       "c46a482e-bfa4-4ed5-a49f-3179709c39a1",
@@ -330,6 +330,10 @@
       "[3] Motor_Control"
     ],
     [
+      "2af55460-e33d-4dc0-b588-5a5fc90e3fb4",
+      "[4] Bluetooth"
+    ],
+    [
       "6678d44b-178f-4b7c-833f-18a4e680f820",
       "[5] Sensors"
     ],
@@ -338,16 +342,12 @@
       "[6] ADCs"
     ],
     [
-      "2af55460-e33d-4dc0-b588-5a5fc90e3fb4",
-      "[4] Bluetooth"
-    ],
-    [
-      "b265f195-de32-404f-a73c-b2d5ee499e9b",
-      "[1] Power"
-    ],
-    [
       "30f70446-f8fc-40ff-92fb-56eae08fade9",
       "[7] External_Memory"
+    ],
+    [
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      ""
     ]
   ],
   "text_variables": {}
