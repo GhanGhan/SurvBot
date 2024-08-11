@@ -650,20 +650,20 @@
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/00a11869-0252-4d36-a55a-e54fdb844bfe"
       (reference "J201") (unit 1) (value "Conn_01x05") (footprint "")
     )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/7c199a1e-bd59-43a9-838c-4cce47bc2d5d"
-      (reference "J300") (unit 1) (value "Right_Encoder_Conn") (footprint "")
-    )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/5e3aabe0-81fe-4111-bf58-7d47c2f8f111"
-      (reference "J301") (unit 1) (value "Right_Motor_Screw_Terminal") (footprint "")
+      (reference "J300") (unit 1) (value "Right_Motor_Screw_Terminal") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/7c199a1e-bd59-43a9-838c-4cce47bc2d5d"
+      (reference "J301") (unit 1) (value "Right_Encoder_Conn") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/30a50318-86e7-45ea-ab6b-ff7b5b0edd4a"
+      (reference "J302") (unit 1) (value "Left_Motor_Screw_Terminal") (footprint "")
+    )
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/69e9706e-7f7e-44d1-8d3c-abf54139fe61"
+      (reference "J303") (unit 1) (value "Left_Encoder_Conn") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/a0157a5c-ddb6-4ae7-932d-0dccd856cb11"
       (reference "J400") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
-    )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/30a50318-86e7-45ea-ab6b-ff7b5b0edd4a"
-      (reference "J?") (unit 1) (value "Left_Motor_Screw_Terminal") (footprint "")
-    )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/69e9706e-7f7e-44d1-8d3c-abf54139fe61"
-      (reference "J?") (unit 1) (value "Left_Encoder_Conn") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/89e4310c-bf0b-4019-8e48-7ee607afaedb"
       (reference "L101") (unit 1) (value "36uH") (footprint "")
