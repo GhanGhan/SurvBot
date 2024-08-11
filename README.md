@@ -20,7 +20,8 @@ Remote controlled robot that surveys the environment it is travelling in.
 
 ## Schematic Diagrams
 ### Power
-![Power](https://github.com/user-attachments/assets/6de69447-7d2e-4e1a-8f29-dfeed855208b)
+![Power](https://github.com/user-attachments/assets/5e4befa3-ee77-4199-ae15-c1bd84fa05c3)
+
 
 ***Figure 2: Power Schematic***
 
