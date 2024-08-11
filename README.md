@@ -20,28 +20,39 @@ Remote controlled robot that surveys the environment it is travelling in.
 
 ## Schematic Diagrams
 ### Power
-![Power](https://github.com/user-attachments/assets/15e312aa-5f7f-4c6a-aa32-5c9672b27439)
+![Power](https://github.com/user-attachments/assets/6de69447-7d2e-4e1a-8f29-dfeed855208b)
+
 ***Figure 2: Power Schematic***
 
 ### Microconroller
-![Microcontroller](https://github.com/user-attachments/assets/09a7ce51-f9dc-4b2b-89cb-1e5c9eb2239a)
+![Microcontroller](https://github.com/user-attachments/assets/b4e06eb7-2d89-4f07-b04d-a1b81fa692a9)
+
 ***Figure 3: Microconroller Schematic***
 
 ### Motor Control
-![Motor Control](https://github.com/user-attachments/assets/7bbb7a27-39bd-4f7b-8f13-dcb1d081e6b7)
+![Motor Control](https://github.com/user-attachments/assets/47f0094b-3e79-49df-8891-e05d03818068)
+
 ***Figure 4: Motor Control Schematic***
 
 ### Bluetooth
-![Bluetooth](https://github.com/user-attachments/assets/55732fd5-0aa0-45e2-ab0e-66e6c3c63ade)
+![Bluetooth](https://github.com/user-attachments/assets/734077de-602a-4b5b-a0ef-c4449dd21269)
+
 ***Figure 5: Bluetooth Schematic***
 
 ### Sensors
-![Sensors](https://github.com/user-attachments/assets/5e321a49-7e56-41b1-914b-e2740f7c2ed6)
+![Sensors](https://github.com/user-attachments/assets/108134c9-4b39-4255-b702-e9150e9a9ca8)
+
 ***Figure 6: Sensors Schematic***
 
-### ADC
-![ADCs](https://github.com/user-attachments/assets/beede93a-a0f6-4cf3-9625-52e2d84cf019)
-***Figure 7: ADC Schematic***
+### Current Feedback
+![Current_FDB 6](https://github.com/user-attachments/assets/bce510aa-703a-4d61-b3f4-fdee5434417d)
+
+***Figure 7: Current Feedback Schematic***
+
+### External Memory
+![External_Memory](https://github.com/user-attachments/assets/db5fc1cf-efd5-4480-a7cf-50e9d49632f4)
+
+***Figure 7: Current Feedback Schematic***
 
 
 
