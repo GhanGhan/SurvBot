@@ -594,7 +594,7 @@
       (reference "C609") (unit 1) (value "0.1u") (footprint "")
     )
     (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/7de61893-ae1e-4617-b417-e465acfee189"
-      (reference "C?") (unit 1) (value "1uF") (footprint "")
+      (reference "C700") (unit 1) (value "1uF") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/8a888a78-4b14-4632-9ecc-d31e8c291f42"
       (reference "D100") (unit 1) (value "SM5817") (footprint "")
@@ -885,7 +885,7 @@
       (reference "U603") (unit 1) (value "OPA320") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/d9d8767a-f1c1-4f00-b775-6d4cbe435572"
-      (reference "U?") (unit 1) (value "SST26VF032BT-104I/SM") (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm")
+      (reference "U700") (unit 1) (value "SST26VF032BT-104I/SM") (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/29eeaf52-5c5c-474e-9bf9-93b8570a7d73"
       (reference "Y200") (unit 1) (value "16MHz") (footprint "")
