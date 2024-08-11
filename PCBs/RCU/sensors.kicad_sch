@@ -1085,7 +1085,7 @@
     (property "Reference" "C504" (id 0) (at 21.59 110.4899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1u" (id 1) (at 21.59 113.0299 0)
+    (property "Value" "" (id 1) (at 21.59 113.0299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 18.7452 115.57 0)

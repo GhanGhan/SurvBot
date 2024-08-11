@@ -2840,7 +2840,7 @@
     (property "Reference" "C202" (id 0) (at 180.34 129.5399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1u" (id 1) (at 180.34 132.0799 0)
+    (property "Value" "" (id 1) (at 180.34 132.0799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 177.4952 134.62 0)
