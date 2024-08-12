@@ -828,6 +828,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c46454af-62f8-456d-9a11-7a00ef6a3e80)
   )
+  (text "Slave Address: 1010010" (at 55.88 69.85 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c5fdf718-bfd8-4102-ab53-bef8eca2db5a)
+  )
 
   (global_label "I2C_SDA" (shape bidirectional) (at 66.04 59.69 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
