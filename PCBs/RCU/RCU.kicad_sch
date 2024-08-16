@@ -645,10 +645,10 @@
       (reference "J100") (unit 1) (value "Conn_01x02") (footprint "")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/c69b48c7-935e-4746-9e6e-0c3eecd1c762"
-      (reference "J200") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
+      (reference "J200") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/00a11869-0252-4d36-a55a-e54fdb844bfe"
-      (reference "J201") (unit 1) (value "Conn_01x05") (footprint "")
+      (reference "J201") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/5e3aabe0-81fe-4111-bf58-7d47c2f8f111"
       (reference "J300") (unit 1) (value "Right_Motor_Screw_Terminal") (footprint "")
@@ -816,7 +816,7 @@
       (reference "U104") (unit 1) (value "LM2576S-ADJ") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/b6a46fb0-4feb-450f-9381-2291f852e487"
-      (reference "U200") (unit 1) (value "STM32G0B1CBT6") (footprint "LQFP48_STM32G0B1CBT_STM")
+      (reference "U200") (unit 1) (value "STM32G0B1CBT6") (footprint "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/cbee7786-1cd7-4beb-90e5-37a31d62d961"
       (reference "U201") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
