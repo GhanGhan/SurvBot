@@ -636,10 +636,10 @@
       (reference "D305") (unit 1) (value "D_TVS") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/b44030d6-a654-4a42-b082-a51ad2a6fcaa"
-      (reference "D405") (unit 1) (value "LED") (footprint "")
+      (reference "D405") (unit 1) (value "Green LED") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/4fe54948-6050-4268-a2a6-53f634bc2286"
-      (reference "D406") (unit 1) (value "LED") (footprint "")
+      (reference "D406") (unit 1) (value "Yellow LED") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/60322306-0396-46bc-8f22-4b543defb134"
       (reference "J100") (unit 1) (value "Conn_01x02") (footprint "")
@@ -774,10 +774,10 @@
       (reference "R404") (unit 1) (value "10k") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/274151d4-45a4-4be9-b9be-86fe6d3ea907"
-      (reference "R405") (unit 1) (value "220") (footprint "")
+      (reference "R405") (unit 1) (value "40R") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/6df1a77e-57ce-4c9b-b040-a68917bab729"
-      (reference "R406") (unit 1) (value "220") (footprint "")
+      (reference "R406") (unit 1) (value "280") (footprint "")
     )
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/62ebd1cf-5b9b-4bab-92c2-efb41e0af239"
       (reference "R500") (unit 1) (value "10k") (footprint "")
