@@ -651,16 +651,16 @@
       (reference "J201") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/5e3aabe0-81fe-4111-bf58-7d47c2f8f111"
-      (reference "J300") (unit 1) (value "Right_Motor_Screw_Terminal") (footprint "")
+      (reference "J300") (unit 1) (value "Right_Motor_Screw_Terminal") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/7c199a1e-bd59-43a9-838c-4cce47bc2d5d"
-      (reference "J301") (unit 1) (value "Right_Encoder_Conn") (footprint "")
+      (reference "J301") (unit 1) (value "Right_Encoder_Conn") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/30a50318-86e7-45ea-ab6b-ff7b5b0edd4a"
-      (reference "J302") (unit 1) (value "Left_Motor_Screw_Terminal") (footprint "")
+      (reference "J302") (unit 1) (value "Left_Motor_Screw_Terminal") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/69e9706e-7f7e-44d1-8d3c-abf54139fe61"
-      (reference "J303") (unit 1) (value "Left_Encoder_Conn") (footprint "")
+      (reference "J303") (unit 1) (value "Left_Encoder_Conn") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/a0157a5c-ddb6-4ae7-932d-0dccd856cb11"
       (reference "J400") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
@@ -822,16 +822,16 @@
       (reference "U201") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/a6943a68-4b84-4b97-bc31-8d22c0a001ae"
-      (reference "U300") (unit 1) (value "OPA320xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U300") (unit 1) (value "OPA320xxD") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/1574ac1c-14f2-474d-b3db-c10040047c62"
-      (reference "U301") (unit 1) (value "DRV8876") (footprint "")
+      (reference "U301") (unit 1) (value "DRV8876") (footprint "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/fbd463b2-df4d-4843-8dd8-e95b9adfa258"
-      (reference "U302") (unit 1) (value "OPA320xxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U302") (unit 1) (value "OPA320xxD") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/b8f09fbb-4af2-4957-adf9-6156648546de"
-      (reference "U303") (unit 1) (value "DRV8876") (footprint "")
+      (reference "U303") (unit 1) (value "DRV8876") (footprint "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/1f7bce3c-0807-43db-ab4a-9e7a0aac8fdc"
       (reference "U400") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
