@@ -609,16 +609,16 @@
       (reference "D104") (unit 1) (value "SM5817") (footprint "Schottky_Diode:SODFL3719X135N")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/e67a4e73-fd63-4824-a216-9acaeade7f1f"
-      (reference "D200") (unit 1) (value "D_TVS") (footprint "")
+      (reference "D200") (unit 1) (value "PESD3V3L1BA,115") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/5a5b7ebf-81a2-4d33-acb2-45494f6f43dc"
-      (reference "D201") (unit 1) (value "D_TVS") (footprint "")
+      (reference "D201") (unit 1) (value "PESD3V3L1BA,115") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/a0307271-7fdb-4020-b5da-0ddd7358fac0"
-      (reference "D202") (unit 1) (value "D_TVS") (footprint "")
+      (reference "D202") (unit 1) (value "PESD3V3L1BA,115") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/5302954c-5baf-4286-9734-51d2e55e1ad8"
-      (reference "D203") (unit 1) (value "D_TVS") (footprint "")
+      (reference "D203") (unit 1) (value "PESD3V3L1BA,115") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/929bcc54-8ea5-40ef-a6f2-6fe2eed1dd42"
       (reference "D300") (unit 1) (value "D_TVS") (footprint "")
@@ -798,7 +798,7 @@
       (reference "R607") (unit 1) (value "15R") (footprint "")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/1c4e8ccf-abbc-46c4-94e8-2c9a711e8071"
-      (reference "SW201") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW201") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/d4e247ac-53ac-4d95-9e11-4fe82784dc41"
       (reference "SW400") (unit 1) (value "SW_Push") (footprint "")
@@ -873,7 +873,7 @@
       (reference "U700") (unit 1) (value "SST26VF032BT-104I/SM") (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/29eeaf52-5c5c-474e-9bf9-93b8570a7d73"
-      (reference "Y200") (unit 1) (value "16MHz") (footprint "")
+      (reference "Y200") (unit 1) (value "16MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
     )
   )
 )
