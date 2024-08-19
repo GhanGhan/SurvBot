@@ -2419,7 +2419,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7c239421-0ca0-4d78-b32c-940aa174322b)
     (property "Reference" "U102" (id 0) (at 233.68 88.9 0))
-    (property "Value" "AZ1117-3.3" (id 1) (at 233.68 91.44 0))
+    (property "Value" "" (id 1) (at 233.68 91.44 0))
     (property "Footprint" "" (id 2) (at 233.68 90.17 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )

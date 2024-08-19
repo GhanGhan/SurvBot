@@ -807,7 +807,7 @@
       (reference "U100") (unit 1) (value "AP63203WU") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/7c239421-0ca0-4d78-b32c-940aa174322b"
-      (reference "U102") (unit 1) (value "AZ1117-3.3") (footprint "")
+      (reference "U102") (unit 1) (value "AZ1117-3.3") (footprint "Package_TO_SOT_SMD:TO-252-2")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/a3770f69-657c-4417-b746-239881687437"
       (reference "U103") (unit 1) (value "AP63203WU") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
