@@ -2323,7 +2323,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 60322306-0396-46bc-8f22-4b543defb134)
     (property "Reference" "J100" (id 0) (at 34.29 49.53 0))
-    (property "Value" "Conn_01x02" (id 1) (at 34.29 52.07 0))
+    (property "Value" "" (id 1) (at 34.29 52.07 0))
     (property "Footprint" "" (id 2) (at 34.29 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )

@@ -645,7 +645,7 @@
       (reference "D406") (unit 1) (value "Yellow LED") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/60322306-0396-46bc-8f22-4b543defb134"
-      (reference "J100") (unit 1) (value "Conn_01x02") (footprint "")
+      (reference "J100") (unit 1) (value "Conn_01x02") (footprint "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/c69b48c7-935e-4746-9e6e-0c3eecd1c762"
       (reference "J200") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
