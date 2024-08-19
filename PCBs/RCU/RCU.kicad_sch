@@ -591,19 +591,22 @@
       (reference "C700") (unit 1) (value "1uF") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/8a888a78-4b14-4632-9ecc-d31e8c291f42"
-      (reference "D100") (unit 1) (value "SM5817") (footprint "")
+      (reference "D100") (unit 1) (value "SM5817") (footprint "Schottky_Diode:SODFL3719X135N")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/f29fca6e-d388-40d7-897a-2d77ed606567"
-      (reference "D101") (unit 1) (value "SM5817") (footprint "")
-    )
-    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/3a0f12b5-c923-482f-918a-8beca7dc282f"
-      (reference "D102") (unit 1) (value "1N4148W") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D101") (unit 1) (value "SM5817") (footprint "Schottky_Diode:SODFL3719X135N")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/ebd7f6d0-8eab-4f9f-811f-5636efea042e"
-      (reference "D103") (unit 1) (value "SM5817") (footprint "")
+      (reference "D102") (unit 1) (value "SM5817") (footprint "Schottky_Diode:SODFL3719X135N")
+    )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/4f645fd5-93b4-4707-87c2-09045cde1162"
+      (reference "D103") (unit 1) (value "SM5817") (footprint "Schottky_Diode:SODFL3719X135N")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/00902929-b620-4ca3-a169-c4573f17853f"
       (reference "D104") (unit 1) (value "1N5822") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
+    )
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/3890b59c-9124-47a1-96ea-273ad4297216"
+      (reference "D104") (unit 1) (value "SM5817") (footprint "Schottky_Diode:SODFL3719X135N")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/e67a4e73-fd63-4824-a216-9acaeade7f1f"
       (reference "D200") (unit 1) (value "D_TVS") (footprint "")
