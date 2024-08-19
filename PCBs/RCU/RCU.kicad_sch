@@ -663,7 +663,7 @@
       (reference "J303") (unit 1) (value "Left_Encoder_Conn") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/a0157a5c-ddb6-4ae7-932d-0dccd856cb11"
-      (reference "J400") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
+      (reference "J400") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/89e4310c-bf0b-4019-8e48-7ee607afaedb"
       (reference "L101") (unit 1) (value "36uH") (footprint "")
@@ -837,13 +837,13 @@
       (reference "U400") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/bf04e794-a220-4a43-9fd5-17a4d02fd218"
-      (reference "U401") (unit 1) (value "CH340C") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+      (reference "U401") (unit 1) (value "CH340C") (footprint "Package_SO:SOP-16_3.9x9.9mm_P1.27mm")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/bc18ee3a-4ef4-47ff-b72c-4578b85f91f7"
       (reference "U402") (unit 1) (value "ESP32-MINI-1") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/5211d717-3f61-474f-9d32-df284e062344"
-      (reference "U403") (unit 1) (value "DG2788ADN-T1-GE4") (footprint "")
+      (reference "U403") (unit 1) (value "DG2788ADN-T1-GE4") (footprint "UQFN-16(1.8x2.6):QFN40P260X180X55-16N")
     )
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/89bf4bbc-d6ea-4bfe-a92b-bb50d36c3083"
       (reference "U500") (unit 1) (value "APDS-9306-065") (footprint "OptoDevice:Broadcom_DFN-6_2x2mm_P0.65mm")
@@ -855,13 +855,13 @@
       (reference "U502") (unit 1) (value "SHT30-DIS") (footprint "Sensor_Humidity:Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm")
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/c4ae3015-95c6-4343-976a-d1db4e23e6a3"
-      (reference "U600") (unit 1) (value "ADC121C027CIMK/NOPB") (footprint "")
+      (reference "U600") (unit 1) (value "ADC121C027CIMK/NOPB") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/1d20a6b1-49e0-4499-998a-d4c16353f680"
       (reference "U601") (unit 1) (value "OPA320") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/fe28e4a3-f03a-4045-b99e-3c8c7ced9f8b"
-      (reference "U602") (unit 1) (value "ADC121C027CIMK/NOPB") (footprint "")
+      (reference "U602") (unit 1) (value "ADC121C027CIMK/NOPB") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
     )
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/d3fd4c52-119d-4dd4-a4e1-d3903199df98"
       (reference "U603") (unit 1) (value "OPA320") (footprint "Package_TO_SOT_SMD:SOT-23-5")

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "UQFN-16(1.8x2.6)")(type "KiCad")(uri "${KIPRJMOD}/Project_Library/DG2788ADN-T1-GE4")(options "")(descr ""))
+)
