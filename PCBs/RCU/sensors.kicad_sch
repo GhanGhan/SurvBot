@@ -842,6 +842,11 @@
     (uuid c5fdf718-bfd8-4102-ab53-bef8eca2db5a)
   )
 
+  (label "Light_sensor INT_H" (at 59.69 64.77 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6d0c2c8f-bc81-4eee-9b11-1e351c91ddf9)
+  )
+
   (global_label "I2C_SDA" (shape bidirectional) (at 66.04 59.69 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 13792549-76b5-4a83-b992-4efc377b1068)
