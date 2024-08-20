@@ -857,14 +857,14 @@
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/cbee7786-1cd7-4beb-90e5-37a31d62d961"
       (reference "U201") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/a6943a68-4b84-4b97-bc31-8d22c0a001ae"
-      (reference "U300") (unit 1) (value "OPA320xxD") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/12e6e120-19cc-463c-9214-466d4862a19b"
+      (reference "U300") (unit 1) (value "OPA320") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/1574ac1c-14f2-474d-b3db-c10040047c62"
       (reference "U301") (unit 1) (value "DRV8876") (footprint "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias")
     )
-    (path "/2537d888-fd78-4661-a6de-7d85959a9016/fbd463b2-df4d-4843-8dd8-e95b9adfa258"
-      (reference "U302") (unit 1) (value "OPA320xxD") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    (path "/2537d888-fd78-4661-a6de-7d85959a9016/b0843b37-d5b4-498a-9935-76d065b7d8ae"
+      (reference "U302") (unit 1) (value "OPA320") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/b8f09fbb-4af2-4957-adf9-6156648546de"
       (reference "U303") (unit 1) (value "DRV8876") (footprint "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias")
