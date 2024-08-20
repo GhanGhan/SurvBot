@@ -800,11 +800,11 @@
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/1c4e8ccf-abbc-46c4-94e8-2c9a711e8071"
       (reference "SW201") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
     )
+    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/a70a1023-8aa1-43f9-a928-c1faabd19e72"
+      (reference "SW400") (unit 1) (value "SW_SPDT") (footprint "SPDT_JS102011JCQN:SW_JS102011JCQN")
+    )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/d4e247ac-53ac-4d95-9e11-4fe82784dc41"
       (reference "SW400") (unit 1) (value "SW_Push") (footprint "")
-    )
-    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/7ed1a946-2e01-4189-8d6d-5e0ba311bb02"
-      (reference "SW401") (unit 1) (value "SW_Push") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/251cc7e0-05f8-4ffb-916c-a28f1d284645"
       (reference "U100") (unit 1) (value "AP63203WU") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
