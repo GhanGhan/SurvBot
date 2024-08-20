@@ -639,10 +639,10 @@
       (reference "D305") (unit 1) (value "D_TVS") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/b44030d6-a654-4a42-b082-a51ad2a6fcaa"
-      (reference "D405") (unit 1) (value "Green LED") (footprint "")
+      (reference "D405") (unit 1) (value "Green LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/4fe54948-6050-4268-a2a6-53f634bc2286"
-      (reference "D406") (unit 1) (value "Yellow LED") (footprint "")
+      (reference "D406") (unit 1) (value "Blue LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/60322306-0396-46bc-8f22-4b543defb134"
       (reference "J100") (unit 1) (value "Conn_01x02") (footprint "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm")
@@ -684,16 +684,16 @@
       (reference "L105") (unit 1) (value "150uH") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/f2673113-78c4-42af-b21a-a076505cdf9c"
-      (reference "Q400") (unit 1) (value "Q_NMOS_DGS") (footprint "")
+      (reference "Q400") (unit 1) (value "2N7002NXAKR (NMOS)") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/0b28a22a-1929-4957-be0b-b2af3958ce98"
-      (reference "Q401") (unit 1) (value "Q_NMOS_DGS") (footprint "")
+      (reference "Q401") (unit 1) (value "2N7002NXAKR (NMOS)") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/21fdbe19-4aa7-4cb0-a069-9e8d78b2fceb"
-      (reference "Q402") (unit 1) (value "Q_PMOS_DGS") (footprint "")
+      (reference "Q402") (unit 1) (value "BSS84AK,215 (PMOS)") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/f94170b5-b8fb-4ccd-acfd-48078475841f"
-      (reference "Q403") (unit 1) (value "Q_NMOS_DGS") (footprint "")
+      (reference "Q403") (unit 1) (value "2N7002NXAKR (NMOS)") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/a4e74331-d1a5-4845-bdb6-5b9e6ac239dd"
       (reference "R100") (unit 1) (value "5R") (footprint "")
@@ -780,7 +780,7 @@
       (reference "R405") (unit 1) (value "40R") (footprint "")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/6df1a77e-57ce-4c9b-b040-a68917bab729"
-      (reference "R406") (unit 1) (value "280") (footprint "")
+      (reference "R406") (unit 1) (value "110R") (footprint "")
     )
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/62ebd1cf-5b9b-4bab-92c2-efb41e0af239"
       (reference "R500") (unit 1) (value "10k") (footprint "")
@@ -800,11 +800,11 @@
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/1c4e8ccf-abbc-46c4-94e8-2c9a711e8071"
       (reference "SW201") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
     )
-    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/a70a1023-8aa1-43f9-a928-c1faabd19e72"
-      (reference "SW400") (unit 1) (value "SW_SPDT") (footprint "SPDT_JS102011JCQN:SW_JS102011JCQN")
-    )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/d4e247ac-53ac-4d95-9e11-4fe82784dc41"
-      (reference "SW400") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW400") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
+    )
+    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/a70a1023-8aa1-43f9-a928-c1faabd19e72"
+      (reference "SW401") (unit 1) (value "SW_SPDT") (footprint "SPDT_JS102011JCQN:SW_JS102011JCQN")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/251cc7e0-05f8-4ffb-916c-a28f1d284645"
       (reference "U100") (unit 1) (value "AP63203WU") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
