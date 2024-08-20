@@ -852,7 +852,7 @@
       (reference "U103") (unit 1) (value "LM2576S-ADJ") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/b6a46fb0-4feb-450f-9381-2291f852e487"
-      (reference "U200") (unit 1) (value "STM32G0B1CBT6") (footprint "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm")
+      (reference "U200") (unit 1) (value "STM32G0B1CBT6") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/cbee7786-1cd7-4beb-90e5-37a31d62d961"
       (reference "U201") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
