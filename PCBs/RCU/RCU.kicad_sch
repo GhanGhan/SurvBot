@@ -843,7 +843,7 @@
       (reference "U401") (unit 1) (value "CH340C") (footprint "Package_SO:SOP-16_3.9x9.9mm_P1.27mm")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/bc18ee3a-4ef4-47ff-b72c-4578b85f91f7"
-      (reference "U402") (unit 1) (value "ESP32-MINI-1") (footprint "")
+      (reference "U402") (unit 1) (value "ESP32-MINI-1") (footprint "ESP32_MINI:XCVR_ESP32-MINI-1-N4")
     )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/5211d717-3f61-474f-9d32-df284e062344"
       (reference "U403") (unit 1) (value "DG2788ADN-T1-GE4") (footprint "UQFN-16(1.8x2.6):QFN40P260X180X55-16N")

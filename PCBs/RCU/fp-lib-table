@@ -2,4 +2,5 @@
   (lib (name "UQFN-16(1.8x2.6)")(type "KiCad")(uri "${KIPRJMOD}/Project_Library/DG2788ADN-T1-GE4")(options "")(descr ""))
   (lib (name "Schottky_Diode")(type "KiCad")(uri "${KIPRJMOD}/Project_Library/Schottky_Diode_Footprint")(options "")(descr ""))
   (lib (name "SPDT_JS102011JCQN")(type "KiCad")(uri "${KIPRJMOD}/Project_Library/SPDTSW_JS102011JCQN")(options "")(descr ""))
+  (lib (name "ESP32_MINI")(type "KiCad")(uri "${KIPRJMOD}/Project_Library/ESP_MINI_1_N4")(options "")(descr ""))
 )
