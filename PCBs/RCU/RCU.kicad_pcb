@@ -271,7 +271,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0036026b-0da1-4c85-8fc5-6acd32f666ca)
-    (at 120.1 123 -90)
+    (at 126.9625 129.1 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -313,7 +313,7 @@
 
   (footprint "Diode_SMD:D_SOD-323" (layer "F.Cu")
     (tedit 58641739) (tstamp 01751bab-bba4-40a7-84c1-17afb6aaf883)
-    (at 85.8 104.575)
+    (at 114.7 115.8 180)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -349,9 +349,9 @@
     (fp_line (start 0.2 0.35) (end -0.3 0) (layer "F.Fab") (width 0.1) (tstamp 8f3edc4e-cd4f-4bf8-a1c6-96af8b044189))
     (fp_line (start 0.2 0) (end 0.45 0) (layer "F.Fab") (width 0.1) (tstamp 9efd2e9a-222e-4f24-a88b-fd1116e76b27))
     (fp_line (start -0.9 0.7) (end -0.9 -0.7) (layer "F.Fab") (width 0.1) (tstamp f91acf39-837a-4b1b-86a2-d11706f1e99e))
-    (pad "1" smd rect (at -1.05 0) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -1.05 0 180) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "A1") (pintype "passive") (tstamp 20417a61-cc79-4750-8156-2d815857a545))
-    (pad "2" smd rect (at 1.05 0) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 1.05 0 180) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 35 "/[3] Motor_Control/6V_LeftB_Output") (pinfunction "A2") (pintype "passive") (tstamp d2f59a57-4809-46e1-816c-b237d0d4bd98))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
       (offset (xyz 0 0 0))
@@ -362,7 +362,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 01f3f05d-fdbc-4518-9e55-657f92e26e32)
-    (at 97.9 141 -90)
+    (at 98.1375 143.025 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -446,7 +446,7 @@
 
   (footprint "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y" (layer "F.Cu")
     (tedit 5D9F7937) (tstamp 0679a1ce-0348-47e0-81d0-bc8b755f1522)
-    (at 139.3 74)
+    (at 133.4 71.6)
     (descr "LGA, 14 Pin (http://www.st.com/resource/en/datasheet/lsm6ds3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "LGA NoLead")
     (property "Sheetfile" "sensors.kicad_sch")
@@ -598,7 +598,7 @@
 
   (footprint "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias" (layer "F.Cu")
     (tedit 5DC5FE74) (tstamp 0a74f4e7-bc70-49a4-89bc-9f6b2edc89f5)
-    (at 94.6375 120.9)
+    (at 101.5 127)
     (descr "HTSSOP, 16 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7810.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "HTSSOP SO")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -732,7 +732,7 @@
 
   (footprint "Package_TO_SOT_SMD:TSOT-23-6" (layer "F.Cu")
     (tedit 5F6F97DB) (tstamp 11512b8b-3447-4ced-8079-532644377b0e)
-    (at 134.9 142.3)
+    (at 135.1375 144.325)
     (descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSOT TO_SOT_SMD")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -827,7 +827,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 13b17873-e2a3-4a11-b1a8-2c78dddc2866)
-    (at 99.7 141 -90)
+    (at 99.9375 143.025 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -869,7 +869,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 1ec04dc9-1081-4dd6-a326-cce1c618db97)
-    (at 152.094888 114.8)
+    (at 152.094888 99.525)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (property "Sheetfile" "Power.kicad_sch")
@@ -1026,7 +1026,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1f1e9a2b-9752-45c6-a9c1-42df034ff68e)
-    (at 141.1 76.5)
+    (at 135.2 74.1)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "sensors.kicad_sch")
@@ -1068,7 +1068,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1ffcc546-4fc2-4889-b9c8-dc3eb17bd0be)
-    (at 121.9 120.9 90)
+    (at 128.7625 127 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -1152,7 +1152,7 @@
 
   (footprint "Diode_SMD:D_SOD-323" (layer "F.Cu")
     (tedit 58641739) (tstamp 2596402c-5c4a-49ed-a205-64139754a2e7)
-    (at 85.8 108.9)
+    (at 114.7 113.3 180)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -1188,9 +1188,9 @@
     (fp_line (start -0.3 -0.35) (end -0.3 0.35) (layer "F.Fab") (width 0.1) (tstamp ab862204-253a-4347-a884-f0f10660074b))
     (fp_line (start 0.9 -0.7) (end 0.9 0.7) (layer "F.Fab") (width 0.1) (tstamp f6c6575d-951b-4e20-9bd6-a843d0998ca1))
     (fp_line (start 0.2 0) (end 0.45 0) (layer "F.Fab") (width 0.1) (tstamp fb1b1fbb-996e-4607-8c6e-29ed755bddb1))
-    (pad "1" smd rect (at -1.05 0) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -1.05 0 180) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "A1") (pintype "passive") (tstamp edc40eb1-4e8d-4e08-bac8-906a0388b20e))
-    (pad "2" smd rect (at 1.05 0) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 1.05 0 180) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 36 "/[3] Motor_Control/6V_LeftA_Output") (pinfunction "A2") (pintype "passive") (tstamp f12c9f3e-6678-4dae-9d71-1eeeea754f74))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
       (offset (xyz 0 0 0))
@@ -1201,7 +1201,7 @@
 
   (footprint "Package_TO_SOT_SMD:TSOT-23-6" (layer "F.Cu")
     (tedit 5F6F97DB) (tstamp 264a69cf-afd1-4d14-a102-74cdbc3f7a99)
-    (at 83.6 59.1)
+    (at 154.1 51.8)
     (descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSOT TO_SOT_SMD")
     (property "Sheetfile" "Power.kicad_sch")
@@ -1296,7 +1296,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 26dfcc46-78f6-4208-a1f9-4a1ffdd493cc)
-    (at 134.8 135.2)
+    (at 135.0375 137.225)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -1347,7 +1347,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
     (tedit 5A70A390) (tstamp 270fa802-2352-4df2-8521-ead22ccf9310)
-    (at 115.425 148.425 180)
+    (at 115.6625 150.45 180)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "Power.kicad_sch")
@@ -1547,7 +1547,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 299dbd7b-78fa-4342-a5eb-bdee60c97ffd)
-    (at 81 123.8 90)
+    (at 87.8625 129.9 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -1766,7 +1766,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 32172c3d-dc3a-4482-b09d-152a35e777d4)
-    (at 87.6 123 -90)
+    (at 94.4625 129.1 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -1808,7 +1808,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 34a070a5-c124-4d98-a300-de6020275ba6)
-    (at 76.975 113.575)
+    (at 101.5 113.3)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -1892,7 +1892,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 3d299669-7d4d-4758-b3be-21eb6d69765b)
-    (at 104.2 135.4)
+    (at 104.4375 137.425)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -1943,7 +1943,7 @@
 
   (footprint "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm" (layer "F.Cu")
     (tedit 5EB70B45) (tstamp 4117d926-7eb0-4eea-9bd8-7b32ea4d5ea7)
-    (at 163.2 85.8 90)
+    (at 163.2 70.525 90)
     (descr "Soldered wire connection, for 2 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
     (tags "connector wire 2sqmm")
     (property "Sheetfile" "Power.kicad_sch")
@@ -2047,7 +2047,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 42faebb6-8f8f-4673-b051-acfbfd0d8ad6)
-    (at 141.1 62.7 90)
+    (at 135.2 60.3 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "sensors.kicad_sch")
@@ -2131,7 +2131,7 @@
 
   (footprint "Diode_SMD:D_SMC" (layer "F.Cu")
     (tedit 5864295D) (tstamp 43ec3947-e4c4-4be4-9c83-be54e202378c)
-    (at 144.425 97.275 90)
+    (at 144.425 82 90)
     (descr "Diode SMC (DO-214AB)")
     (tags "Diode SMC (DO-214AB)")
     (property "Sheetfile" "Power.kicad_sch")
@@ -2180,7 +2180,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 46447cef-178f-49ca-bff0-6a909516b709)
-    (at 84.1 123.3 180)
+    (at 90.9625 129.4 180)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -2231,7 +2231,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 47c60afe-b89a-480c-a236-bb35f2b6e9a3)
-    (at 137.7 76.5)
+    (at 131.8 74.1)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "sensors.kicad_sch")
@@ -2313,7 +2313,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4a26a7e6-c2ad-47b5-a76d-1ab2d15ef082)
-    (at 131.2625 135.975 -90)
+    (at 131.5 138 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -2355,7 +2355,7 @@
 
   (footprint "Sensor_Humidity:Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm" (layer "F.Cu")
     (tedit 5F15CF57) (tstamp 4b3b69c4-5b15-45a8-861b-ca6623bcc8db)
-    (at 139.4 67.9)
+    (at 133.5 65.5)
     (descr "Sensirion DFN-8 SHT3x-DIS (https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf)")
     (tags "sensirion dfn nolead")
     (property "Sheetfile" "sensors.kicad_sch")
@@ -2425,7 +2425,7 @@
             (xy 0.5 -0.85)
           ) (width 0) (fill yes))
       ) (tstamp 8beacaa4-ff15-4610-94c9-ce65038a0752))
-    (model "${KICAD6_3DMODEL_DIR}/Sensor_Humidity.3dshapes/Sensirion_DFN-8-1EP_2.5x2.5mm_P0.5mm_EP1.1x1.7mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2434,7 +2434,7 @@
 
   (footprint "Diode_SMD:D_SOD-323" (layer "F.Cu")
     (tedit 58641739) (tstamp 4bcd1150-2d38-4df7-af76-553adc8ed474)
-    (at 120 112.5)
+    (at 119.2 110.7)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -2532,7 +2532,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 52463020-dfdf-471e-8c7a-7f8196d53d4f)
-    (at 116.225 153.825)
+    (at 116.4625 155.85)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Power.kicad_sch")
@@ -2574,7 +2574,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 56f4dfbc-155b-4060-9cd4-675f1c68e9e7)
-    (at 128 112.5)
+    (at 132.2 113.3 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -2603,9 +2603,9 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 8c541f7c-df9c-4e37-aaec-57662ba7b0cb))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 93ec03d7-76c8-4498-81a7-4b0a27ecd85c))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp ee3bf506-f19b-4781-a841-2db26bb02cb2))
-    (pad "1" smd roundrect (at -0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.825 0 180) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp fba8698b-04f2-4a33-a508-8126087f401c))
-    (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.825 0 180) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 72 "Right_Wheel_Encoder_A") (pintype "passive") (tstamp 102ebc3d-2dac-4503-b492-eccf1165a792))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2731,7 +2731,7 @@
 
   (footprint "OptoDevice:Broadcom_DFN-6_2x2mm_P0.65mm" (layer "F.Cu")
     (tedit 5C62A8F2) (tstamp 5b42170f-d2e8-49f9-b736-d3a391d61eb8)
-    (at 138.8 62.5 90)
+    (at 132.9 60.1 90)
     (descr "Broadcom  DFN, 6 Pin (https://docs.broadcom.com/docs/AV02-4755EN), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "Broadcom DFN NoLead")
     (property "Sheetfile" "sensors.kicad_sch")
@@ -2773,7 +2773,7 @@
       (net 163 "unconnected-(U500-Pad5)") (pinfunction "NC") (pintype "no_connect") (tstamp d7c91fda-deda-46ba-a634-399c2cf2ade7))
     (pad "6" smd roundrect (at 0.7875 -0.65 90) (size 1.175 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp e00e0e34-8d46-486c-81c2-c6813424529c))
-    (model "${KICAD6_3DMODEL_DIR}/OptoDevice.3dshapes/Broadcom_DFN-6_2x2mm_P0.65mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2957,7 +2957,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 615d8ed4-b0b2-458c-9f41-f9733ce7cabd)
-    (at 153 109.7 180)
+    (at 153 94.425 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Power.kicad_sch")
@@ -2999,7 +2999,7 @@
 
   (footprint "Diode_SMD:D_SOD-323" (layer "F.Cu")
     (tedit 58641739) (tstamp 61be269e-5fe0-47f5-9731-ff5f2e8a801c)
-    (at 120 108.5)
+    (at 119.2 113.3)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -3048,7 +3048,7 @@
 
   (footprint "68uH Power Inductor:IND_MWSA1206S_SNL" (layer "F.Cu")
     (tedit 0) (tstamp 640f80db-7210-4524-9f38-96ddee4d2639)
-    (at 141.825 109.775 -90)
+    (at 141.825 94.5 -90)
     (tags "MWSA1206S-680MT ")
     (property "Sheetfile" "Power.kicad_sch")
     (property "Sheetname" "[1] Power")
@@ -3112,10 +3112,10 @@
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
-          (xy 144.5301 105.9269)
-          (xy 144.5301 113.6231)
-          (xy 139.1199 113.6231)
-          (xy 139.1199 105.9269)
+          (xy 144.5301 90.6519)
+          (xy 144.5301 98.3481)
+          (xy 139.1199 98.3481)
+          (xy 139.1199 90.6519)
         )
       )
     )
@@ -3126,12 +3126,12 @@
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
-          (xy 148.2258 103.4377)
-          (xy 148.2258 116.1123)
-          (xy 147.7178 116.4933)
-          (xy 144.5301 116.4933)
-          (xy 144.5301 103.0567)
-          (xy 147.7178 103.0567)
+          (xy 148.2258 88.1627)
+          (xy 148.2258 100.8373)
+          (xy 147.7178 101.2183)
+          (xy 144.5301 101.2183)
+          (xy 144.5301 87.7817)
+          (xy 147.7178 87.7817)
         )
       )
     )
@@ -3142,12 +3142,12 @@
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
-          (xy 139.1199 103.0567)
-          (xy 139.1199 116.4933)
-          (xy 135.9322 116.4933)
-          (xy 135.4242 116.1123)
-          (xy 135.4242 103.4377)
-          (xy 135.9322 103.0567)
+          (xy 139.1199 87.7817)
+          (xy 139.1199 101.2183)
+          (xy 135.9322 101.2183)
+          (xy 135.4242 100.8373)
+          (xy 135.4242 88.1627)
+          (xy 135.9322 87.7817)
         )
       )
     )
@@ -3160,7 +3160,7 @@
 
   (footprint "Inductor_SMD:L_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp 647050e0-936c-4a13-bc6c-01e7c78bd400)
-    (at 83.6 56.3 180)
+    (at 154.1 49 180)
     (descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
     (property "Sheetfile" "Power.kicad_sch")
@@ -3288,7 +3288,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 6a5d5090-87cd-4086-88de-552524b9e8e0)
-    (at 139.3 122.594888 -90)
+    (at 146.1625 128.694888 -90)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -3445,7 +3445,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6ec82356-32d1-4f36-91bc-b2dee3ca2f73)
-    (at 76.975 110.575)
+    (at 104.9 113.3)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -3571,7 +3571,7 @@
 
   (footprint "Diode_SMD:D_SOD-323" (layer "F.Cu")
     (tedit 58641739) (tstamp 76698f42-e6c1-4a1d-bcbe-514e192ae51a)
-    (at 85.8 112.575)
+    (at 114.7 110.7 180)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -3607,9 +3607,9 @@
     (fp_line (start -0.3 0) (end -0.5 0) (layer "F.Fab") (width 0.1) (tstamp b02d7b28-23ae-4dba-a0c7-e85c6c468765))
     (fp_line (start -0.9 0.7) (end -0.9 -0.7) (layer "F.Fab") (width 0.1) (tstamp c1d54a96-e1c1-4d9f-872a-562b8d622b96))
     (fp_line (start 0.9 -0.7) (end 0.9 0.7) (layer "F.Fab") (width 0.1) (tstamp c656660a-823b-446d-8acd-efb322b411c7))
-    (pad "1" smd rect (at -1.05 0) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -1.05 0 180) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "A1") (pintype "passive") (tstamp 59e312e9-6b86-4556-8e72-39f1fe20b4d1))
-    (pad "2" smd rect (at 1.05 0) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 1.05 0 180) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 13 "+6V") (pinfunction "A2") (pintype "passive") (tstamp e47418a8-c818-4791-8d7f-97579d241133))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
       (offset (xyz 0 0 0))
@@ -4002,7 +4002,7 @@
 
   (footprint "Schottky_Diode:SODFL3719X135N" (layer "F.Cu")
     (tedit 66C38CCA) (tstamp 84d4c500-1a03-493b-9fb7-695308094704)
-    (at 154.7 88)
+    (at 154.7 72.725)
     (property "Sheetfile" "Power.kicad_sch")
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/8a888a78-4b14-4632-9ecc-d31e8c291f42")
@@ -4044,7 +4044,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8699a959-0147-4c04-a11f-0c2ca5ef784d)
-    (at 128 107.5)
+    (at 132.3 115.8 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -4073,9 +4073,9 @@
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 71a25af7-8375-46f5-bf8f-b1a111935fd8))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp bbef6694-7b00-4dd0-88dd-0569fbb947f2))
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp f94cfb7c-148f-457b-8736-00fe25209870))
-    (pad "1" smd roundrect (at -0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.825 0 180) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp e49428da-fd45-4476-b3a1-640af2cd5bca))
-    (pad "2" smd roundrect (at 0.825 0) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.825 0 180) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 73 "Right_Wheel_Encoder_B") (pintype "passive") (tstamp 2757a394-6819-489c-a873-8ef7721f7480))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -4128,7 +4128,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 88bf6f32-4822-4bda-aeba-6e24da23d147)
-    (at 134.9 123.2 -90)
+    (at 141.7625 129.3 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -4170,7 +4170,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 88ffcb0c-ea3b-4f41-9582-39c640c3e157)
-    (at 129.3625 135.9 90)
+    (at 129.6 138 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -4212,7 +4212,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 89af077b-090c-4d3f-a266-dbfe024369db)
-    (at 99.5 119.5 90)
+    (at 106.3625 125.6 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -4349,7 +4349,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8b363b3c-64f5-4583-8455-0e653bb37e78)
-    (at 133.2 121.3 90)
+    (at 140.0625 127.4 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -4391,7 +4391,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8ccdf764-dacb-4695-bda8-e77ea4e9d58b)
-    (at 106.2 138.3 180)
+    (at 106.4375 140.325 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -4433,7 +4433,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8ce4a9a1-cf71-4227-bfe7-d199fd352fb6)
-    (at 131.5 143.2 90)
+    (at 131.7375 145.225 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -4475,7 +4475,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3" (layer "F.Cu")
     (tedit 5A70FBB6) (tstamp 9621f181-1f56-45f8-a5ec-8c36ecd3bf8e)
-    (at 157.85 102.275)
+    (at 157.85 87)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
     (property "Sheetfile" "Power.kicad_sch")
@@ -4645,7 +4645,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9b099c9a-fd95-451f-acb9-7aa0ce8c280f)
-    (at 86.7 59.1 -90)
+    (at 157.2 51.8 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Power.kicad_sch")
@@ -4812,7 +4812,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9e1610e0-9774-404a-a02c-a664a99f5a0e)
-    (at 138.7625 134.2 180)
+    (at 139 136.225 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -4896,7 +4896,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9e50be26-7c9a-4ee9-b61b-8d5104165e57)
-    (at 76.975 105.575)
+    (at 104.9 115.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -4938,7 +4938,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9e5cecd6-ca61-416f-8055-0c90fbcab724)
-    (at 80.4 59.2 -90)
+    (at 150.9 51.9 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Power.kicad_sch")
@@ -4980,7 +4980,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 9ebe2976-b2e3-49f0-ab64-fd18492c8715)
-    (at 116.8 123.7 180)
+    (at 123.6625 129.8 180)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -5031,7 +5031,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9ecab7db-a705-41a1-946b-e19571bf3635)
-    (at 131.5 119.5 90)
+    (at 138.3625 125.6 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -5073,7 +5073,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a153efef-d509-4edf-b9dd-79b3e091655d)
-    (at 83.6 61.8)
+    (at 154.1 54.5)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Power.kicad_sch")
@@ -5115,7 +5115,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a180cc29-3b35-419e-a098-2126b7143e3d)
-    (at 129.6 141.6 -90)
+    (at 129.8375 143.625 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -5199,7 +5199,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a9205b2a-4cc5-4e49-99c5-b3f9195b26f2)
-    (at 122.425 148.725 -90)
+    (at 122.6625 150.75 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Power.kicad_sch")
@@ -5241,7 +5241,7 @@
 
   (footprint "Diode_SMD:D_SOD-323" (layer "F.Cu")
     (tedit 58641739) (tstamp aa980908-d5fc-407e-9251-6458855c5e69)
-    (at 120 104.5)
+    (at 119.2 115.8)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -5332,7 +5332,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b6263f17-0de8-4907-ab84-e2fd5c4504b1)
-    (at 89.2 120.9 90)
+    (at 96.0625 127 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -5500,7 +5500,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp be81baf6-c5c9-44d4-909f-2dc430b8c17d)
-    (at 78.5 59.2 -90)
+    (at 149 51.9 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Power.kicad_sch")
@@ -5542,7 +5542,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp bf074bef-60ff-4ab3-adf4-8fb2a633e76c)
-    (at 110.8 104.36)
+    (at 123.4 110.7)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -5635,7 +5635,7 @@
 
   (footprint "Schottky_Diode:SODFL3719X135N" (layer "F.Cu")
     (tedit 66C38CCA) (tstamp c595dd46-ba0d-43a5-ad03-84a3b31fe468)
-    (at 130.1 32.7 -90)
+    (at 130.5 36 90)
     (property "Sheetfile" "Power.kicad_sch")
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/4f645fd5-93b4-4707-87c2-09045cde1162")
@@ -5664,9 +5664,9 @@
     (fp_line (start 1.425 0.95) (end 1.425 -0.95) (layer "F.Fab") (width 0.127) (tstamp 5466b2b5-13db-4ab4-abb5-aae16c69a39e))
     (fp_line (start -1.425 -0.95) (end -1.425 0.95) (layer "F.Fab") (width 0.127) (tstamp 5486a63c-6ab4-4db6-9f14-4df79e6c3c3d))
     (fp_circle (center -3.18 0) (end -3.08 0) (layer "F.Fab") (width 0.2) (fill none) (tstamp b200604d-7ddc-479c-8842-eb45a5041d13))
-    (pad "1" smd rect (at -1.59 0 270) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -1.59 0 90) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 29 "Net-(D103-Pad1)") (pinfunction "K") (pintype "passive") (solder_mask_margin 0.102) (tstamp 0dfc4112-381d-4a27-9be3-a499adac896f))
-    (pad "2" smd rect (at 1.59 0 270) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 1.59 0 90) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "+5F") (pinfunction "A") (pintype "passive") (solder_mask_margin 0.102) (tstamp adcbb739-d720-4872-be76-46ccf91035c2))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
       (offset (xyz 0 0 0))
@@ -5719,7 +5719,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ca9d666a-d3f4-4616-8a1f-451ffd158407)
-    (at 108.5 134.5 180)
+    (at 108.7375 136.525 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -5761,7 +5761,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ccb07805-9a63-4107-b679-c529ee67f3cc)
-    (at 128 105.5)
+    (at 128.825 115.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -5803,7 +5803,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp cda63488-904b-44ac-af79-edf12ecd8c2c)
-    (at 156.1 82.905113 90)
+    (at 156.1 67.630113 90)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (property "Sheetfile" "Power.kicad_sch")
@@ -6098,7 +6098,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d42a16e2-b830-4b72-9661-35a5d0b92740)
-    (at 127.8 141.6 -90)
+    (at 128.0375 143.625 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -6140,7 +6140,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d4d11b9f-5e29-467b-b144-5d28cf80fd30)
-    (at 101.2 121 90)
+    (at 108.0625 127.1 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -6182,7 +6182,7 @@
 
   (footprint "Schottky_Diode:SODFL3719X135N" (layer "F.Cu")
     (tedit 66C38CCA) (tstamp d54b3fc4-6f68-4213-8536-9aed25bbea29)
-    (at 128.5 28.1)
+    (at 132.1 40.6 180)
     (property "Sheetfile" "Power.kicad_sch")
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/3890b59c-9124-47a1-96ea-273ad4297216")
@@ -6211,9 +6211,9 @@
     (fp_line (start 1.425 -0.95) (end -1.425 -0.95) (layer "F.Fab") (width 0.127) (tstamp aa6385f2-1734-430d-b71e-955b06475856))
     (fp_line (start -1.425 -0.95) (end -1.425 0.95) (layer "F.Fab") (width 0.127) (tstamp f3b93af1-c765-4e14-89f3-753d8fe03fbf))
     (fp_circle (center -3.18 0) (end -3.08 0) (layer "F.Fab") (width 0.2) (fill none) (tstamp c7be1c05-1688-4f05-b632-1f027bd5fd07))
-    (pad "1" smd rect (at -1.59 0) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -1.59 0 180) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "VCOM") (pinfunction "K") (pintype "passive") (solder_mask_margin 0.102) (tstamp 0080fc64-8a49-485b-9a40-b39c02149a47))
-    (pad "2" smd rect (at 1.59 0) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 1.59 0 180) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 29 "Net-(D103-Pad1)") (pinfunction "A") (pintype "passive") (solder_mask_margin 0.102) (tstamp 606f5c9b-78fe-44c4-b546-78451519f58f))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
       (offset (xyz 0 0 0))
@@ -6224,7 +6224,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d587b102-2245-4133-9ebe-cc978e3377a5)
-    (at 76.975 108.575)
+    (at 101.5 115.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -6313,7 +6313,7 @@
 
   (footprint "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias" (layer "F.Cu")
     (tedit 5DC5FE74) (tstamp d80d584c-4948-4da0-b91a-74ee42b81312)
-    (at 126.6375 120.9)
+    (at 133.5 127)
     (descr "HTSSOP, 16 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7810.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "HTSSOP SO")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -6405,7 +6405,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d8814f9c-e35e-4a05-8f1b-13c8d3d64e7f)
-    (at 128 109.825)
+    (at 128.8 113.3)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -6447,7 +6447,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d8efc958-c0c8-4cd0-8f9f-1e9285e7a8e9)
-    (at 141.7 60.1 180)
+    (at 135.8 57.7 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "sensors.kicad_sch")
@@ -6489,7 +6489,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d9528903-5c27-4856-adfc-03620e794c7f)
-    (at 136.8625 138 180)
+    (at 137.1 140.025 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -6844,7 +6844,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e3562549-6955-4ac6-848e-1a0e18201a89)
-    (at 100.5 136.2 -90)
+    (at 100.7375 138.225 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -6886,7 +6886,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e48641c4-b966-4bd8-9643-0fc2a24a9ba0)
-    (at 98.5 136.2 90)
+    (at 98.8 138.225 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -6928,7 +6928,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e6d51b01-3162-4e51-87a0-07d5c27767ea)
-    (at 150.1 110.3 -90)
+    (at 150.1 95.025 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Power.kicad_sch")
@@ -6970,7 +6970,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e6ec25e8-29f8-478d-ad4a-bbc42da505c4)
-    (at 113.6 123.9 90)
+    (at 120.4625 130 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -7012,7 +7012,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp e92be993-b30f-4061-b9a6-f254187a9ef2)
-    (at 97.8 104.1)
+    (at 110.5 110.7)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -7063,7 +7063,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp efa10bf0-fe70-4c5d-acd7-94ca05a58082)
-    (at 101.7 142.8 90)
+    (at 101.9375 144.825 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -7267,7 +7267,7 @@
 
   (footprint "Package_TO_SOT_SMD:TSOT-23-6" (layer "F.Cu")
     (tedit 5F6F97DB) (tstamp f21571a7-40ab-4920-b36f-cce3c902bb9c)
-    (at 105 142)
+    (at 105.2375 144.025)
     (descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSOT TO_SOT_SMD")
     (property "Sheetfile" "ADCs.kicad_sch")
@@ -7451,7 +7451,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp f8227707-40a7-42d2-ab91-08342ac1ba3f)
-    (at 107.5 121.994888 -90)
+    (at 114.3625 128.094888 -90)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -7760,7 +7760,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f9ddad52-cb2e-4580-aa53-d20a3e31ad4a)
-    (at 125.225 147.825 180)
+    (at 125.4 150 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Power.kicad_sch")
@@ -7802,7 +7802,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f9e5a7f8-1d73-4a10-8387-ade32e86c919)
-    (at 102.9 122.7 -90)
+    (at 109.7625 128.8 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "motor_control.kicad_sch")
@@ -7939,7 +7939,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp fdd32488-ef62-46d4-923f-7255fb8901e2)
-    (at 142.6 68.1 90)
+    (at 136.7 65.7 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "sensors.kicad_sch")
@@ -7981,7 +7981,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp fe9a2d3a-79ff-4f56-9c25-924053ffa574)
-    (at 152.125 94.380113 90)
+    (at 152.125 79.105113 90)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (property "Sheetfile" "Power.kicad_sch")
