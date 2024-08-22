@@ -489,7 +489,7 @@
       (reference "C205") (unit 1) (value "14pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/ef739e25-c56f-4d15-8f7c-16c35722238c"
-      (reference "C206") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C206") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/6794a61e-c516-4b47-9777-f18624a2c614"
       (reference "C300") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
