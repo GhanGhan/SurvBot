@@ -278,7 +278,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/6f117f6f-ff32-44da-a11c-21438911514e")
     (attr smd)
-    (fp_text reference "R301" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R301" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c03a7f83-77c0-405f-ad8f-e026a2a629ec)
     )
@@ -320,7 +320,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/3331b230-0a3a-4efd-9876-d712629b2bd4")
     (attr smd)
-    (fp_text reference "D303" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "D303" (at 0 -1.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9c2fda88-0886-4e8f-afcb-866974d3a250)
     )
@@ -369,7 +369,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/2a2a439a-9cf7-4ac8-821a-ce78a1a8d23d")
     (attr smd)
-    (fp_text reference "C601" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C601" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5edcfaea-11a8-4198-ac3b-9f2bba8ead7d)
     )
@@ -411,7 +411,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/3346ee4b-5148-4507-ad15-812a7c840626")
     (attr smd)
-    (fp_text reference "C202" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C202" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b2c4af45-5d70-48df-aef8-b4808b9e127c)
     )
@@ -453,7 +453,7 @@
     (property "Sheetname" "[5] Sensors")
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/d7ca4669-23a4-4571-85ab-fbd03c4b29b9")
     (attr smd)
-    (fp_text reference "U501" (at 0 -2.2) (layer "F.SilkS")
+    (fp_text reference "U501" (at 0 -2.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6766a5a5-ab25-4219-84cc-0e73c61c4b9f)
     )
@@ -605,7 +605,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/b8f09fbb-4af2-4957-adf9-6156648546de")
     (attr smd)
-    (fp_text reference "U303" (at 0 -3.45) (layer "F.SilkS")
+    (fp_text reference "U303" (at 0 -3.45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4a095cda-7f00-41db-bc94-6bfa4ab147d8)
     )
@@ -697,7 +697,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/bcd541bb-9185-487b-bde0-781fda837794")
     (attr smd)
-    (fp_text reference "R205" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R205" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 565e3da0-8c86-423d-a7b6-f4e01b5de9ae)
     )
@@ -739,7 +739,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/c4ae3015-95c6-4343-976a-d1db4e23e6a3")
     (attr smd)
-    (fp_text reference "U600" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "U600" (at 0 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b7498806-4b3d-446b-8f68-a516d32e8a78)
     )
@@ -792,7 +792,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/ae5b02c8-9628-4553-9a82-e0ac3b1c5d94")
     (attr smd)
-    (fp_text reference "C404" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C404" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 659b5cba-5214-47fe-8552-fef2589a9521)
     )
@@ -834,7 +834,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/11371c3e-7911-4cfd-bc27-6ee985534c48")
     (attr smd)
-    (fp_text reference "C602" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C602" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ea5cef38-4db9-40fd-b290-a2915c49d787)
     )
@@ -876,7 +876,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/4f9fc952-fec2-463a-a8d1-89e04ff695af")
     (attr through_hole)
-    (fp_text reference "C102" (at 1.25 -3.75) (layer "F.SilkS")
+    (fp_text reference "C102" (at 1.25 -3.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9e0ed6e1-c504-4b3f-b7e7-e8ce61889072)
     )
@@ -1033,7 +1033,7 @@
     (property "Sheetname" "[5] Sensors")
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/dc1c28c6-7dcc-46b4-b1a4-fd631cfd2412")
     (attr smd)
-    (fp_text reference "C501" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C501" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 35a0410c-b6c7-4e52-a65f-10515f352700)
     )
@@ -1075,7 +1075,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/8b28b926-0a1e-4048-a669-6e1b216a85c9")
     (attr smd)
-    (fp_text reference "R300" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R300" (at 0 -1.17 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 196fb725-4276-4eea-9c48-e280dfff6ebb)
     )
@@ -1117,7 +1117,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/02913007-bc29-4ddf-ac90-050d615d066b")
     (attr smd)
-    (fp_text reference "C402" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C402" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc0f5c55-5e4b-49a3-8cd3-3c6c152b9360)
     )
@@ -1159,7 +1159,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/79f22206-0e59-4139-8243-4fecd224985b")
     (attr smd)
-    (fp_text reference "D304" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "D304" (at 0 -1.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 927d44aa-8cb2-489f-b59e-fcada63b7fcc)
     )
@@ -1208,7 +1208,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/251cc7e0-05f8-4ffb-916c-a28f1d284645")
     (attr smd)
-    (fp_text reference "U101" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "U101" (at 0 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f5f6e4e9-a12b-4eb1-a643-7c434db5636b)
     )
@@ -1261,7 +1261,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/ef739e25-c56f-4d15-8f7c-16c35722238c")
     (attr smd)
-    (fp_text reference "C206" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C206" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8e968ef0-a88c-4762-9120-d67399ca79a2)
     )
@@ -1303,7 +1303,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/1d20a6b1-49e0-4499-998a-d4c16353f680")
     (attr smd)
-    (fp_text reference "U601" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "U601" (at 0 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 11757713-85bf-4eff-b643-7a3d48725be3)
     )
@@ -1354,7 +1354,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/7c239421-0ca0-4d78-b32c-940aa174322b")
     (attr smd)
-    (fp_text reference "U102" (at 0 -4.5) (layer "F.SilkS")
+    (fp_text reference "U102" (at 0 -4.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 00cd21ad-7741-4070-9dd1-f4e24e88ad54)
     )
@@ -1416,7 +1416,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/274151d4-45a4-4be9-b9be-86fe6d3ea907")
     (attr smd)
-    (fp_text reference "R406" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R406" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3f97369a-23a3-4e6b-afc4-0f65a9f71960)
     )
@@ -1458,7 +1458,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/e67a4e73-fd63-4824-a216-9acaeade7f1f")
     (attr smd)
-    (fp_text reference "D200" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "D200" (at 0 -1.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a960290d-6045-459c-bd16-e252866e079b)
     )
@@ -1507,7 +1507,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/d4e247ac-53ac-4d95-9e11-4fe82784dc41")
     (attr smd)
-    (fp_text reference "SW400" (at 0 -2.5 90) (layer "F.SilkS")
+    (fp_text reference "SW400" (at 0 -2.5 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 22988e99-1843-4537-99e4-dc0025ed9417)
     )
@@ -1554,7 +1554,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/b63596ad-efa9-4d06-95fd-78bee8086474")
     (attr smd)
-    (fp_text reference "C307" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C307" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7e701161-bb0a-4eba-bfc5-be768cda204a)
     )
@@ -1596,7 +1596,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/1ea3e79d-5abe-4d02-a107-1f831b7579b4")
     (attr smd)
-    (fp_text reference "R201" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R201" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a5b64c88-fb26-43ff-bef0-ed5709c1926f)
     )
@@ -1638,7 +1638,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/1c4e8ccf-abbc-46c4-94e8-2c9a711e8071")
     (attr smd)
-    (fp_text reference "SW201" (at 0 -2.5) (layer "F.SilkS")
+    (fp_text reference "SW201" (at 0 -2.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f33ffb9e-49b3-4a1e-933d-1159dfca029e)
     )
@@ -1685,7 +1685,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/7b3d26cf-e9ba-4887-844a-265257628c3e")
     (attr smd)
-    (fp_text reference "R402" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R402" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5b9f4a6e-9521-4bb8-a812-52f7b7d330f9)
     )
@@ -1727,7 +1727,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/30a50318-86e7-45ea-ab6b-ff7b5b0edd4a")
     (attr through_hole)
-    (fp_text reference "J302" (at 2.54 -5 -270) (layer "F.SilkS")
+    (fp_text reference "J302" (at 2.54 -5 -270) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 10e19ed6-ab48-43cd-9574-5080225a79b7)
     )
@@ -1773,7 +1773,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/075e1700-28f3-4743-be94-af86e611c57e")
     (attr smd)
-    (fp_text reference "R307" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R307" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 58394e83-d458-45bb-970e-d5a6612b22b5)
     )
@@ -1815,7 +1815,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/5cdd9136-e8dd-43d3-925e-14b50eba1450")
     (attr smd)
-    (fp_text reference "R310" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R310" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 949cafaf-9e34-4b2c-bbea-1799e6b1bda1)
     )
@@ -1857,7 +1857,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/52c95c6d-e7b5-4370-bc0a-e419541c1803")
     (attr smd)
-    (fp_text reference "R400" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R400" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d7962030-6c70-4c34-8f63-d6a2d4a3c85a)
     )
@@ -1899,7 +1899,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/d3fd4c52-119d-4dd4-a4e1-d3903199df98")
     (attr smd)
-    (fp_text reference "U603" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "U603" (at 0 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 058bfab1-c4a8-4a94-9769-b9e1472687dc)
     )
@@ -1950,7 +1950,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/60322306-0396-46bc-8f22-4b543defb134")
     (attr exclude_from_pos_files)
-    (fp_text reference "J100" (at 3.9 -3.15 90) (layer "F.SilkS")
+    (fp_text reference "J100" (at 3.9 -3.15 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7741b097-534e-4cac-b3b0-5105dd089f49)
     )
@@ -1985,14 +1985,14 @@
 
   (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 425789a9-0d2d-4edd-a81b-316d6bc69b33)
-    (at 121.3 91.6)
+    (at 121.4 89)
     (descr "SOIC, 8 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "external_memory.kicad_sch")
     (property "Sheetname" "[7] External_Memory")
     (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/d9d8767a-f1c1-4f00-b775-6d4cbe435572")
     (attr smd)
-    (fp_text reference "U700" (at 0 -3.59) (layer "F.SilkS")
+    (fp_text reference "U700" (at 0 -3.59) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0dd0122c-3d23-4539-ac39-6a53d70254ba)
     )
@@ -2054,7 +2054,7 @@
     (property "Sheetname" "[5] Sensors")
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/0bdd09eb-843d-4223-a9f9-fc632d0bcdb8")
     (attr smd)
-    (fp_text reference "C500" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C500" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fbc9258e-af37-4506-8fc6-d26bccb18efa)
     )
@@ -2096,7 +2096,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/6b311943-6007-4f8a-99b3-a004d9483c7d")
     (attr smd)
-    (fp_text reference "C203" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C203" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1dcc4c0c-5150-4f7b-ad86-0de65b34c983)
     )
@@ -2138,7 +2138,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/9649464d-b956-45a7-b181-e20dd75dff86")
     (attr smd)
-    (fp_text reference "D100" (at 0 -4.1 90) (layer "F.SilkS")
+    (fp_text reference "D100" (at 0 -4.1 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c58d3a67-532e-4a51-83d2-0c4be78bb22d)
     )
@@ -2187,7 +2187,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/b0843b37-d5b4-498a-9935-76d065b7d8ae")
     (attr smd)
-    (fp_text reference "U302" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "U302" (at 0 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 142493f4-68de-4d51-add1-9d98fb726a83)
     )
@@ -2238,7 +2238,7 @@
     (property "Sheetname" "[5] Sensors")
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/8c718c35-c183-4a0e-890d-6e260578dfc8")
     (attr smd)
-    (fp_text reference "C502" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C502" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8569dfc2-b552-4b67-a016-27019e279374)
     )
@@ -2280,7 +2280,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/4a14f994-1f03-4d5e-a4d6-1e1f539abe99")
     (attr smd)
-    (fp_text reference "L102" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "L102" (at 0 -1.17 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1dc45f68-658d-4747-9bfd-22d28f78c04f)
     )
@@ -2320,7 +2320,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/e85705c7-e2a6-4d53-a85c-6c783418e0d2")
     (attr smd)
-    (fp_text reference "C604" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C604" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1444166c-67e2-4d2a-906f-c74b7bdbfb5e)
     )
@@ -2362,7 +2362,7 @@
     (property "Sheetname" "[5] Sensors")
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/455511d5-40a2-4651-ab9c-da84f8d67b49")
     (attr smd)
-    (fp_text reference "U502" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "U502" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e7e14513-f8a0-44ec-8e59-b22044237b85)
     )
@@ -2441,7 +2441,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/f9998448-940d-408b-bec5-3c4ae981cb02")
     (attr smd)
-    (fp_text reference "D302" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "D302" (at 0 -1.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 88276966-c405-4d5b-9f17-dfa471ba95a3)
     )
@@ -2490,7 +2490,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/5302954c-5baf-4286-9734-51d2e55e1ad8")
     (attr smd)
-    (fp_text reference "D203" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "D203" (at 0 -1.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0ad944cb-2bfe-46b4-864d-f5c31d9cf17a)
     )
@@ -2539,7 +2539,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/6a62e7e3-0b9f-433c-acde-e70c71a7ae8d")
     (attr smd)
-    (fp_text reference "C110" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C110" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4235db28-bcd2-4b7c-a263-28aa9a6cdfe8)
     )
@@ -2581,7 +2581,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/1c8938d4-fe23-4e0a-89c2-a7f39c5863b5")
     (attr smd)
-    (fp_text reference "R304" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R304" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 997d90d6-97cc-419d-bcf3-2f15a327fbc7)
     )
@@ -2623,7 +2623,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/bf04e794-a220-4a43-9fd5-17a4d02fd218")
     (attr smd)
-    (fp_text reference "U401" (at 0 -5.9) (layer "F.SilkS")
+    (fp_text reference "U401" (at 0 -5.9) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bdc6bc33-0a0a-41c4-8aa6-0114dbe8059c)
     )
@@ -2696,7 +2696,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/1cf2fe52-024c-4266-b3df-806a5d27df84")
     (attr smd)
-    (fp_text reference "C201" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C201" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 009c64c1-32aa-4a3d-9655-b673043dda7c)
     )
@@ -2738,7 +2738,7 @@
     (property "Sheetname" "[5] Sensors")
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/89bf4bbc-d6ea-4bfe-a92b-bb50d36c3083")
     (attr smd)
-    (fp_text reference "U500" (at 0 -1.95 90) (layer "F.SilkS")
+    (fp_text reference "U500" (at 0 -1.95 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1784982c-e1d9-49e2-b2cb-baee944089e1)
     )
@@ -2789,7 +2789,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/5a5b7ebf-81a2-4d33-acb2-45494f6f43dc")
     (attr smd)
-    (fp_text reference "D201" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "D201" (at 0 -1.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 78c065eb-34f8-40de-904c-33b17c2298dc)
     )
@@ -2838,7 +2838,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/01bffce6-b469-4cf2-a186-0fdef6e3159a")
     (attr smd)
-    (fp_text reference "R202" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R202" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7d32bc60-8c02-4e89-b1da-645aef4084d8)
     )
@@ -2880,7 +2880,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/5b472d93-1f73-4377-95b6-5d3d5ac1b17f")
     (attr smd)
-    (fp_text reference "C400" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C400" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1d760631-c94e-47a8-a919-a3f9b584cc01)
     )
@@ -2920,7 +2920,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/f29fca6e-d388-40d7-897a-2d77ed606567")
     (attr smd)
-    (fp_text reference "D102" (at 0.07 -2.2 90) (layer "F.SilkS")
+    (fp_text reference "D102" (at 0.07 -2.2 90) (layer "F.SilkS") hide
       (effects (font (size 0.787402 0.787402) (thickness 0.15)))
       (tstamp 138fcf60-70d7-4b6b-8412-6da9258a6003)
     )
@@ -2964,7 +2964,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/b2a7154b-2003-4e21-9bae-4d46f2f36ea9")
     (attr smd)
-    (fp_text reference "R101" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R101" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dadc8991-38ab-452e-a6ba-90b8b2d6cf8f)
     )
@@ -3006,7 +3006,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/eea22c6f-20ac-42af-bde0-aecd5400560d")
     (attr smd)
-    (fp_text reference "D301" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "D301" (at 0 -1.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 26431856-1ff3-4805-9fd1-93053c250f4c)
     )
@@ -3054,7 +3054,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/0c261e5c-e650-403e-bd87-56291a62027c")
     (attr smd)
-    (fp_text reference "L100" (at 0 0 -90 unlocked) (layer "F.SilkS")
+    (fp_text reference "L100" (at 0 0 -90 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 67476d96-0ad6-43d9-87a3-96e4040c643d)
     )
@@ -3167,7 +3167,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/89e4310c-bf0b-4019-8e48-7ee607afaedb")
     (attr smd)
-    (fp_text reference "L101" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "L101" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3735a502-4e60-4e2a-a989-90559fdc2dd1)
     )
@@ -3209,7 +3209,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/c5b0f88d-c65a-4128-b938-eb35d1876ff1")
     (attr smd)
-    (fp_text reference "R207" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R207" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c3288910-c56a-4b3a-be3f-5031aaa1ccd5)
     )
@@ -3251,7 +3251,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/4fe54948-6050-4268-a2a6-53f634bc2286")
     (attr smd)
-    (fp_text reference "D406" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "D406" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a19762ed-48f5-429b-90dd-6fdc856feabe)
     )
@@ -3295,7 +3295,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/898641a8-5243-44aa-b291-bafedb4799bb")
     (attr through_hole)
-    (fp_text reference "C301" (at 1.25 -3.75 90) (layer "F.SilkS")
+    (fp_text reference "C301" (at 1.25 -3.75 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2c34502e-0851-4e99-99b6-7b0c1b886518)
     )
@@ -3452,7 +3452,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/d4ca2058-6d10-4390-a74f-a35eb088b4d4")
     (attr smd)
-    (fp_text reference "R308" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R308" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bff3b5e1-ffe5-4571-85ec-cfafcfdbd032)
     )
@@ -3494,7 +3494,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/0ed97cbc-83d6-47a8-9bb2-c5b8a0131a54")
     (attr smd)
-    (fp_text reference "C403" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C403" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 116f0b71-d5d7-4690-a677-68fa8ebbc7ce)
     )
@@ -3529,14 +3529,14 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7513d717-b9ea-4969-a033-335dcabfd64c)
-    (at 124.2 87.5 180)
+    (at 124.3 84.9 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "external_memory.kicad_sch")
     (property "Sheetname" "[7] External_Memory")
     (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/7de61893-ae1e-4617-b417-e465acfee189")
     (attr smd)
-    (fp_text reference "C700" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C700" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b21e033a-9691-4496-a096-161c5c0fa9ae)
     )
@@ -3578,7 +3578,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/3aea70fe-55e1-4cfe-8faf-1fdffcaecef4")
     (attr smd)
-    (fp_text reference "D305" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "D305" (at 0 -1.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 55e9fcdd-9d95-4ba9-9ba6-030cc2140850)
     )
@@ -3627,7 +3627,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/01c5b744-68aa-4a5f-ae09-38ab77f07c5d")
     (attr smd)
-    (fp_text reference "R206" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R206" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 457ca42d-7d62-43be-b6fd-2b12b8e43403)
     )
@@ -3669,7 +3669,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/ff06894d-85be-466f-a760-501b40c19cb9")
     (attr smd)
-    (fp_text reference "R404" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R404" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4a6bfd9c-f855-43c0-aedc-d83d63069b55)
     )
@@ -3711,7 +3711,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/81cd52d7-bf63-4d4d-8cde-d092ff5fb471")
     (attr smd)
-    (fp_text reference "L103" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "L103" (at 0 -1.17) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1e43ef03-4738-41d7-ab02-e5adf1ae4c4e)
     )
@@ -3751,7 +3751,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/14fed118-9356-4bd7-9725-712b0ee562db")
     (attr smd)
-    (fp_text reference "C205" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C205" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8b427fe9-3b64-48b4-b750-9afabfd02e9d)
     )
@@ -3793,7 +3793,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/bc969069-2705-4c91-8c47-31e5821be12e")
     (attr smd)
-    (fp_text reference "C405" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C405" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cb5582db-4881-4dfc-bca7-ece9518e664a)
     )
@@ -3835,7 +3835,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/a0157a5c-ddb6-4ae7-932d-0dccd856cb11")
     (attr smd)
-    (fp_text reference "J400" (at 0 -5.645) (layer "F.SilkS")
+    (fp_text reference "J400" (at 0 -5.645) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c86212a-3ec3-41d9-b47e-fe5b1669cc0a)
     )
@@ -3918,7 +3918,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/f2673113-78c4-42af-b21a-a076505cdf9c")
     (attr smd)
-    (fp_text reference "Q400" (at 0 -2.4 90) (layer "F.SilkS")
+    (fp_text reference "Q400" (at 0 -2.4 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 907cebd3-5fad-4f56-b2fb-459e166377ba)
     )
@@ -3965,7 +3965,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/b44030d6-a654-4a42-b082-a51ad2a6fcaa")
     (attr smd)
-    (fp_text reference "D405" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "D405" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bd318b37-3b82-440b-a204-0572b866bb26)
     )
@@ -4007,7 +4007,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/8a888a78-4b14-4632-9ecc-d31e8c291f42")
     (attr smd)
-    (fp_text reference "D101" (at 0.07 -2.2) (layer "F.SilkS")
+    (fp_text reference "D101" (at 0.07 -2.2) (layer "F.SilkS") hide
       (effects (font (size 0.787402 0.787402) (thickness 0.15)))
       (tstamp 33a42596-0a51-4220-b20a-308825cb103b)
     )
@@ -4051,7 +4051,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/0acce343-46ed-4deb-86d4-40aaba2c581c")
     (attr smd)
-    (fp_text reference "R305" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R305" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 349d1b8d-766e-47c8-ba03-fb62fc13d083)
     )
@@ -4093,7 +4093,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/34fe4630-eb8b-4b2b-9420-64aeb41c379c")
     (attr smd)
-    (fp_text reference "C401" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C401" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7ad1730a-d5bf-4677-8be2-524ed962c91c)
     )
@@ -4135,7 +4135,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/6794a61e-c516-4b47-9777-f18624a2c614")
     (attr smd)
-    (fp_text reference "C300" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C300" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63b4dfe5-2bb8-4add-b642-d8b4f58acb8d)
     )
@@ -4177,7 +4177,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/0915a960-c1d1-4819-9c53-aeb8cd5149bf")
     (attr smd)
-    (fp_text reference "R601" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R601" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 88b3f882-1a13-428d-88ac-15e8ab2a0bf2)
     )
@@ -4219,7 +4219,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/ae4b09e3-6502-4f4e-a59d-c4c57af5b5fa")
     (attr smd)
-    (fp_text reference "C309" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C309" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3814f85c-d121-4e1b-b79d-144a6b78b6e8)
     )
@@ -4261,7 +4261,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/1b0594d2-da38-44e8-87f7-07bd04d51c14")
     (attr smd)
-    (fp_text reference "C107" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C107" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e6d12b26-c233-4951-92c4-f53733c6f1ed)
     )
@@ -4303,7 +4303,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/1f7bce3c-0807-43db-ab4a-9e7a0aac8fdc")
     (attr smd)
-    (fp_text reference "U400" (at 0 -2.4 90) (layer "F.SilkS")
+    (fp_text reference "U400" (at 0 -2.4 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7a77c590-ff55-4dd5-8df3-716be17bca5b)
     )
@@ -4356,7 +4356,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/3bd3a7ea-acd6-4a25-b3c3-da625d06d885")
     (attr smd)
-    (fp_text reference "C303" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C303" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c4886f7e-ed7a-4ace-be03-45038e1caf9c)
     )
@@ -4398,7 +4398,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/f603980f-de5f-4498-8ad3-29d32d8eb5c9")
     (attr smd)
-    (fp_text reference "R607" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R607" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e16c1a50-7cf4-48a2-aa1e-4181140cc905)
     )
@@ -4440,7 +4440,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/95472c48-f175-48e4-a31e-fbbcec8a4a66")
     (attr smd)
-    (fp_text reference "C603" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C603" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fb08ec3f-6c96-4e6b-90a8-95c6e8e67395)
     )
@@ -4482,7 +4482,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/a8c26dcf-da0b-4b6b-b3ed-28462aea0f27")
     (attr smd)
-    (fp_text reference "U100" (at 0 -6.65) (layer "F.SilkS")
+    (fp_text reference "U100" (at 0 -6.65) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 60cd177d-09a6-44da-bc87-bf9fe85d1099)
     )
@@ -4559,7 +4559,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/5e3aabe0-81fe-4111-bf58-7d47c2f8f111")
     (attr through_hole)
-    (fp_text reference "J300" (at 2.54 -5.08 -270) (layer "F.SilkS")
+    (fp_text reference "J300" (at 2.54 -5.08 -270) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 004fc22a-39a0-4982-9251-2b40bba84041)
     )
@@ -4605,7 +4605,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/0b28a22a-1929-4957-be0b-b2af3958ce98")
     (attr smd)
-    (fp_text reference "Q401" (at 0 -2.4 90) (layer "F.SilkS")
+    (fp_text reference "Q401" (at 0 -2.4 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 09abed64-41f9-4891-9b1f-1a45fdedf976)
     )
@@ -4652,7 +4652,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/c1a4ebb5-66e2-4c38-b7da-327033f62ec3")
     (attr smd)
-    (fp_text reference "C104" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C104" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0f32cc2b-0b1f-4eb5-82c0-dd8884d0e7bb)
     )
@@ -4694,7 +4694,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/c69b48c7-935e-4746-9e6e-0c3eecd1c762")
     (attr smd)
-    (fp_text reference "J200" (at 0 -5.645 90) (layer "F.SilkS")
+    (fp_text reference "J200" (at 0 -5.645 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6c8b5f7a-2591-400c-ad06-9617243afe3c)
     )
@@ -4777,7 +4777,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/6a8bbed9-4278-4458-9c7e-65d1b01f5c1f")
     (attr smd)
-    (fp_text reference "R403" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R403" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp adcb20ff-5bba-427b-bf46-8b2f1559e917)
     )
@@ -4819,7 +4819,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/1f908ab0-aef7-4f1f-adca-3727a7e094d0")
     (attr smd)
-    (fp_text reference "C600" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C600" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5a2743a0-e33f-46f2-a33d-e96cd9840a92)
     )
@@ -4861,7 +4861,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/31c765a5-a823-451e-8bd1-3c801086dc08")
     (attr smd)
-    (fp_text reference "C409" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C409" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f307f419-95f5-43a3-b3bd-47692b8d7e97)
     )
@@ -4903,7 +4903,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/3f65de88-6710-4180-9060-180696b97879")
     (attr smd)
-    (fp_text reference "R309" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R309" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 421eaa75-bcb3-4e31-81c5-4746843b4c99)
     )
@@ -4945,7 +4945,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/8aa266ed-e34e-4d17-a40f-5e719d00bf2f")
     (attr smd)
-    (fp_text reference "C106" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C106" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aa78d281-5a7f-418c-888b-9dde6327813a)
     )
@@ -4987,7 +4987,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/12e6e120-19cc-463c-9214-466d4862a19b")
     (attr smd)
-    (fp_text reference "U300" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "U300" (at 0 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3b07453d-20f1-44aa-bb50-8adcff6bb709)
     )
@@ -5038,7 +5038,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/a00878f2-8d2f-4913-a444-67c62f967c26")
     (attr smd)
-    (fp_text reference "C304" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C304" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8f21190c-bbdb-4b1b-9bcb-d054b8188628)
     )
@@ -5080,7 +5080,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/2df2dc62-d9b4-4edd-9bfe-15ef7a8b0d58")
     (attr smd)
-    (fp_text reference "C103" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C103" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp af570091-b5c4-4b40-adff-e5bed762afa0)
     )
@@ -5122,7 +5122,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/b2cbebee-aba9-4c2f-98ce-5dbd7f674d41")
     (attr smd)
-    (fp_text reference "C607" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C607" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 882a2101-406c-44bc-8169-eef0b3b62c2f)
     )
@@ -5164,7 +5164,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/638b9897-98e8-4fa4-8012-1bc5d67a70fb")
     (attr smd)
-    (fp_text reference "C407" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C407" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a816349-22da-4971-814e-e7036518e4c7)
     )
@@ -5206,7 +5206,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/0cd6f6ac-4d2c-469c-ba82-4799101d7634")
     (attr smd)
-    (fp_text reference "C109" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C109" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 62309dae-c417-48df-aec2-d61eb0961a76)
     )
@@ -5248,7 +5248,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/929bcc54-8ea5-40ef-a6f2-6fe2eed1dd42")
     (attr smd)
-    (fp_text reference "D300" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "D300" (at 0 -1.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp faf5f120-45ae-4c74-a35b-51b3c80135fc)
     )
@@ -5297,7 +5297,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/f0f3dad0-df0a-4b6f-bcb1-cfd0a262d609")
     (attr smd)
-    (fp_text reference "R200" (at 0 -1.17 180) (layer "F.SilkS")
+    (fp_text reference "R200" (at 0 -1.17 180) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 31054d46-4b1f-44a0-bcba-39a47d684bdc)
     )
@@ -5339,7 +5339,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/fdab849d-aa79-4fc3-be1b-71bca80dd47f")
     (attr smd)
-    (fp_text reference "R306" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R306" (at 0 -1.17 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 85a9eb32-c64c-4f7c-9412-c3799689c951)
     )
@@ -5381,7 +5381,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/872c1813-f600-44e2-9529-db2493d42e6d")
     (attr smd)
-    (fp_text reference "C406" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C406" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ebaae9fe-1831-46ba-b190-3db365f8f193)
     )
@@ -5423,7 +5423,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/d5dbb69a-38e3-4fc9-a4d2-978ad6b34ccc")
     (attr smd)
-    (fp_text reference "R401" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R401" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 794b45fd-a4c9-46f3-b42d-c2e17482ea33)
     )
@@ -5465,7 +5465,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/02eb27c3-dac1-4f15-8c7e-717131d402a7")
     (attr smd)
-    (fp_text reference "R405" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R405" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 447e57f3-a9b2-4781-be5e-6a75198fed76)
     )
@@ -5507,7 +5507,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/b501774c-f66a-47f6-bcea-7e0076e9fc62")
     (attr smd)
-    (fp_text reference "C105" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C105" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bae6bb2f-8ac0-425a-b09b-a12d41b4f1b1)
     )
@@ -5549,7 +5549,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/7c199a1e-bd59-43a9-838c-4cce47bc2d5d")
     (attr through_hole)
-    (fp_text reference "J301" (at 0 -2.33) (layer "F.SilkS")
+    (fp_text reference "J301" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b89f0a6b-1b22-40de-a435-3412ff95c2e4)
     )
@@ -5600,7 +5600,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/89a50f0f-6521-4340-acdd-58e2c92b8949")
     (attr smd)
-    (fp_text reference "C408" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C408" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3b2afdd1-502c-4663-b0eb-636c1f207675)
     )
@@ -5640,7 +5640,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/4f645fd5-93b4-4707-87c2-09045cde1162")
     (attr smd)
-    (fp_text reference "D103" (at 0.07 -2.2 90) (layer "F.SilkS")
+    (fp_text reference "D103" (at 0.07 -2.2 90) (layer "F.SilkS") hide
       (effects (font (size 0.787402 0.787402) (thickness 0.15)))
       (tstamp f0161cf2-d017-4b25-b3a4-1495ab558831)
     )
@@ -5684,7 +5684,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/8e969972-0b99-4eac-98a2-9e2d5a1ea73b")
     (attr smd)
-    (fp_text reference "C108" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C108" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a3eb7fe3-f0ef-4d4b-9b2c-b5c04d211a70)
     )
@@ -5726,7 +5726,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/27950bba-e7cb-4f58-99b4-8efcd72930ec")
     (attr smd)
-    (fp_text reference "C605" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C605" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c8c78d8-78fd-4240-b3ed-55e32aee66fe)
     )
@@ -5768,7 +5768,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/5bd2e39e-4b64-4e49-82d6-d88068c8500a")
     (attr smd)
-    (fp_text reference "R303" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R303" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4af3e300-5a86-4f38-ac02-84ca2c760671)
     )
@@ -5810,7 +5810,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/d3e6fbee-2e5f-4037-9e49-68f2d9dd325d")
     (attr through_hole)
-    (fp_text reference "C100" (at 1.25 -3.75 90) (layer "F.SilkS")
+    (fp_text reference "C100" (at 1.25 -3.75 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 593a1a2e-94d4-47ef-a968-3c4caeea9bd3)
     )
@@ -5967,7 +5967,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/0580b7e6-2417-4786-800f-28539621e2c0")
     (attr smd)
-    (fp_text reference "R208" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R208" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 24d9d5d8-5277-46c3-bb5c-c8d76718c2f9)
     )
@@ -6009,7 +6009,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/21fdbe19-4aa7-4cb0-a069-9e8d78b2fceb")
     (attr smd)
-    (fp_text reference "Q402" (at 0 -2.4 90) (layer "F.SilkS")
+    (fp_text reference "Q402" (at 0 -2.4 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0b59745c-f2ac-4cba-8e6b-69868c12f4d2)
     )
@@ -6056,7 +6056,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/a0307271-7fdb-4020-b5da-0ddd7358fac0")
     (attr smd)
-    (fp_text reference "D202" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "D202" (at 0 -1.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d2738063-1be1-4cc4-8414-9647af6b4981)
     )
@@ -6105,7 +6105,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/aadfd5c4-5be8-4116-8d65-8da20cd7b1c3")
     (attr smd)
-    (fp_text reference "C606" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C606" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1b25eb7c-cd74-4136-9d6e-91e5aa14693b)
     )
@@ -6147,7 +6147,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/e0b378bb-2dde-4d8c-b491-edd95ceea4b6")
     (attr smd)
-    (fp_text reference "C308" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C308" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d3d4f7c6-c368-43c3-adf2-ac8cb6d35376)
     )
@@ -6187,7 +6187,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/3890b59c-9124-47a1-96ea-273ad4297216")
     (attr smd)
-    (fp_text reference "D104" (at 0.07 -2.2) (layer "F.SilkS")
+    (fp_text reference "D104" (at 0.07 -2.2) (layer "F.SilkS") hide
       (effects (font (size 0.787402 0.787402) (thickness 0.15)))
       (tstamp 92cc2291-9e82-4dd8-9a9f-28825ad7b077)
     )
@@ -6231,7 +6231,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/48548276-c2ff-4bb9-844c-9c2011210856")
     (attr smd)
-    (fp_text reference "R311" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R311" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3f136f3a-58d7-4014-8a9f-8a4e36d606cd)
     )
@@ -6273,7 +6273,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/29eeaf52-5c5c-474e-9bf9-93b8570a7d73")
     (attr smd)
-    (fp_text reference "Y200" (at 0 -2.45) (layer "F.SilkS")
+    (fp_text reference "Y200" (at 0 -2.45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e95b9fdd-9f03-44dd-8288-73cc0d72614b)
     )
@@ -6320,7 +6320,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/1574ac1c-14f2-474d-b3db-c10040047c62")
     (attr smd)
-    (fp_text reference "U301" (at 0 -3.45) (layer "F.SilkS")
+    (fp_text reference "U301" (at 0 -3.45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1bc21671-073b-4fe9-9028-4d025559bfc4)
     )
@@ -6412,7 +6412,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/80722f10-ac57-451c-adee-89ff4615aed9")
     (attr smd)
-    (fp_text reference "R302" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R302" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ddc084dc-4670-4331-8cf9-f8303ea728d0)
     )
@@ -6454,7 +6454,7 @@
     (property "Sheetname" "[5] Sensors")
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/62ebd1cf-5b9b-4bab-92c2-efb41e0af239")
     (attr smd)
-    (fp_text reference "R500" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R500" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4bc72da6-abe0-42a9-a9f3-9c0d479e92c2)
     )
@@ -6496,7 +6496,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/8c911f37-a99b-4a7b-ad77-9a25c943958d")
     (attr smd)
-    (fp_text reference "R600" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R600" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14c8c5b5-9330-42bd-8d33-63b4b79054ba)
     )
@@ -6538,7 +6538,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/00a11869-0252-4d36-a55a-e54fdb844bfe")
     (attr through_hole)
-    (fp_text reference "J201" (at 0 -2.33) (layer "F.SilkS")
+    (fp_text reference "J201" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a75b4730-ccc4-4a1d-bda0-cb3e39e902ca)
     )
@@ -6591,7 +6591,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/6df1a77e-57ce-4c9b-b040-a68917bab729")
     (attr smd)
-    (fp_text reference "R407" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R407" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e5030572-219a-4d66-80c4-9679fd6ed72c)
     )
@@ -6631,7 +6631,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/bc18ee3a-4ef4-47ff-b72c-4578b85f91f7")
     (attr smd)
-    (fp_text reference "U402" (at -3.4925 -13.335) (layer "F.SilkS")
+    (fp_text reference "U402" (at -3.4925 -13.335) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b37a1292-31db-4aa1-80d2-80e1a7976258)
     )
@@ -6851,7 +6851,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/16131d30-c61f-46b0-bdab-5474a52998a2")
     (attr smd)
-    (fp_text reference "C609" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C609" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4abd51b4-fc40-4441-98c2-f864bbe78250)
     )
@@ -6893,7 +6893,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/c4aa8b88-43e8-4259-97d0-3217aea61f36")
     (attr smd)
-    (fp_text reference "R603" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R603" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 317814dc-6a73-448a-849f-5431752b7c67)
     )
@@ -6935,7 +6935,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/4ae6af5b-dfd5-4774-adb0-bdf147a15800")
     (attr smd)
-    (fp_text reference "R100" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R100" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 74270050-1729-4712-b3b3-b35ea42357a7)
     )
@@ -6977,7 +6977,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/0f20da89-bb24-4c10-a417-5bd11b80696c")
     (attr smd)
-    (fp_text reference "C302" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C302" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6996433b-5427-4d90-b027-398e95641e3b)
     )
@@ -7019,7 +7019,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/69e9706e-7f7e-44d1-8d3c-abf54139fe61")
     (attr through_hole)
-    (fp_text reference "J303" (at 0 -2.33) (layer "F.SilkS")
+    (fp_text reference "J303" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d830067f-a593-4821-912e-4121a5023255)
     )
@@ -7070,7 +7070,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/58b4ad1f-3fec-40ef-b5f2-13f3b68c4f9e")
     (attr smd)
-    (fp_text reference "C608" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C608" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp db7495f4-45e4-4c93-96e1-03492f02e972)
     )
@@ -7112,7 +7112,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/b6a46fb0-4feb-450f-9381-2291f852e487")
     (attr smd)
-    (fp_text reference "U200" (at 0 -5.85) (layer "F.SilkS")
+    (fp_text reference "U200" (at 0 -5.85) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9af53ad4-b5d3-490e-8601-b346211c933d)
     )
@@ -7274,7 +7274,7 @@
     (property "Sheetname" "[6] ADCs")
     (path "/d249f484-be7b-4fe1-aa74-bf5965c8a2c2/fe28e4a3-f03a-4045-b99e-3c8c7ced9f8b")
     (attr smd)
-    (fp_text reference "U602" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "U602" (at 0 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e3521387-aa85-4c30-9869-22e7fe603304)
     )
@@ -7327,7 +7327,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/93a81c3c-af22-47e6-b1ef-22e921666876")
     (attr smd)
-    (fp_text reference "C200" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C200" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d800b263-34a6-491d-92a6-6a431193cffa)
     )
@@ -7369,7 +7369,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/f94170b5-b8fb-4ccd-acfd-48078475841f")
     (attr smd)
-    (fp_text reference "Q403" (at 0 -2.4 90) (layer "F.SilkS")
+    (fp_text reference "Q403" (at 0 -2.4 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2e80af17-7f8b-4f3b-8608-b4c33efe2d34)
     )
@@ -7416,7 +7416,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/07c6e0ed-9793-4d96-85f2-837b2c466f2a")
     (attr smd)
-    (fp_text reference "C111" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C111" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp da13ea4f-f725-4124-b3c4-d148ae84399d)
     )
@@ -7458,7 +7458,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/0f19a5ef-ac49-44a6-93ee-8c78f71fb35b")
     (attr through_hole)
-    (fp_text reference "C306" (at 1.25 -3.75 90) (layer "F.SilkS")
+    (fp_text reference "C306" (at 1.25 -3.75 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp de8815d8-14dc-45c6-b2ac-8ba15d4fafd5)
     )
@@ -7613,7 +7613,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/a70a1023-8aa1-43f9-a928-c1faabd19e72")
     (attr smd)
-    (fp_text reference "SW401" (at -1.326325 -3.138175 90) (layer "F.SilkS")
+    (fp_text reference "SW401" (at -1.326325 -3.138175 90) (layer "F.SilkS") hide
       (effects (font (size 1.001016 1.001016) (thickness 0.15)))
       (tstamp e17e26d1-fe36-40ad-9f77-086ed4d7a70e)
     )
@@ -7655,7 +7655,7 @@
     (property "Sheetname" "[4] Bluetooth")
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/5211d717-3f61-474f-9d32-df284e062344")
     (attr smd)
-    (fp_text reference "U403" (at 0.635 -3.175 90) (layer "F.SilkS")
+    (fp_text reference "U403" (at 0.635 -3.175 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 73be744e-d8b9-4c37-a3c1-67eaaa3768a5)
     )
@@ -7725,7 +7725,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/87164916-93ae-4140-86aa-59470124ec1a")
     (attr smd)
-    (fp_text reference "C204" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C204" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 285d96fd-7ae9-4284-ae5d-57b50807b29b)
     )
@@ -7767,7 +7767,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/a4e74331-d1a5-4845-bdb6-5b9e6ac239dd")
     (attr smd)
-    (fp_text reference "R102" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R102" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b725cb7b-7041-4221-b8a1-d513ef6e192b)
     )
@@ -7809,7 +7809,7 @@
     (property "Sheetname" "[3] Motor_Control")
     (path "/2537d888-fd78-4661-a6de-7d85959a9016/e51f450e-42a5-4c02-b707-fe1baa4d5e6b")
     (attr smd)
-    (fp_text reference "C305" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C305" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 36acc686-07b2-4392-a26f-64847a5985e8)
     )
@@ -7851,7 +7851,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/f00c547b-aa7e-4997-8169-73a8c4eb0a1e")
     (attr smd)
-    (fp_text reference "C112" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C112" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ed4be8f3-a295-4908-ba6f-40097cf0012e)
     )
@@ -7893,7 +7893,7 @@
     (property "Sheetname" "[2] Microcontroller")
     (path "/c46a482e-bfa4-4ed5-a49f-3179709c39a1/cbee7786-1cd7-4beb-90e5-37a31d62d961")
     (attr smd)
-    (fp_text reference "U201" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "U201" (at 0 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2462be44-a4f9-4703-ae23-ac94a25aa36b)
     )
@@ -7946,7 +7946,7 @@
     (property "Sheetname" "[5] Sensors")
     (path "/6678d44b-178f-4b7c-833f-18a4e680f820/8acaae38-2a8a-4640-a502-85fbf7efbed4")
     (attr smd)
-    (fp_text reference "C504" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C504" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b540beff-d7b6-41d7-bc9b-f7bcb1831d5e)
     )
@@ -7988,7 +7988,7 @@
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/2a90f40f-c0e7-4467-8cbd-e38a34a6f0a9")
     (attr through_hole)
-    (fp_text reference "C101" (at 1.25 -3.75 90) (layer "F.SilkS")
+    (fp_text reference "C101" (at 1.25 -3.75 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 21a3a4ff-c9f2-433f-838f-983174eb31af)
     )
@@ -8141,6 +8141,8 @@
   (gr_line (start 68 160) (end 68 21) (layer "Edge.Cuts") (width 0.1) (tstamp b2ce4e5d-0d69-4eb7-90ab-2dabb95ab852))
   (gr_line (start 167 160) (end 68 160) (layer "Edge.Cuts") (width 0.1) (tstamp b5c963d4-e99a-4777-95ca-efd022e0b5ba))
 
+  (via (at 109.9 80.6) (size 0.45) (drill 0.25) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 6ff95325-21f6-42f1-8d91-9518de43eeb2))
+  (via (at 109.2 80.6) (size 0.45) (drill 0.25) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp ec750921-9b0f-4442-a58b-3ea798ade280))
   (segment (start 108.43 78.35) (end 109 78.92) (width 0.3) (layer "F.Cu") (net 6) (tstamp 29712dba-da44-4151-971a-975282c5cd28))
   (segment (start 109 78.92) (end 108.93 78.85) (width 0.3) (layer "F.Cu") (net 6) (tstamp 68a4ed96-eb63-4043-9741-6665dda9f270))
   (segment (start 109.27 77.85) (end 109.3 77.88) (width 0.3) (layer "F.Cu") (net 6) (tstamp 80fbb614-bc08-47df-932d-e4e7803bf15d))
@@ -8154,8 +8156,8 @@
     (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 110.6 80.4)
-        (xy 108.5 80.4)
+        (xy 110.6 80.9)
+        (xy 108.5 80.9)
         (xy 108.5 79.5)
         (xy 110.6 79.5)
       )
@@ -8166,14 +8168,14 @@
         (xy 110.542121 79.520002)
         (xy 110.588614 79.573658)
         (xy 110.6 79.626)
-        (xy 110.6 80.274)
-        (xy 110.579998 80.342121)
-        (xy 110.526342 80.388614)
-        (xy 110.474 80.4)
-        (xy 108.626 80.4)
-        (xy 108.557879 80.379998)
-        (xy 108.511386 80.326342)
-        (xy 108.5 80.274)
+        (xy 110.6 80.774)
+        (xy 110.579998 80.842121)
+        (xy 110.526342 80.888614)
+        (xy 110.474 80.9)
+        (xy 108.626 80.9)
+        (xy 108.557879 80.879998)
+        (xy 108.511386 80.826342)
+        (xy 108.5 80.774)
         (xy 108.5 79.626)
         (xy 108.520002 79.557879)
         (xy 108.573658 79.511386)
