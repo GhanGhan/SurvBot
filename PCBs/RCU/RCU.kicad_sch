@@ -602,8 +602,8 @@
     (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/7de61893-ae1e-4617-b417-e465acfee189"
       (reference "C700") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/02d22b80-a100-474e-91a7-3545b75593d4"
-      (reference "D100") (unit 1) (value "1N5822") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
+    (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/9649464d-b956-45a7-b181-e20dd75dff86"
+      (reference "D100") (unit 1) (value "B340") (footprint "Diode_SMD:D_SMC")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/8a888a78-4b14-4632-9ecc-d31e8c291f42"
       (reference "D101") (unit 1) (value "SM5817") (footprint "Schottky_Diode:SODFL3719X135N")
@@ -678,7 +678,7 @@
       (reference "J400") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/0c261e5c-e650-403e-bd87-56291a62027c"
-      (reference "L100") (unit 1) (value "68uH") (footprint "Inductor_SMD:L_12x12mm_H6mm")
+      (reference "L100") (unit 1) (value "68uH") (footprint "68uH Power Inductor:IND_MWSA1206S_SNL")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/89e4310c-bf0b-4019-8e48-7ee607afaedb"
       (reference "L101") (unit 1) (value "15uH") (footprint "Inductor_SMD:L_0603_1608Metric")

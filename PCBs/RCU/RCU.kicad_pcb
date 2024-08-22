@@ -2946,6 +2946,11 @@
       (net 3 "VCOM") (pinfunction "K") (pintype "passive") (solder_mask_margin 0.102) (tstamp a2b0244f-3b21-4a5d-adc0-f21f49a79650))
     (pad "2" smd rect (at 1.59 0 270) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "+5C") (pinfunction "A") (pintype "passive") (solder_mask_margin 0.102) (tstamp 3ff97b1f-1e30-43f0-bfe5-5b9f4cd6db4b))
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
@@ -4028,6 +4033,11 @@
       (net 3 "VCOM") (pinfunction "K") (pintype "passive") (solder_mask_margin 0.102) (tstamp 9fb332ef-3807-4a6b-b794-9e680e650015))
     (pad "2" smd rect (at 1.59 0) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "+BATT") (pinfunction "A") (pintype "passive") (solder_mask_margin 0.102) (tstamp 3e267519-9696-4e50-b357-6c42081d099e))
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
@@ -5623,16 +5633,16 @@
 
   (footprint "Schottky_Diode:SODFL3719X135N" (layer "F.Cu")
     (tedit 66C38CCA) (tstamp c595dd46-ba0d-43a5-ad03-84a3b31fe468)
-    (at 152.5 26.7)
+    (at 130.1 32.7 -90)
     (property "Sheetfile" "Power.kicad_sch")
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/4f645fd5-93b4-4707-87c2-09045cde1162")
     (attr smd)
-    (fp_text reference "D103" (at 0.07 -2.2) (layer "F.SilkS")
+    (fp_text reference "D103" (at 0.07 -2.2 90) (layer "F.SilkS")
       (effects (font (size 0.787402 0.787402) (thickness 0.15)))
       (tstamp f0161cf2-d017-4b25-b3a4-1495ab558831)
     )
-    (fp_text value "SM5817" (at 4.57 2.2) (layer "F.Fab")
+    (fp_text value "SM5817" (at 4.57 2.2 90) (layer "F.Fab")
       (effects (font (size 0.787402 0.787402) (thickness 0.15)))
       (tstamp 13049423-c114-4d21-a40e-00747943b1ff)
     )
@@ -5652,10 +5662,15 @@
     (fp_line (start 1.425 0.95) (end 1.425 -0.95) (layer "F.Fab") (width 0.127) (tstamp 5466b2b5-13db-4ab4-abb5-aae16c69a39e))
     (fp_line (start -1.425 -0.95) (end -1.425 0.95) (layer "F.Fab") (width 0.127) (tstamp 5486a63c-6ab4-4db6-9f14-4df79e6c3c3d))
     (fp_circle (center -3.18 0) (end -3.08 0) (layer "F.Fab") (width 0.2) (fill none) (tstamp b200604d-7ddc-479c-8842-eb45a5041d13))
-    (pad "1" smd rect (at -1.59 0) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -1.59 0 270) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 29 "Net-(D103-Pad1)") (pinfunction "K") (pintype "passive") (solder_mask_margin 0.102) (tstamp 0dfc4112-381d-4a27-9be3-a499adac896f))
-    (pad "2" smd rect (at 1.59 0) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 1.59 0 270) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "+5F") (pinfunction "A") (pintype "passive") (solder_mask_margin 0.102) (tstamp adcbb739-d720-4872-be76-46ccf91035c2))
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -6165,7 +6180,7 @@
 
   (footprint "Schottky_Diode:SODFL3719X135N" (layer "F.Cu")
     (tedit 66C38CCA) (tstamp d54b3fc4-6f68-4213-8536-9aed25bbea29)
-    (at 163.5 26.7)
+    (at 128.5 28.1)
     (property "Sheetfile" "Power.kicad_sch")
     (property "Sheetname" "[1] Power")
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/3890b59c-9124-47a1-96ea-273ad4297216")
@@ -6198,6 +6213,11 @@
       (net 3 "VCOM") (pinfunction "K") (pintype "passive") (solder_mask_margin 0.102) (tstamp 0080fc64-8a49-485b-9a40-b39c02149a47))
     (pad "2" smd rect (at 1.59 0) (size 1.18 1.17) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 29 "Net-(D103-Pad1)") (pinfunction "A") (pintype "passive") (solder_mask_margin 0.102) (tstamp 606f5c9b-78fe-44c4-b546-78451519f58f))
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
