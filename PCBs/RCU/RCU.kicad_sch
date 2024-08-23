@@ -338,9 +338,6 @@
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/3c14836e-d1e0-4317-b386-5748f4f0ad4c"
       (reference "#PWR0168") (unit 1) (value "GND") (footprint "")
     )
-    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/b5a836b9-d851-4b26-93b0-d5145b479633"
-      (reference "#PWR0169") (unit 1) (value "GND") (footprint "")
-    )
     (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/f270656c-70b3-487f-a2ad-92c493a5afd5"
       (reference "#PWR0170") (unit 1) (value "GND") (footprint "")
     )
@@ -436,6 +433,9 @@
     )
     (path "/30f70446-f8fc-40ff-92fb-56eae08fade9/2c4a4823-3df4-4715-82e4-ace04f59e52b"
       (reference "#PWR0202") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/2af55460-e33d-4dc0-b588-5a5fc90e3fb4/000245b6-8a67-4dba-a559-85be01edf905"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/d3e6fbee-2e5f-4037-9e49-68f2d9dd325d"
       (reference "C100") (unit 1) (value "470u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
