@@ -3157,7 +3157,7 @@
     (pin "2" (uuid b52c3178-db19-461b-920c-c78e7a1b064c))
   )
 
-  (symbol (lib_id "Device:R") (at 106.68 121.92 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 106.68 121.92 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fdab849d-aa79-4fc3-be1b-71bca80dd47f)
     (property "Reference" "R306" (id 0) (at 106.68 119.38 90))
