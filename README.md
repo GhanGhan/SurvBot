@@ -14,7 +14,8 @@ Remote controlled robot that surveys the environment it is travelling in.
 - Entire system is powered by a 9V-12V battery
 
 ## Block Diagaram
-![Block Diagaram](https://github.com/user-attachments/assets/89ef3221-fca1-412c-b29d-0304cf2fd357)
+![Block_Diagram2](https://github.com/user-attachments/assets/daec5c4c-c453-48a4-85f0-1a4a5af760ed)
+
 
 ***Figure 1: SYSTEM BLOCK DIAGRAM (SIMPLE)***
 
