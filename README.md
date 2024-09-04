@@ -88,9 +88,9 @@ Remote controlled robot that surveys the environment it is travelling in.
 ### External Memory
 ![External_Memory 7](https://github.com/user-attachments/assets/ce59d9ab-3ccf-4c5b-8fd0-67382fc3f497)
 ***Figure 7: External Memory Schematic***
-•	Powered by 3.3V
-•	32Mb NOR Flash memory
-•	Communicates with microcontroller via SPI
+- Powered by 3.3V
+- 32Mb NOR Flash memory
+- Communicates with microcontroller via SPI
 
 
 
