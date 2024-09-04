@@ -1,9 +1,8 @@
 # SurvBot
 Remote controlled robot that surveys the environment it is travelling in.
-![Full3D2](https://github.com/user-attachments/assets/bea00074-208c-4e4a-b9cb-5af8c80a9def)
-
 
 # Part One - Robot Control Unit (RCU)
+![Full3D2](https://github.com/user-attachments/assets/bea00074-208c-4e4a-b9cb-5af8c80a9def)
 ## Project Overview
 - Design and implement a PCB that has closed-loop control over 2 DC motors
 - Monitors and saves data about itself and the environment it is in:
