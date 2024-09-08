@@ -702,7 +702,7 @@
       (reference "Q403") (unit 1) (value "2N7002NXAKR (NMOS)") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/4ae6af5b-dfd5-4774-adb0-bdf147a15800"
-      (reference "R100") (unit 1) (value "8.9k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R100") (unit 1) (value "5.9k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/b265f195-de32-404f-a73c-b2d5ee499e9b/b2a7154b-2003-4e21-9bae-4d46f2f36ea9"
       (reference "R101") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0603_1608Metric")
