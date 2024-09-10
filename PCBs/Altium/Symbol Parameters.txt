@@ -1,0 +1,5 @@
+Manufacturer
+Manufacturer Part #
+Case/Package
+Supplier
+Supplier Part #

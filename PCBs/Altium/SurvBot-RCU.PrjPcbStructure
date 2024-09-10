@@ -1,0 +1,8 @@
+Record=TopLevelDocument|FileName=0_Overview.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=0_Overview.SchDoc|FileName=1_Power.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=0_Overview.SchDoc|FileName=2_MCU.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=0_Overview.SchDoc|FileName=3_MotorControl.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=0_Overview.SchDoc|FileName=4_Bluetooth.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=0_Overview.SchDoc|FileName=5_Sensors.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=0_Overview.SchDoc|FileName=6_CurrentFeedback.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=0_Overview.SchDoc|FileName=7_ExternalMemory.SchDoc|SheetNumber=8
