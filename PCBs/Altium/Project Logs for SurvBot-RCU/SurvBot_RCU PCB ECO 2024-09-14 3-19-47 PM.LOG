@@ -1,0 +1,1544 @@
+Added Component: Designator=C100(CAP-THT_RADIAL_D10.00mm_P5.00mm)
+Add component (AddParameter): Name = "Case/Package"; Value = "TH,D10xL16mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Rubycon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "35ZLH470MEFC10X16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C338196"; VariantName = "[No Variations]"
+Added Component: Designator=C101(CAP-THT-Radial__D8.0mmP3.5mm)
+Add component (AddParameter): Name = "Case/Package"; Value = "TH,D8xL11.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Rubycon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "50ZLH100MEFC8X11.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C109393"; VariantName = "[No Variations]"
+Added Component: Designator=C102(CAP-THT_RADIAL_D10.00mm_P5.00mm)
+Add component (AddParameter): Name = "Case/Package"; Value = "TH,D10xL16mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Rubycon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "16ZLH1000MEFC10X16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C338175"; VariantName = "[No Variations]"
+Added Component: Designator=C103(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C104(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL10A226MP8NUNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C86295"; VariantName = "[No Variations]"
+Added Component: Designator=C105(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL10A226MP8NUNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C86295"; VariantName = "[No Variations]"
+Added Component: Designator=C106(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL10A226MP8NUNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C86295"; VariantName = "[No Variations]"
+Added Component: Designator=C107(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CC0603KRX7R7BB105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C106248"; VariantName = "[No Variations]"
+Added Component: Designator=C108(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CC0603KRX7R7BB105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C106248"; VariantName = "[No Variations]"
+Added Component: Designator=C109(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL10A226MP8NUNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C86295"; VariantName = "[No Variations]"
+Added Component: Designator=C110(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL10A226MP8NUNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C86295"; VariantName = "[No Variations]"
+Added Component: Designator=C111(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CC0603KRX7R7BB105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C106248"; VariantName = "[No Variations]"
+Added Component: Designator=C112(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CC0603KRX7R7BB105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C106248"; VariantName = "[No Variations]"
+Added Component: Designator=C200(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL05A105KO5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C29266"; VariantName = "[No Variations]"
+Added Component: Designator=C201(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL05B104KP5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C133086"; VariantName = "[No Variations]"
+Added Component: Designator=C202(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL05A475MP5NRNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "Supplier Part #"; VariantName = "[No Variations]"
+Added Component: Designator=C203(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL05B104KP5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C133086"; VariantName = "[No Variations]"
+Added Component: Designator=C204(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin Tech Corp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "0402N140J500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C458857"; VariantName = "[No Variations]"
+Added Component: Designator=C205(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL05B104KP5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C133086"; VariantName = "[No Variations]"
+Added Component: Designator=C206(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin Tech Corp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "0402N140J500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C458857"; VariantName = "[No Variations]"
+Added Component: Designator=C300(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C301(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "GCM188R72A223KA37D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C161234"; VariantName = "[No Variations]"
+Added Component: Designator=C302(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C303(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C304(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C305(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "GCM188R72A223KA37D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C161234"; VariantName = "[No Variations]"
+Added Component: Designator=C306(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C307(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C308(CAP-THT-Radial__D8.0mmP3.5mm)
+Add component (AddParameter): Name = "Case/Package"; Value = "TH,D8xL11.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Rubycon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "35ZLH220MEFC8X11.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C107639"; VariantName = "[No Variations]"
+Added Component: Designator=C309(CAP-THT-Radial__D8.0mmP3.5mm)
+Add component (AddParameter): Name = "Case/Package"; Value = "TH,D8xL11.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Rubycon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "35ZLH220MEFC8X11.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C107639"; VariantName = "[No Variations]"
+Added Component: Designator=C400(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "GRM188R61A106ME69D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C90053"; VariantName = "[No Variations]"
+Added Component: Designator=C401(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C402(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C403(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CC0603KRX7R7BB105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C106248"; VariantName = "[No Variations]"
+Added Component: Designator=C404(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C405(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C406(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CC0603KRX7R7BB105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C106248"; VariantName = "[No Variations]"
+Added Component: Designator=C407(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C500(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C501(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C502(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CC0603KRX7R7BB105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C106248"; VariantName = "[No Variations]"
+Added Component: Designator=C503(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C600(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL05B104KP5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C133086"; VariantName = "[No Variations]"
+Added Component: Designator=C601(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C408132"; VariantName = "[No Variations]"
+Added Component: Designator=C602(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL05B104KP5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C133086"; VariantName = "[No Variations]"
+Added Component: Designator=C603(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C604(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "GRM1555C1H102JA01D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C76947"; VariantName = "[No Variations]"
+Added Component: Designator=C605(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL05B104KP5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C133086"; VariantName = "[No Variations]"
+Added Component: Designator=C606(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C408132"; VariantName = "[No Variations]"
+Added Component: Designator=C607(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL05B104KP5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C133086"; VariantName = "[No Variations]"
+Added Component: Designator=C608(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C609(CAP_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "GRM1555C1H102JA01D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C76947"; VariantName = "[No Variations]"
+Added Component: Designator=C700(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CC0603KRX7R7BB105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C106248"; VariantName = "[No Variations]"
+Added Component: Designator=D100(DO-214AC, SMA)
+Add component (AddParameter): Name = "Case/Package"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DIODES INCORPORATED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "B340AE-13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C168859"; VariantName = "[No Variations]"
+Added Component: Designator=D101(DIO-SOD-123FL)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-123FL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MCC(Micro Commercial Components)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "SM5817PL-TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C669022"; VariantName = "[No Variations]"
+Added Component: Designator=D102(DIO-SOD-123FL)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-123FL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MCC(Micro Commercial Components)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "SM5817PL-TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C669022"; VariantName = "[No Variations]"
+Added Component: Designator=D103(DIO-SOD-123FL)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-123FL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MCC(Micro Commercial Components)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "SM5817PL-TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C669022"; VariantName = "[No Variations]"
+Added Component: Designator=D104(DIO-SOD-123FL)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-123FL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MCC(Micro Commercial Components)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "SM5817PL-TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C669022"; VariantName = "[No Variations]"
+Added Component: Designator=D200(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D201(SOT-23-6)
+Add component (AddParameter): Name = "Distributor Link"; Value = "https://www.mouser.de/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "USBLC6-2SC6"; VariantName = "[No Variations]"
+Added Component: Designator=D202(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D203(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D204(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D300(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D301(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D302(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D303(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D304(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D305(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D400(SOT-23-6)
+Add component (AddParameter): Name = "Distributor Link"; Value = "https://www.mouser.de/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "USBLC6-2SC6"; VariantName = "[No Variations]"
+Added Component: Designator=D401(LED_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "150060GS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C5252984"; VariantName = "[No Variations]"
+Added Component: Designator=D402(LED_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "150060BS75000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C5197644"; VariantName = "[No Variations]"
+Added Component: Designator=J100(691102710002)
+Add component (AddParameter): Name = "Color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current"; Value = "15A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "15A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "13.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "8917706"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Levels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions Per Level"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "5.0038mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Plating"; Value = "Steel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stripping Length"; Value = "-6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Screw"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "300V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "300V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "11.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire Gauge (Max)"; Value = "22AWG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire Gauge (Min)"; Value = "14AWG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire/Cable Gauge"; Value = "22AWG"; VariantName = "[No Variations]"
+Added Component: Designator=J200(USB4105-GF-A-060)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Korean Hroparts Elec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TYPE-C-31-M-12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C165948"; VariantName = "[No Variations]"
+Added Component: Designator=J201(2541FV-5P)
+Add component (AddParameter): Name = "Case/Package"; Value = "P=2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "HanElectricity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "2541FV-5P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C18723050"; VariantName = "[No Variations]"
+Added Component: Designator=J300(2541FV-4P)
+Add component (AddParameter): Name = "Case/Package"; Value = "P=2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "HanElectricity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "2541FV-4P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C18723049"; VariantName = "[No Variations]"
+Added Component: Designator=J301(WJ500V-5.08-2P)
+Add component (AddParameter): Name = "Case/Package"; Value = "P=5.08mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Ningbo Kangnex Elec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "WJ500V-5.08-2P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C8465"; VariantName = "[No Variations]"
+Added Component: Designator=J302(2541FV-4P)
+Add component (AddParameter): Name = "Case/Package"; Value = "P=2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "HanElectricity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "2541FV-4P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C18723049"; VariantName = "[No Variations]"
+Added Component: Designator=J303(WJ500V-5.08-2P)
+Add component (AddParameter): Name = "Case/Package"; Value = "P=5.08mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Ningbo Kangnex Elec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "WJ500V-5.08-2P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C8465"; VariantName = "[No Variations]"
+Added Component: Designator=J400(USB4105-GF-A-060)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Korean Hroparts Elec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TYPE-C-31-M-12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C165948"; VariantName = "[No Variations]"
+Added Component: Designator=L100(IND-SMD_13.45x12.45mm)
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD,13.5x12.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Sunlord"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "MWSA1206S-680MT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C408532"; VariantName = "[No Variations]"
+Added Component: Designator=L101(IND-SMD_ 4.90x4.90mm)
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD,4.9x4.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "NRS5020T150MMGJ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C222920"; VariantName = "[No Variations]"
+Added Component: Designator=L102(IND_SMD-3.00MMX3.00MM)
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD,3x3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Sunlord"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "SPH3015H3R9MT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C431700"; VariantName = "[No Variations]"
+Added Component: Designator=L103(IND_SMD-3.00MMX3.00MM)
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD,3x3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Sunlord"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "SPH3015H3R9MT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C431700"; VariantName = "[No Variations]"
+Added Component: Designator=Q400(SOT23-3)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOT23-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "2N7002NXAKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C551416"; VariantName = "[No Variations]"
+Added Component: Designator=Q401(SOT23-3)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOT23-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "2N7002NXAKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C551416"; VariantName = "[No Variations]"
+Added Component: Designator=Q402(SOT23-3)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOT-23-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "BSS84AK,215"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C127273"; VariantName = "[No Variations]"
+Added Component: Designator=Q403(SOT23-3)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOT23-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "2N7002NXAKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C551416"; VariantName = "[No Variations]"
+Added Component: Designator=R100(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "PANASONIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ERJ3EKF5901V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C403290"; VariantName = "[No Variations]"
+Added Component: Designator=R101(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "PANASONIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ERJPA3F1501V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "C543357"; VariantName = "[No Variations]"
+Added Component: Designator=R102(RES_1206)
+Add component (AddParameter): Name = "Case/Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "UNI-ROYAL(Uniroyal Elec)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "AS0606J051JT5E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C966043"; VariantName = "[No Variations]"
+Added Component: Designator=R200(RES_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0402JR-070RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C60485"; VariantName = "[No Variations]"
+Added Component: Designator=R201(RES_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0402FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C60490"; VariantName = "[No Variations]"
+Added Component: Designator=R202(RES_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0402FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C60490"; VariantName = "[No Variations]"
+Added Component: Designator=R203(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "PANASONIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ERJ3EKF49R9V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C403255"; VariantName = "[No Variations]"
+Added Component: Designator=R204(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "PANASONIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ERJ3EKF49R9V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C403255"; VariantName = "[No Variations]"
+Added Component: Designator=R205(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-075K1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C105580"; VariantName = "[No Variations]"
+Added Component: Designator=R206(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-075K1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C105580"; VariantName = "[No Variations]"
+Added Component: Designator=R300(RES_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0402FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C60490"; VariantName = "[No Variations]"
+Added Component: Designator=R301(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-072K2L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C114662"; VariantName = "[No Variations]"
+Added Component: Designator=R302(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "PANASONIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ERJ-3EKF2002V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C403057"; VariantName = "[No Variations]"
+Added Component: Designator=R303(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "PANASONIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ERJ-3EKF2002V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C403057"; VariantName = "[No Variations]"
+Added Component: Designator=R304(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "AT0603BRD0740KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C5455515"; VariantName = "[No Variations]"
+Added Component: Designator=R305(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "AT0603BRD0740KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C5455515"; VariantName = "[No Variations]"
+Added Component: Designator=R306(RES_0402)
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0402FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C60490"; VariantName = "[No Variations]"
+Added Component: Designator=R307(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-072K2L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C114662"; VariantName = "[No Variations]"
+Added Component: Designator=R308(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "PANASONIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ERJ-3EKF2002V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C403057"; VariantName = "[No Variations]"
+Added Component: Designator=R309(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "PANASONIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ERJ-3EKF2002V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C403057"; VariantName = "[No Variations]"
+Added Component: Designator=R310(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "AT0603BRD0740KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C5455515"; VariantName = "[No Variations]"
+Added Component: Designator=R311(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "AT0603BRD0740KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C5455515"; VariantName = "[No Variations]"
+Added Component: Designator=R400(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C98220"; VariantName = "[No Variations]"
+Added Component: Designator=R401(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-075K1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C105580"; VariantName = "[No Variations]"
+Added Component: Designator=R402(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-075K1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C105580"; VariantName = "[No Variations]"
+Added Component: Designator=R403(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C98220"; VariantName = "[No Variations]"
+Added Component: Designator=R404(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-0720RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C125758"; VariantName = "[No Variations]"
+Added Component: Designator=R405(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C98220"; VariantName = "[No Variations]"
+Added Component: Designator=R406(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C98220"; VariantName = "[No Variations]"
+Added Component: Designator=R407(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-0720RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C125758"; VariantName = "[No Variations]"
+Added Component: Designator=R408(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-0720RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C125758"; VariantName = "[No Variations]"
+Added Component: Designator=R500(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C98220"; VariantName = "[No Variations]"
+Added Component: Designator=R600(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "BOURNS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CR0603-FX-1601ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C203329"; VariantName = "[No Variations]"
+Added Component: Designator=R601(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "PANASONIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ERJ3EKF15R0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C403005"; VariantName = "[No Variations]"
+Added Component: Designator=R602(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "BOURNS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CR0603-FX-1601ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C203329"; VariantName = "[No Variations]"
+Added Component: Designator=R603(RES_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "PANASONIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ERJ3EKF15R0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C403005"; VariantName = "[No Variations]"
+Added Component: Designator=SW200(FP-B3U-1000P-MFG)
+Add component (AddParameter): Name = "Actuator Length"; Value = "0.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD, 2.5x3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Current Rating"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "100mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "2.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Electrical Life"; Value = "200000Cycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Illumination Type"; Value = "Non-Illuminated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "100MR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Omron Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "B3U-1000P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "12V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mechanical Life"; Value = "200000Cycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-25°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Force"; Value = "1.5N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "Dust Proof"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C231329"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Function"; Value = "Off-Mom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Travel"; Value = "0.15mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Throw Configuration"; Value = "SPST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "12V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.000776oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "3mm"; VariantName = "[No Variations]"
+Added Component: Designator=SW400(FP-B3U-1000P-MFG)
+Add component (AddParameter): Name = "Actuator Length"; Value = "0.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Actuator Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD, 2.5x3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Current Rating"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Silver"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "100mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "2.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Electrical Life"; Value = "200000Cycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Illumination Type"; Value = "Non-Illuminated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "100MR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Omron Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "B3U-1000P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (DC)"; Value = "12V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mechanical Life"; Value = "200000Cycles"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-25°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Force"; Value = "1.5N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "Dust Proof"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C231329"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Function"; Value = "Off-Mom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Travel"; Value = "0.15mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Throw Configuration"; Value = "SPST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "12V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.000776oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "3mm"; VariantName = "[No Variations]"
+Added Component: Designator=SW(SPDT_Slide-JS102011JCQN)
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "C&K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "JS102011JCQN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C221659"; VariantName = "[No Variations]"
+Added Component: Designator=U1(16-HTSSOP)
+Add component (AddParameter): Name = "Case/Package"; Value = "HTSSOP-16-EP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "DRV8876PWPR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C575551"; VariantName = "[No Variations]"
+Added Component: Designator=U100(TO-263-6, D2PAK (5 Leads + Tab), TO-263BA)
+Add component (AddParameter): Name = "Case/Package"; Value = "TO-263-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "UMW(Youtai Semiconductor Co., Ltd.)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "LM2576S-ADJ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C347415"; VariantName = "[No Variations]"
+Added Component: Designator=U101(SOT-23-6 Thin, TSOT-23-6)
+Add component (AddParameter): Name = "Case/Package"; Value = "TSOT-23-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "AP63203WU-7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C780769"; VariantName = "[No Variations]"
+Added Component: Designator=U102(TO-252-3, DPAK (2 Leads + Tab), SC-63)
+Add component (AddParameter): Name = "Case/Package"; Value = "TO-252-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "AZ1117ID-3.3TRG1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C2926306"; VariantName = "[No Variations]"
+Added Component: Designator=U200(48-LQFP (7x7mm))
+Add component (AddParameter): Name = "Case/Package"; Value = "48-LQFP (7x7)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "STM32G0B1CBT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C2847904"; VariantName = "[No Variations]"
+Added Component: Designator=U300(SOT-23-5)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOT-23-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "OPA320AIDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C92494"; VariantName = "[No Variations]"
+Added Component: Designator=U301(16-HTSSOP)
+Add component (AddParameter): Name = "Case/Package"; Value = "HTSSOP-16-EP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "DRV8876PWPR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C575551"; VariantName = "[No Variations]"
+Added Component: Designator=U302(SOT-23-5)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOT-23-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "OPA320AIDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C92494"; VariantName = "[No Variations]"
+Added Component: Designator=U400(SOP-16)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOP-16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "WCH(Jiangsu Qin Heng)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CH340C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C7464026"; VariantName = "[No Variations]"
+Added Component: Designator=U401(ESP32­C3­MINI­1)
+Add component (AddParameter): Name = "Case/Package"; Value = "53-SMD Module"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Espressif Systems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ESP32-C3-MINI-1-N4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C2838502"; VariantName = "[No Variations]"
+Added Component: Designator=U402(UQFN-16-DG2788ADN-T1-GE4)
+Add component (AddParameter): Name = "Case/Package"; Value = "UQFN-16(1.8x2.6)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Intertech"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "DG2788ADN-T1-GE4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C222479"; VariantName = "[No Variations]"
+Added Component: Designator=U500(APDS-9306-065)
+Add component (AddParameter): Name = "Case/Package"; Value = "6-SMD Module"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Broadcom/AVAGO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "APDS-9306-065"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C2649498"; VariantName = "[No Variations]"
+Added Component: Designator=U501(LGA-14_LSM6DS3TR-C)
+Add component (AddParameter): Name = "Case/Package"; Value = "LGA-14(2.5x3)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "LSM6DS3TR-C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C967633"; VariantName = "[No Variations]"
+Added Component: Designator=U502(8-VFDFN Exposed Pad)
+Add component (AddParameter): Name = "Case/Package"; Value = "8-VFDFN Exposed Pad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Sensirion"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "SHT30-DIS-B2.5KS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C77361"; VariantName = "[No Variations]"
+Added Component: Designator=U600(SOT-23-5)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOT-23-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "OPA320AIDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C92494"; VariantName = "[No Variations]"
+Added Component: Designator=U601(SOT-23-6 Thin, TSOT-23-6)
+Add component (AddParameter): Name = "Case/Package"; Value = "TSOT-23-6L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ADC121C027CIMK/NOPB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C201638"; VariantName = "[No Variations]"
+Added Component: Designator=U602(SOT-23-5)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOT-23-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "OPA320AIDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C92494"; VariantName = "[No Variations]"
+Added Component: Designator=U603(SOT-23-6 Thin, TSOT-23-6)
+Add component (AddParameter): Name = "Case/Package"; Value = "TSOT-23-6L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ADC121C027CIMK/NOPB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C201638"; VariantName = "[No Variations]"
+Added Component: Designator=U700(8-SOIC, 5.26x5.25mm)
+Add component (AddParameter): Name = "Case/Package"; Value = "8-SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Microchip Tech"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "SST26VF032BT-104I/SM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C69337"; VariantName = "[No Variations]"
+Added Component: Designator=Y200(SMD3225-4P)
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD3225-4P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "SJK(SHENZHEN CRYSTAL TECH)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "7U16000E12UCG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C251610"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3A Pin=C110-2
+Added Pin To Net: NetName=+3V3A Pin=C600-2
+Added Pin To Net: NetName=+3V3A Pin=C601-2
+Added Pin To Net: NetName=+3V3A Pin=C602-2
+Added Pin To Net: NetName=+3V3A Pin=C605-2
+Added Pin To Net: NetName=+3V3A Pin=C606-2
+Added Pin To Net: NetName=+3V3A Pin=C607-2
+Added Pin To Net: NetName=+3V3A Pin=U102-2
+Added Pin To Net: NetName=+3V3A Pin=U600-5
+Added Pin To Net: NetName=+3V3A Pin=U601-1
+Added Pin To Net: NetName=+3V3A Pin=U602-5
+Added Pin To Net: NetName=+3V3A Pin=U603-1
+Added Net: Name=+3V3A
+Added Pin To Net: NetName=+3V3 Pin=C105-2
+Added Pin To Net: NetName=+3V3 Pin=C106-2
+Added Pin To Net: NetName=+3V3 Pin=C200-2
+Added Pin To Net: NetName=+3V3 Pin=C201-2
+Added Pin To Net: NetName=+3V3 Pin=C202-2
+Added Pin To Net: NetName=+3V3 Pin=C203-2
+Added Pin To Net: NetName=+3V3 Pin=C300-1
+Added Pin To Net: NetName=+3V3 Pin=C304-1
+Added Pin To Net: NetName=+3V3 Pin=C400-2
+Added Pin To Net: NetName=+3V3 Pin=C401-2
+Added Pin To Net: NetName=+3V3 Pin=C402-2
+Added Pin To Net: NetName=+3V3 Pin=C403-2
+Added Pin To Net: NetName=+3V3 Pin=C404-2
+Added Pin To Net: NetName=+3V3 Pin=C500-2
+Added Pin To Net: NetName=+3V3 Pin=C501-2
+Added Pin To Net: NetName=+3V3 Pin=C502-2
+Added Pin To Net: NetName=+3V3 Pin=C503-2
+Added Pin To Net: NetName=+3V3 Pin=C700-2
+Added Pin To Net: NetName=+3V3 Pin=J201-1
+Added Pin To Net: NetName=+3V3 Pin=L101-2
+Added Pin To Net: NetName=+3V3 Pin=Q402-2
+Added Pin To Net: NetName=+3V3 Pin=R201-1
+Added Pin To Net: NetName=+3V3 Pin=R202-2
+Added Pin To Net: NetName=+3V3 Pin=R300-1
+Added Pin To Net: NetName=+3V3 Pin=R306-1
+Added Pin To Net: NetName=+3V3 Pin=R404-1
+Added Pin To Net: NetName=+3V3 Pin=R405-2
+Added Pin To Net: NetName=+3V3 Pin=R500-2
+Added Pin To Net: NetName=+3V3 Pin=SW-1
+Added Pin To Net: NetName=+3V3 Pin=U1-5
+Added Pin To Net: NetName=+3V3 Pin=U101-1
+Added Pin To Net: NetName=+3V3 Pin=U200-4
+Added Pin To Net: NetName=+3V3 Pin=U200-5
+Added Pin To Net: NetName=+3V3 Pin=U200-6
+Added Pin To Net: NetName=+3V3 Pin=U300-5
+Added Pin To Net: NetName=+3V3 Pin=U301-5
+Added Pin To Net: NetName=+3V3 Pin=U302-5
+Added Pin To Net: NetName=+3V3 Pin=U400-16
+Added Pin To Net: NetName=+3V3 Pin=U401-3
+Added Pin To Net: NetName=+3V3 Pin=U402-10
+Added Pin To Net: NetName=+3V3 Pin=U500-3
+Added Pin To Net: NetName=+3V3 Pin=U501-5
+Added Pin To Net: NetName=+3V3 Pin=U501-8
+Added Pin To Net: NetName=+3V3 Pin=U501-12
+Added Pin To Net: NetName=+3V3 Pin=U502-5
+Added Pin To Net: NetName=+3V3 Pin=U700-8
+Added Net: Name=+3V3
+Added Pin To Net: NetName=+5VC Pin=C108-2
+Added Pin To Net: NetName=+5VC Pin=D102-A
+Added Pin To Net: NetName=+5VC Pin=L102-2
+Added Net: Name=+5VC
+Added Pin To Net: NetName=+5VF Pin=C112-2
+Added Pin To Net: NetName=+5VF Pin=D103-A
+Added Pin To Net: NetName=+5VF Pin=L103-2
+Added Net: Name=+5VF
+Added Pin To Net: NetName=+6V Pin=C102-1
+Added Pin To Net: NetName=+6V Pin=C302-2
+Added Pin To Net: NetName=+6V Pin=C303-2
+Added Pin To Net: NetName=+6V Pin=C306-2
+Added Pin To Net: NetName=+6V Pin=C307-2
+Added Pin To Net: NetName=+6V Pin=C308-1
+Added Pin To Net: NetName=+6V Pin=C309-1
+Added Pin To Net: NetName=+6V Pin=L100-2
+Added Pin To Net: NetName=+6V Pin=R100-2
+Added Pin To Net: NetName=+6V Pin=U1-11
+Added Pin To Net: NetName=+6V Pin=U301-11
+Added Net: Name=+6V
+Added Pin To Net: NetName=+VBATT Pin=C100-1
+Added Pin To Net: NetName=+VBATT Pin=C101-1
+Added Pin To Net: NetName=+VBATT Pin=D101-A
+Added Pin To Net: NetName=+VBATT Pin=J100-1
+Added Pin To Net: NetName=+VBATT Pin=U100-1
+Added Net: Name=+VBATT
+Added Pin To Net: NetName=+VCOM Pin=C104-2
+Added Pin To Net: NetName=+VCOM Pin=D101-K
+Added Pin To Net: NetName=+VCOM Pin=D102-K
+Added Pin To Net: NetName=+VCOM Pin=D104-K
+Added Pin To Net: NetName=+VCOM Pin=R102-1
+Added Pin To Net: NetName=+VCOM Pin=U101-2
+Added Pin To Net: NetName=+VCOM Pin=U101-3
+Added Net: Name=+VCOM
+Added Pin To Net: NetName=6V_LEFTA_OUTPUT Pin=R308-2
+Added Net: Name=6V_LEFTA_OUTPUT
+Added Pin To Net: NetName=6V_LEFTB_OUTPUT Pin=R309-2
+Added Net: Name=6V_LEFTB_OUTPUT
+Added Pin To Net: NetName=6V_RIGHTA_OUTPUT Pin=R302-2
+Added Net: Name=6V_RIGHTA_OUTPUT
+Added Pin To Net: NetName=6V_RIGHTB_OUTPUT Pin=R303-2
+Added Net: Name=6V_RIGHTB_OUTPUT
+Added Pin To Net: NetName=ADC_LEFT_IN Pin=C609-2
+Added Pin To Net: NetName=ADC_LEFT_IN Pin=R603-1
+Added Pin To Net: NetName=ADC_LEFT_IN Pin=U603-3
+Added Net: Name=ADC_LEFT_IN
+Added Pin To Net: NetName=ADC_RIGHT_IN Pin=C604-2
+Added Pin To Net: NetName=ADC_RIGHT_IN Pin=R601-1
+Added Pin To Net: NetName=ADC_RIGHT_IN Pin=U601-3
+Added Net: Name=ADC_RIGHT_IN
+Added Pin To Net: NetName=AWAKE_SLEEP Pin=U1-3
+Added Pin To Net: NetName=AWAKE_SLEEP Pin=U200-25
+Added Pin To Net: NetName=AWAKE_SLEEP Pin=U301-3
+Added Net: Name=AWAKE_SLEEP
+Added Pin To Net: NetName=BATT_FILT Pin=C109-2
+Added Pin To Net: NetName=BATT_FILT Pin=R102-2
+Added Pin To Net: NetName=BATT_FILT Pin=U102-1
+Added Net: Name=BATT_FILT
+Added Pin To Net: NetName=BOOST_IN Pin=C103-2
+Added Pin To Net: NetName=BOOST_IN Pin=U101-6
+Added Net: Name=BOOST_IN
+Added Pin To Net: NetName=BT_CC1 Pin=J400-A5
+Added Pin To Net: NetName=BT_CC1 Pin=R402-2
+Added Net: Name=BT_CC1
+Added Pin To Net: NetName=BT_CC2 Pin=J400-B5
+Added Pin To Net: NetName=BT_CC2 Pin=R401-2
+Added Net: Name=BT_CC2
+Added Pin To Net: NetName=BT_EN Pin=C405-2
+Added Pin To Net: NetName=BT_EN Pin=C406-2
+Added Pin To Net: NetName=BT_EN Pin=Q401-3
+Added Pin To Net: NetName=BT_EN Pin=R405-1
+Added Pin To Net: NetName=BT_EN Pin=SW400-1
+Added Pin To Net: NetName=BT_EN Pin=U401-8
+Added Net: Name=BT_EN
+Added Pin To Net: NetName=BT_PROT_USB_D_N Pin=D400-1
+Added Pin To Net: NetName=BT_PROT_USB_D_N Pin=U400-6
+Added Net: Name=BT_PROT_USB_D_N
+Added Pin To Net: NetName=BT_PROT_USB_D_P Pin=D400-6
+Added Pin To Net: NetName=BT_PROT_USB_D_P Pin=U400-5
+Added Net: Name=BT_PROT_USB_D_P
+Added Pin To Net: NetName=BT_USB_D_N Pin=D400-3
+Added Pin To Net: NetName=BT_USB_D_N Pin=J400-A7
+Added Pin To Net: NetName=BT_USB_D_N Pin=J400-B7
+Added Net: Name=BT_USB_D_N
+Added Pin To Net: NetName=BT_USB_D_P Pin=D400-4
+Added Pin To Net: NetName=BT_USB_D_P Pin=J400-A6
+Added Pin To Net: NetName=BT_USB_D_P Pin=J400-B6
+Added Net: Name=BT_USB_D_P
+Added Pin To Net: NetName=BUCK_FB Pin=R100-1
+Added Pin To Net: NetName=BUCK_FB Pin=R101-2
+Added Pin To Net: NetName=BUCK_FB Pin=U100-4
+Added Net: Name=BUCK_FB
+Added Pin To Net: NetName=BUCK_OUT Pin=D100-K
+Added Pin To Net: NetName=BUCK_OUT Pin=L100-1
+Added Pin To Net: NetName=BUCK_OUT Pin=U100-2
+Added Net: Name=BUCK_OUT
+Added Pin To Net: NetName=BUFFERED_L_SENSED_MOTOR_CURRENT Pin=R602-2
+Added Pin To Net: NetName=BUFFERED_L_SENSED_MOTOR_CURRENT Pin=U302-1
+Added Pin To Net: NetName=BUFFERED_L_SENSED_MOTOR_CURRENT Pin=U302-4
+Added Net: Name=BUFFERED_L_SENSED_MOTOR_CURRENT
+Added Pin To Net: NetName=BUFFERED_R_SENSED_MOTOR_CURRENT Pin=R600-2
+Added Pin To Net: NetName=BUFFERED_R_SENSED_MOTOR_CURRENT Pin=U300-1
+Added Pin To Net: NetName=BUFFERED_R_SENSED_MOTOR_CURRENT Pin=U300-4
+Added Net: Name=BUFFERED_R_SENSED_MOTOR_CURRENT
+Added Pin To Net: NetName=CTR_MODE Pin=U1-16
+Added Pin To Net: NetName=CTR_MODE Pin=U1-16
+Added Pin To Net: NetName=CTR_MODE Pin=U200-26
+Added Pin To Net: NetName=CTR_MODE Pin=U301-16
+Added Pin To Net: NetName=CTR_MODE Pin=U301-16
+Added Net: Name=CTR_MODE
+Added Pin To Net: NetName=DTR Pin=Q400-2
+Added Pin To Net: NetName=DTR Pin=R403-1
+Added Pin To Net: NetName=DTR Pin=U400-13
+Added Net: Name=DTR
+Added Pin To Net: NetName=GND Pin=C100-2
+Added Pin To Net: NetName=GND Pin=C101-2
+Added Pin To Net: NetName=GND Pin=C102-2
+Added Pin To Net: NetName=GND Pin=C104-1
+Added Pin To Net: NetName=GND Pin=C105-1
+Added Pin To Net: NetName=GND Pin=C106-1
+Added Pin To Net: NetName=GND Pin=C107-1
+Added Pin To Net: NetName=GND Pin=C108-1
+Added Pin To Net: NetName=GND Pin=C109-1
+Added Pin To Net: NetName=GND Pin=C110-1
+Added Pin To Net: NetName=GND Pin=C111-1
+Added Pin To Net: NetName=GND Pin=C112-1
+Added Pin To Net: NetName=GND Pin=C200-1
+Added Pin To Net: NetName=GND Pin=C201-1
+Added Pin To Net: NetName=GND Pin=C202-1
+Added Pin To Net: NetName=GND Pin=C203-1
+Added Pin To Net: NetName=GND Pin=C204-1
+Added Pin To Net: NetName=GND Pin=C205-1
+Added Pin To Net: NetName=GND Pin=C206-1
+Added Pin To Net: NetName=GND Pin=C300-2
+Added Pin To Net: NetName=GND Pin=C303-1
+Added Pin To Net: NetName=GND Pin=C304-2
+Added Pin To Net: NetName=GND Pin=C307-1
+Added Pin To Net: NetName=GND Pin=C308-2
+Added Pin To Net: NetName=GND Pin=C309-2
+Added Pin To Net: NetName=GND Pin=C400-1
+Added Pin To Net: NetName=GND Pin=C401-1
+Added Pin To Net: NetName=GND Pin=C402-1
+Added Pin To Net: NetName=GND Pin=C403-1
+Added Pin To Net: NetName=GND Pin=C404-1
+Added Pin To Net: NetName=GND Pin=C405-1
+Added Pin To Net: NetName=GND Pin=C406-1
+Added Pin To Net: NetName=GND Pin=C407-1
+Added Pin To Net: NetName=GND Pin=C500-1
+Added Pin To Net: NetName=GND Pin=C501-1
+Added Pin To Net: NetName=GND Pin=C502-1
+Added Pin To Net: NetName=GND Pin=C503-1
+Added Pin To Net: NetName=GND Pin=C600-1
+Added Pin To Net: NetName=GND Pin=C601-1
+Added Pin To Net: NetName=GND Pin=C602-1
+Added Pin To Net: NetName=GND Pin=C603-1
+Added Pin To Net: NetName=GND Pin=C604-1
+Added Pin To Net: NetName=GND Pin=C605-1
+Added Pin To Net: NetName=GND Pin=C606-1
+Added Pin To Net: NetName=GND Pin=C607-1
+Added Pin To Net: NetName=GND Pin=C608-1
+Added Pin To Net: NetName=GND Pin=C609-1
+Added Pin To Net: NetName=GND Pin=C700-1
+Added Pin To Net: NetName=GND Pin=D100-A
+Added Pin To Net: NetName=GND Pin=D201-2
+Added Pin To Net: NetName=GND Pin=D400-2
+Added Pin To Net: NetName=GND Pin=J100-2
+Added Pin To Net: NetName=GND Pin=J200-A1B12
+Added Pin To Net: NetName=GND Pin=J200-B1A12
+Added Pin To Net: NetName=GND Pin=J201-2
+Added Pin To Net: NetName=GND Pin=J400-A1B12
+Added Pin To Net: NetName=GND Pin=J400-B1A12
+Added Pin To Net: NetName=GND Pin=Q403-2
+Added Pin To Net: NetName=GND Pin=R101-1
+Added Pin To Net: NetName=GND Pin=R205-1
+Added Pin To Net: NetName=GND Pin=R206-1
+Added Pin To Net: NetName=GND Pin=R301-1
+Added Pin To Net: NetName=GND Pin=R304-1
+Added Pin To Net: NetName=GND Pin=R305-1
+Added Pin To Net: NetName=GND Pin=R307-1
+Added Pin To Net: NetName=GND Pin=R310-1
+Added Pin To Net: NetName=GND Pin=R311-1
+Added Pin To Net: NetName=GND Pin=R401-1
+Added Pin To Net: NetName=GND Pin=R402-1
+Added Pin To Net: NetName=GND Pin=R406-1
+Added Pin To Net: NetName=GND Pin=R407-1
+Added Pin To Net: NetName=GND Pin=SW200-2
+Added Pin To Net: NetName=GND Pin=SW400-2
+Added Pin To Net: NetName=GND Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U1-9
+Added Pin To Net: NetName=GND Pin=U1-15
+Added Pin To Net: NetName=GND Pin=U100-3
+Added Pin To Net: NetName=GND Pin=U100-5
+Added Pin To Net: NetName=GND Pin=U100-5
+Added Pin To Net: NetName=GND Pin=U101-4
+Added Pin To Net: NetName=GND Pin=U102-3
+Added Pin To Net: NetName=GND Pin=U200-7
+Added Pin To Net: NetName=GND Pin=U300-2
+Added Pin To Net: NetName=GND Pin=U301-7
+Added Pin To Net: NetName=GND Pin=U301-9
+Added Pin To Net: NetName=GND Pin=U301-15
+Added Pin To Net: NetName=GND Pin=U302-2
+Added Pin To Net: NetName=GND Pin=U400-1
+Added Pin To Net: NetName=GND Pin=U401-1
+Added Pin To Net: NetName=GND Pin=U401-2
+Added Pin To Net: NetName=GND Pin=U401-11
+Added Pin To Net: NetName=GND Pin=U401-14
+Added Pin To Net: NetName=GND Pin=U401-40
+Added Pin To Net: NetName=GND Pin=U401-41
+Added Pin To Net: NetName=GND Pin=U401-42
+Added Pin To Net: NetName=GND Pin=U401-43
+Added Pin To Net: NetName=GND Pin=U401-44
+Added Pin To Net: NetName=GND Pin=U401-45
+Added Pin To Net: NetName=GND Pin=U401-46
+Added Pin To Net: NetName=GND Pin=U401-46
+Added Pin To Net: NetName=GND Pin=U401-47
+Added Pin To Net: NetName=GND Pin=U401-47
+Added Pin To Net: NetName=GND Pin=U401-48
+Added Pin To Net: NetName=GND Pin=U401-48
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-50
+Added Pin To Net: NetName=GND Pin=U401-51
+Added Pin To Net: NetName=GND Pin=U401-52
+Added Pin To Net: NetName=GND Pin=U401-53
+Added Pin To Net: NetName=GND Pin=U402-2
+Added Pin To Net: NetName=GND Pin=U500-6
+Added Pin To Net: NetName=GND Pin=U501-1
+Added Pin To Net: NetName=GND Pin=U501-2
+Added Pin To Net: NetName=GND Pin=U501-3
+Added Pin To Net: NetName=GND Pin=U501-7
+Added Pin To Net: NetName=GND Pin=U502-2
+Added Pin To Net: NetName=GND Pin=U502-7
+Added Pin To Net: NetName=GND Pin=U502-8
+Added Pin To Net: NetName=GND Pin=U502-8
+Added Pin To Net: NetName=GND Pin=U600-2
+Added Pin To Net: NetName=GND Pin=U601-2
+Added Pin To Net: NetName=GND Pin=U601-4
+Added Pin To Net: NetName=GND Pin=U602-2
+Added Pin To Net: NetName=GND Pin=U603-2
+Added Pin To Net: NetName=GND Pin=U700-4
+Added Pin To Net: NetName=GND Pin=Y200-2
+Added Pin To Net: NetName=GND Pin=Y200-4
+Added Net: Name=GND
+Added Pin To Net: NetName=HOLD Pin=U200-40
+Added Pin To Net: NetName=HOLD Pin=U700-7
+Added Net: Name=HOLD
+Added Pin To Net: NetName=HSE_IN Pin=C204-2
+Added Pin To Net: NetName=HSE_IN Pin=U200-8
+Added Pin To Net: NetName=HSE_IN Pin=Y200-3
+Added Net: Name=HSE_IN
+Added Pin To Net: NetName=HSE_OUT_A Pin=R200-2
+Added Pin To Net: NetName=HSE_OUT_A Pin=U200-9
+Added Net: Name=HSE_OUT_A
+Added Pin To Net: NetName=HSE_OUT_B Pin=C206-2
+Added Pin To Net: NetName=HSE_OUT_B Pin=R200-1
+Added Pin To Net: NetName=HSE_OUT_B Pin=Y200-1
+Added Net: Name=HSE_OUT_B
+Added Pin To Net: NetName=I2C_SCL Pin=R202-1
+Added Pin To Net: NetName=I2C_SCL Pin=U200-23
+Added Pin To Net: NetName=I2C_SCL Pin=U500-1
+Added Pin To Net: NetName=I2C_SCL Pin=U501-13
+Added Pin To Net: NetName=I2C_SCL Pin=U502-4
+Added Pin To Net: NetName=I2C_SCL Pin=U601-5
+Added Pin To Net: NetName=I2C_SCL Pin=U603-5
+Added Net: Name=I2C_SCL
+Added Pin To Net: NetName=I2C_SDA Pin=R201-2
+Added Pin To Net: NetName=I2C_SDA Pin=U200-22
+Added Pin To Net: NetName=I2C_SDA Pin=U500-2
+Added Pin To Net: NetName=I2C_SDA Pin=U500-2
+Added Pin To Net: NetName=I2C_SDA Pin=U501-14
+Added Pin To Net: NetName=I2C_SDA Pin=U502-1
+Added Pin To Net: NetName=I2C_SDA Pin=U601-6
+Added Pin To Net: NetName=I2C_SDA Pin=U603-6
+Added Net: Name=I2C_SDA
+Added Pin To Net: NetName=IO0 Pin=Q400-3
+Added Pin To Net: NetName=IO0 Pin=U401-12
+Added Net: Name=IO0
+Added Pin To Net: NetName=L_EN/PWM Pin=U200-48
+Added Pin To Net: NetName=L_EN/PWM Pin=U301-1
+Added Net: Name=L_EN/PWM
+Added Pin To Net: NetName=L_FLTRD_CURRENT Pin=C608-2
+Added Pin To Net: NetName=L_FLTRD_CURRENT Pin=R602-1
+Added Pin To Net: NetName=L_FLTRD_CURRENT Pin=U602-3
+Added Net: Name=L_FLTRD_CURRENT
+Added Pin To Net: NetName=L_PH/PWM Pin=U200-20
+Added Pin To Net: NetName=L_PH/PWM Pin=U301-2
+Added Net: Name=L_PH/PWM
+Added Pin To Net: NetName=L_WHEEL_ENC_A Pin=R308-1
+Added Pin To Net: NetName=L_WHEEL_ENC_A Pin=R310-2
+Added Pin To Net: NetName=L_WHEEL_ENC_A Pin=U200-17
+Added Net: Name=L_WHEEL_ENC_A
+Added Pin To Net: NetName=L_WHEEL_ENC_B Pin=R309-1
+Added Pin To Net: NetName=L_WHEEL_ENC_B Pin=R311-2
+Added Pin To Net: NetName=L_WHEEL_ENC_B Pin=U200-18
+Added Net: Name=L_WHEEL_ENC_B
+Added Pin To Net: NetName=LEFT_AMP_OUT Pin=R603-2
+Added Pin To Net: NetName=LEFT_AMP_OUT Pin=U602-1
+Added Pin To Net: NetName=LEFT_AMP_OUT Pin=U602-4
+Added Net: Name=LEFT_AMP_OUT
+Added Pin To Net: NetName=LEFT_CP_OUTPUT Pin=C306-1
+Added Pin To Net: NetName=LEFT_CP_OUTPUT Pin=U301-12
+Added Net: Name=LEFT_CP_OUTPUT
+Added Pin To Net: NetName=LEFT_CPH Pin=C305-1
+Added Pin To Net: NetName=LEFT_CPH Pin=U301-13
+Added Net: Name=LEFT_CPH
+Added Pin To Net: NetName=LEFT_CPL Pin=C305-2
+Added Pin To Net: NetName=LEFT_CPL Pin=U301-14
+Added Net: Name=LEFT_CPL
+Added Pin To Net: NetName=LEFT_OUT1 Pin=J303-1
+Added Pin To Net: NetName=LEFT_OUT1 Pin=U301-8
+Added Net: Name=LEFT_OUT1
+Added Pin To Net: NetName=LEFT_OUT2 Pin=J303-2
+Added Pin To Net: NetName=LEFT_OUT2 Pin=U301-10
+Added Net: Name=LEFT_OUT2
+Added Pin To Net: NetName=LEFT_SENSED_MOTOR_CURRENT Pin=R307-2
+Added Pin To Net: NetName=LEFT_SENSED_MOTOR_CURRENT Pin=U301-6
+Added Pin To Net: NetName=LEFT_SENSED_MOTOR_CURRENT Pin=U302-3
+Added Net: Name=LEFT_SENSED_MOTOR_CURRENT
+Added Pin To Net: NetName=Light_sensor_INT_H Pin=R500-1
+Added Pin To Net: NetName=Light_sensor_INT_H Pin=U500-4
+Added Net: Name=Light_sensor_INT_H
+Added Pin To Net: NetName=MCU_CC1 Pin=J200-A5
+Added Pin To Net: NetName=MCU_CC1 Pin=R206-2
+Added Net: Name=MCU_CC1
+Added Pin To Net: NetName=MCU_CC2 Pin=J200-B5
+Added Pin To Net: NetName=MCU_CC2 Pin=R205-2
+Added Net: Name=MCU_CC2
+Added Pin To Net: NetName=MEM_SELECT Pin=U200-45
+Added Pin To Net: NetName=MEM_SELECT Pin=U700-1
+Added Net: Name=MEM_SELECT
+Added Pin To Net: NetName=NetD401_1 Pin=D401-1
+Added Pin To Net: NetName=NetD401_1 Pin=R408-1
+Added Net: Name=NetD401_1
+Added Pin To Net: NetName=NetD401_2 Pin=D401-2
+Added Pin To Net: NetName=NetD401_2 Pin=Q402-3
+Added Net: Name=NetD401_2
+Added Pin To Net: NetName=NetD402_1 Pin=D402-1
+Added Pin To Net: NetName=NetD402_1 Pin=Q403-3
+Added Net: Name=NetD402_1
+Added Pin To Net: NetName=NetD402_2 Pin=D402-2
+Added Pin To Net: NetName=NetD402_2 Pin=R404-2
+Added Net: Name=NetD402_2
+Added Pin To Net: NetName=NetQ400_1 Pin=Q400-1
+Added Pin To Net: NetName=NetQ400_1 Pin=R400-2
+Added Net: Name=NetQ400_1
+Added Pin To Net: NetName=NetQ401_1 Pin=Q401-1
+Added Pin To Net: NetName=NetQ401_1 Pin=R403-2
+Added Net: Name=NetQ401_1
+Added Pin To Net: NetName=NetR407_2 Pin=R407-2
+Added Pin To Net: NetName=NetR407_2 Pin=R408-2
+Added Net: Name=NetR407_2
+Added Pin To Net: NetName=nFAULT_L Pin=R306-2
+Added Pin To Net: NetName=nFAULT_L Pin=U200-39
+Added Pin To Net: NetName=nFAULT_L Pin=U301-4
+Added Net: Name=nFAULT_L
+Added Pin To Net: NetName=nFAULT_R Pin=R300-2
+Added Pin To Net: NetName=nFAULT_R Pin=U1-4
+Added Pin To Net: NetName=nFAULT_R Pin=U200-38
+Added Net: Name=nFAULT_R
+Added Pin To Net: NetName=NRST Pin=C205-2
+Added Pin To Net: NetName=NRST Pin=J201-5
+Added Pin To Net: NetName=NRST Pin=SW200-1
+Added Pin To Net: NetName=NRST Pin=U200-10
+Added Net: Name=NRST
+Added Pin To Net: NetName=PRIORITY_3_POWER Pin=D103-K
+Added Pin To Net: NetName=PRIORITY_3_POWER Pin=D104-A
+Added Net: Name=PRIORITY_3_POWER
+Added Pin To Net: NetName=PROT_USB_D_N Pin=D201-1
+Added Pin To Net: NetName=PROT_USB_D_N Pin=U200-33
+Added Net: Name=PROT_USB_D_N
+Added Pin To Net: NetName=PROT_USB_D_P Pin=D201-6
+Added Pin To Net: NetName=PROT_USB_D_P Pin=U200-34
+Added Net: Name=PROT_USB_D_P
+Added Pin To Net: NetName=R_EN/PWM Pin=U1-1
+Added Pin To Net: NetName=R_EN/PWM Pin=U200-15
+Added Net: Name=R_EN/PWM
+Added Pin To Net: NetName=R_FLTRD_CURRENT Pin=C603-2
+Added Pin To Net: NetName=R_FLTRD_CURRENT Pin=R600-1
+Added Pin To Net: NetName=R_FLTRD_CURRENT Pin=U600-3
+Added Net: Name=R_FLTRD_CURRENT
+Added Pin To Net: NetName=R_PH/PWM Pin=U1-2
+Added Pin To Net: NetName=R_PH/PWM Pin=U200-14
+Added Net: Name=R_PH/PWM
+Added Pin To Net: NetName=R_WHEEL_ENC_A Pin=R302-1
+Added Pin To Net: NetName=R_WHEEL_ENC_A Pin=R304-2
+Added Pin To Net: NetName=R_WHEEL_ENC_A Pin=U200-11
+Added Net: Name=R_WHEEL_ENC_A
+Added Pin To Net: NetName=R_WHEEL_ENC_B Pin=R303-1
+Added Pin To Net: NetName=R_WHEEL_ENC_B Pin=R305-2
+Added Pin To Net: NetName=R_WHEEL_ENC_B Pin=U200-12
+Added Net: Name=R_WHEEL_ENC_B
+Added Pin To Net: NetName=RIGHT_AMP_OUT Pin=R601-2
+Added Pin To Net: NetName=RIGHT_AMP_OUT Pin=U600-1
+Added Pin To Net: NetName=RIGHT_AMP_OUT Pin=U600-4
+Added Net: Name=RIGHT_AMP_OUT
+Added Pin To Net: NetName=RIGHT_CP_OUTPUT Pin=C302-1
+Added Pin To Net: NetName=RIGHT_CP_OUTPUT Pin=U1-12
+Added Net: Name=RIGHT_CP_OUTPUT
+Added Pin To Net: NetName=RIGHT_CPH Pin=C301-1
+Added Pin To Net: NetName=RIGHT_CPH Pin=U1-13
+Added Net: Name=RIGHT_CPH
+Added Pin To Net: NetName=RIGHT_CPL Pin=C301-2
+Added Pin To Net: NetName=RIGHT_CPL Pin=U1-14
+Added Net: Name=RIGHT_CPL
+Added Pin To Net: NetName=RIGHT_OUT1 Pin=J301-1
+Added Pin To Net: NetName=RIGHT_OUT1 Pin=U1-8
+Added Net: Name=RIGHT_OUT1
+Added Pin To Net: NetName=RIGHT_OUT2 Pin=J301-2
+Added Pin To Net: NetName=RIGHT_OUT2 Pin=U1-10
+Added Net: Name=RIGHT_OUT2
+Added Pin To Net: NetName=RIGHT_SENSED_MOTOR_CURRENT Pin=R301-2
+Added Pin To Net: NetName=RIGHT_SENSED_MOTOR_CURRENT Pin=U1-6
+Added Pin To Net: NetName=RIGHT_SENSED_MOTOR_CURRENT Pin=U300-3
+Added Net: Name=RIGHT_SENSED_MOTOR_CURRENT
+Added Pin To Net: NetName=RTS Pin=Q401-2
+Added Pin To Net: NetName=RTS Pin=R400-1
+Added Pin To Net: NetName=RTS Pin=U400-14
+Added Net: Name=RTS
+Added Pin To Net: NetName=SPI_MISO Pin=U200-43
+Added Pin To Net: NetName=SPI_MISO Pin=U700-2
+Added Net: Name=SPI_MISO
+Added Pin To Net: NetName=SPI_MOSI Pin=U200-44
+Added Pin To Net: NetName=SPI_MOSI Pin=U700-5
+Added Net: Name=SPI_MOSI
+Added Pin To Net: NetName=SPI_SCK Pin=U200-42
+Added Pin To Net: NetName=SPI_SCK Pin=U700-6
+Added Net: Name=SPI_SCK
+Added Pin To Net: NetName=SWCLK_PIN Pin=R204-2
+Added Pin To Net: NetName=SWCLK_PIN Pin=U200-36
+Added Net: Name=SWCLK_PIN
+Added Pin To Net: NetName=SWCLK Pin=J201-4
+Added Pin To Net: NetName=SWCLK Pin=R204-1
+Added Net: Name=SWCLK
+Added Pin To Net: NetName=SWDIO_PIN Pin=R203-2
+Added Pin To Net: NetName=SWDIO_PIN Pin=U200-35
+Added Net: Name=SWDIO_PIN
+Added Pin To Net: NetName=SWDIO Pin=J201-3
+Added Pin To Net: NetName=SWDIO Pin=R203-1
+Added Net: Name=SWDIO
+Added Pin To Net: NetName=SWO Pin=C103-1
+Added Pin To Net: NetName=SWO Pin=L101-1
+Added Pin To Net: NetName=SWO Pin=U101-5
+Added Net: Name=SWO
+Added Pin To Net: NetName=UART_BT_RX Pin=U401-30
+Added Pin To Net: NetName=UART_BT_RX Pin=U402-12
+Added Net: Name=UART_BT_RX
+Added Pin To Net: NetName=UART_BT_TX Pin=U401-31
+Added Pin To Net: NetName=UART_BT_TX Pin=U402-16
+Added Net: Name=UART_BT_TX
+Added Pin To Net: NetName=UART_MCU_RX Pin=U200-29
+Added Pin To Net: NetName=UART_MCU_RX Pin=U402-15
+Added Net: Name=UART_MCU_RX
+Added Pin To Net: NetName=UART_MCU_TX Pin=U200-32
+Added Pin To Net: NetName=UART_MCU_TX Pin=U402-11
+Added Net: Name=UART_MCU_TX
+Added Pin To Net: NetName=UART_PGR_RX Pin=U400-3
+Added Pin To Net: NetName=UART_PGR_RX Pin=U402-1
+Added Net: Name=UART_PGR_RX
+Added Pin To Net: NetName=UART_PGR_TX Pin=U400-2
+Added Pin To Net: NetName=UART_PGR_TX Pin=U402-13
+Added Net: Name=UART_PGR_TX
+Added Pin To Net: NetName=UART_SELECT Pin=C407-2
+Added Pin To Net: NetName=UART_SELECT Pin=Q402-1
+Added Pin To Net: NetName=UART_SELECT Pin=Q403-1
+Added Pin To Net: NetName=UART_SELECT Pin=R406-2
+Added Pin To Net: NetName=UART_SELECT Pin=SW-2
+Added Pin To Net: NetName=UART_SELECT Pin=U402-14
+Added Net: Name=UART_SELECT
+Added Pin To Net: NetName=USB_D_N Pin=D201-3
+Added Pin To Net: NetName=USB_D_N Pin=J200-A7
+Added Pin To Net: NetName=USB_D_N Pin=J200-B7
+Added Net: Name=USB_D_N
+Added Pin To Net: NetName=USB_D_P Pin=D201-4
+Added Pin To Net: NetName=USB_D_P Pin=J200-A6
+Added Pin To Net: NetName=USB_D_P Pin=J200-B6
+Added Net: Name=USB_D_P
+Added Pin To Net: NetName=VBUS1 Pin=C107-2
+Added Pin To Net: NetName=VBUS1 Pin=D201-5
+Added Pin To Net: NetName=VBUS1 Pin=J200-A4B9
+Added Pin To Net: NetName=VBUS1 Pin=J200-B4A9
+Added Pin To Net: NetName=VBUS1 Pin=L102-1
+Added Net: Name=VBUS1
+Added Pin To Net: NetName=VBUS2 Pin=C111-2
+Added Pin To Net: NetName=VBUS2 Pin=D400-5
+Added Pin To Net: NetName=VBUS2 Pin=J400-A4B9
+Added Pin To Net: NetName=VBUS2 Pin=J400-B4A9
+Added Pin To Net: NetName=VBUS2 Pin=L103-1
+Added Net: Name=VBUS2
+Added Pin To Net: NetName=WRITE_PROTECT Pin=U200-41
+Added Pin To Net: NetName=WRITE_PROTECT Pin=U700-3
+Added Net: Name=WRITE_PROTECT
+Added Class: Name=U_1_SurvBot_RCU_Power
+Added Class: Name=U_2_SurvBot_RCU_MCU
+Added Class: Name=U_3_SurvBot_RCU_MotorControl
+Added Class: Name=U_4_SurvBot_RCU_Bluetooth
+Added Class: Name=U_5_SurvBot_RCU_Sensors
+Added Class: Name=U_6_SurvBot_RCU_CurrentFeedback
+Added Class: Name=U_7_SurvBot_RCU_ExternalMemory
+Added Differential Pair: Name=BT_USB_D
+Added Differential Pair: Name=USB_D
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4
+Added Rule: Name=Schematic Supply Nets_5
+Added Rule: Name=Schematic Supply Nets_6
+Added Rule: Name=Schematic Supply Nets_7
+Added Rule: Name=Schematic Supply Nets_8
+Added Rule: Name=Schematic Supply Nets_9
+Added Class: Name=USB

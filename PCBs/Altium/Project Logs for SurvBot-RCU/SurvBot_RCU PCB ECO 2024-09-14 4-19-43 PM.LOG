@@ -1,0 +1,104 @@
+Removed Pin From Net: NetName=GND Pin=U401-1
+Removed Pin From Net: NetName=GND Pin=U401-2
+Removed Pin From Net: NetName=+3V3 Pin=U401-3
+Removed Pin From Net: NetName=BT_EN Pin=U401-8
+Removed Pin From Net: NetName=GND Pin=U401-11
+Removed Pin From Net: NetName=IO0 Pin=U401-12
+Removed Pin From Net: NetName=GND Pin=U401-14
+Removed Pin From Net: NetName=UART_BT_RX Pin=U401-30
+Removed Pin From Net: NetName=UART_BT_TX Pin=U401-31
+Removed Pin From Net: NetName=GND Pin=U401-40
+Removed Pin From Net: NetName=GND Pin=U401-41
+Removed Pin From Net: NetName=GND Pin=U401-42
+Removed Pin From Net: NetName=GND Pin=U401-43
+Removed Pin From Net: NetName=GND Pin=U401-44
+Removed Pin From Net: NetName=GND Pin=U401-45
+Removed Pin From Net: NetName=GND Pin=U401-46
+Removed Pin From Net: NetName=GND Pin=U401-46
+Removed Pin From Net: NetName=GND Pin=U401-47
+Removed Pin From Net: NetName=GND Pin=U401-47
+Removed Pin From Net: NetName=GND Pin=U401-48
+Removed Pin From Net: NetName=GND Pin=U401-48
+Removed Pin From Net: NetName=GND Pin=U401-49
+Removed Pin From Net: NetName=GND Pin=U401-49
+Removed Pin From Net: NetName=GND Pin=U401-49
+Removed Pin From Net: NetName=GND Pin=U401-49
+Removed Pin From Net: NetName=GND Pin=U401-49
+Removed Pin From Net: NetName=GND Pin=U401-49
+Removed Pin From Net: NetName=GND Pin=U401-49
+Removed Pin From Net: NetName=GND Pin=U401-49
+Removed Pin From Net: NetName=GND Pin=U401-49
+Removed Pin From Net: NetName=GND Pin=U401-49
+Removed Pin From Net: NetName=GND Pin=U401-50
+Removed Pin From Net: NetName=GND Pin=U401-51
+Removed Pin From Net: NetName=GND Pin=U401-52
+Removed Pin From Net: NetName=GND Pin=U401-53
+Added Component: Designator=U401(ESP32­C3­MINI­1)
+Add component (AddParameter): Name = "Case/Package"; Value = "53-SMD Module"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Espressif Systems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ESP32-C3-MINI-1-N4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C2838502"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin D200-K1
+Add Pin To Net: Unknown Pin: Pin D200-K2
+Add Pin To Net: Unknown Pin: Pin D202-K1
+Add Pin To Net: Unknown Pin: Pin D202-K2
+Add Pin To Net: Unknown Pin: Pin D203-K1
+Add Pin To Net: Unknown Pin: Pin D203-K2
+Add Pin To Net: Unknown Pin: Pin D204-K1
+Add Pin To Net: Unknown Pin: Pin D204-K2
+Add Pin To Net: Unknown Pin: Pin D300-K1
+Add Pin To Net: Unknown Pin: Pin D300-K2
+Add Pin To Net: Unknown Pin: Pin D301-K1
+Add Pin To Net: Unknown Pin: Pin D301-K2
+Add Pin To Net: Unknown Pin: Pin D302-K1
+Add Pin To Net: Unknown Pin: Pin D302-K2
+Add Pin To Net: Unknown Pin: Pin D303-K1
+Add Pin To Net: Unknown Pin: Pin D303-K2
+Add Pin To Net: Unknown Pin: Pin D304-K1
+Add Pin To Net: Unknown Pin: Pin D304-K2
+Add Pin To Net: Unknown Pin: Pin D305-K1
+Add Pin To Net: Unknown Pin: Pin D305-K2
+Add Pin To Net: Unknown Pin: Pin J300-1
+Add Pin To Net: Unknown Pin: Pin J300-2
+Add Pin To Net: Unknown Pin: Pin J300-3
+Add Pin To Net: Unknown Pin: Pin J300-4
+Add Pin To Net: Unknown Pin: Pin J302-1
+Add Pin To Net: Unknown Pin: Pin J302-2
+Add Pin To Net: Unknown Pin: Pin J302-3
+Add Pin To Net: Unknown Pin: Pin J302-4
+Added Pin To Net: NetName=GND Pin=U401-1
+Added Pin To Net: NetName=GND Pin=U401-2
+Added Pin To Net: NetName=+3V3 Pin=U401-3
+Added Pin To Net: NetName=BT_EN Pin=U401-8
+Added Pin To Net: NetName=GND Pin=U401-11
+Added Pin To Net: NetName=IO0 Pin=U401-12
+Added Pin To Net: NetName=GND Pin=U401-14
+Added Pin To Net: NetName=UART_BT_RX Pin=U401-30
+Added Pin To Net: NetName=UART_BT_TX Pin=U401-31
+Added Pin To Net: NetName=GND Pin=U401-36
+Added Pin To Net: NetName=GND Pin=U401-37
+Added Pin To Net: NetName=GND Pin=U401-38
+Added Pin To Net: NetName=GND Pin=U401-39
+Added Pin To Net: NetName=GND Pin=U401-40
+Added Pin To Net: NetName=GND Pin=U401-41
+Added Pin To Net: NetName=GND Pin=U401-42
+Added Pin To Net: NetName=GND Pin=U401-43
+Added Pin To Net: NetName=GND Pin=U401-44
+Added Pin To Net: NetName=GND Pin=U401-45
+Added Pin To Net: NetName=GND Pin=U401-46
+Added Pin To Net: NetName=GND Pin=U401-47
+Added Pin To Net: NetName=GND Pin=U401-48
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-49
+Added Pin To Net: NetName=GND Pin=U401-50
+Added Pin To Net: NetName=GND Pin=U401-51
+Added Pin To Net: NetName=GND Pin=U401-52
+Added Pin To Net: NetName=GND Pin=U401-53

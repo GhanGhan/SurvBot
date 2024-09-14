@@ -1,0 +1,38 @@
+Add Pin To Net: Unknown Pin: Pin D200-K1
+Add Pin To Net: Unknown Pin: Pin D200-K2
+Add Pin To Net: Unknown Pin: Pin D202-K1
+Add Pin To Net: Unknown Pin: Pin D202-K2
+Add Pin To Net: Unknown Pin: Pin D203-K1
+Add Pin To Net: Unknown Pin: Pin D203-K2
+Add Pin To Net: Unknown Pin: Pin D204-K1
+Add Pin To Net: Unknown Pin: Pin D204-K2
+Add Pin To Net: Unknown Pin: Pin D300-K1
+Add Pin To Net: Unknown Pin: Pin D300-K2
+Add Pin To Net: Unknown Pin: Pin D301-K1
+Add Pin To Net: Unknown Pin: Pin D301-K2
+Add Pin To Net: Unknown Pin: Pin D302-K1
+Add Pin To Net: Unknown Pin: Pin D302-K2
+Add Pin To Net: Unknown Pin: Pin D303-K1
+Add Pin To Net: Unknown Pin: Pin D303-K2
+Add Pin To Net: Unknown Pin: Pin D304-K1
+Add Pin To Net: Unknown Pin: Pin D304-K2
+Add Pin To Net: Unknown Pin: Pin D305-K1
+Add Pin To Net: Unknown Pin: Pin D305-K2
+Add Pin To Net: Unknown Pin: Pin J300-1
+Add Pin To Net: Unknown Pin: Pin J300-2
+Add Pin To Net: Unknown Pin: Pin J300-3
+Add Pin To Net: Unknown Pin: Pin J300-4
+Add Pin To Net: Unknown Pin: Pin J302-1
+Add Pin To Net: Unknown Pin: Pin J302-2
+Add Pin To Net: Unknown Pin: Pin J302-3
+Add Pin To Net: Unknown Pin: Pin J302-4
+Add Pin To Net: Unknown Pin: Pin U401-36
+Add Pin To Net: Unknown Pin: Pin U401-37
+Add Pin To Net: Unknown Pin: Pin U401-38
+Add Pin To Net: Unknown Pin: Pin U401-39
+Change Net Name : Old Net Name=GND New Net Name=LED_GREEN_R2
+Change Net Name : Old Net Name=NetD401_1 New Net Name=LED_GREEN_R1
+Change Net Name : Old Net Name=NetD401_2 New Net Name=LED_GREEN_T
+Change Net Name : Old Net Name=NetD402_1 New Net Name=LED_BLUE_T
+Change Net Name : Old Net Name=NetD402_2 New Net Name=LED_BLUE_R
+Added Rule: Name=Schematic Supply Nets_10
