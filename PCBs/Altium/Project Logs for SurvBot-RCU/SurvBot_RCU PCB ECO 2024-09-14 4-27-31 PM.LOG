@@ -1,0 +1,42 @@
+Added Component: Designator=J300(2541FV-4P)
+Add component (AddParameter): Name = "Case/Package"; Value = "P=2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "HanElectricity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "2541FV-4P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C18723049"; VariantName = "[No Variations]"
+Added Component: Designator=J302(2541FV-4P)
+Add component (AddParameter): Name = "Case/Package"; Value = "P=2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "HanElectricity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "2541FV-4P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C18723049"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin D200-K1
+Add Pin To Net: Unknown Pin: Pin D200-K2
+Add Pin To Net: Unknown Pin: Pin D202-K1
+Add Pin To Net: Unknown Pin: Pin D202-K2
+Add Pin To Net: Unknown Pin: Pin D203-K1
+Add Pin To Net: Unknown Pin: Pin D203-K2
+Add Pin To Net: Unknown Pin: Pin D204-K1
+Add Pin To Net: Unknown Pin: Pin D204-K2
+Add Pin To Net: Unknown Pin: Pin D300-K1
+Add Pin To Net: Unknown Pin: Pin D300-K2
+Add Pin To Net: Unknown Pin: Pin D301-K1
+Add Pin To Net: Unknown Pin: Pin D301-K2
+Add Pin To Net: Unknown Pin: Pin D302-K1
+Add Pin To Net: Unknown Pin: Pin D302-K2
+Add Pin To Net: Unknown Pin: Pin D303-K1
+Add Pin To Net: Unknown Pin: Pin D303-K2
+Add Pin To Net: Unknown Pin: Pin D304-K1
+Add Pin To Net: Unknown Pin: Pin D304-K2
+Add Pin To Net: Unknown Pin: Pin D305-K1
+Add Pin To Net: Unknown Pin: Pin D305-K2
+Added Pin To Net: NetName=+6V Pin=J300-1
+Added Pin To Net: NetName=6V_RIGHTA_OUTPUT Pin=J300-2
+Added Pin To Net: NetName=6V_RIGHTB_OUTPUT Pin=J300-3
+Added Pin To Net: NetName=GND Pin=J300-4
+Added Pin To Net: NetName=+6V Pin=J302-1
+Added Pin To Net: NetName=6V_LEFTA_OUTPUT Pin=J302-2
+Added Pin To Net: NetName=6V_LEFTB_OUTPUT Pin=J302-3
+Added Pin To Net: NetName=GND Pin=J302-4
+Added Member To Class: ClassName=U_3_SurvBot_RCU_MotorControl Member=Component J300 CONN 1x4
+Added Member To Class: ClassName=U_3_SurvBot_RCU_MotorControl Member=Component J302 CONN 1x4
