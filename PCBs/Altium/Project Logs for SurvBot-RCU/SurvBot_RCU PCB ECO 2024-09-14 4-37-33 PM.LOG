@@ -1,0 +1,36 @@
+Added Component: Designator=D200(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D202(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D203(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D204(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=D200-K1
+Added Pin To Net: NetName=GND Pin=D200-K2
+Added Pin To Net: NetName=SWDIO Pin=D202-K1
+Added Pin To Net: NetName=GND Pin=D202-K2
+Added Pin To Net: NetName=SWCLK Pin=D203-K1
+Added Pin To Net: NetName=GND Pin=D203-K2
+Added Pin To Net: NetName=NRST Pin=D204-K1
+Added Pin To Net: NetName=GND Pin=D204-K2
+Added Member To Class: ClassName=U_2_SurvBot_RCU_MCU Member=Component D200 PESD3V3L1BA,115
+Added Member To Class: ClassName=U_2_SurvBot_RCU_MCU Member=Component D202 PESD3V3L1BA,115
+Added Member To Class: ClassName=U_2_SurvBot_RCU_MCU Member=Component D203 PESD3V3L1BA,115
+Added Member To Class: ClassName=U_2_SurvBot_RCU_MCU Member=Component D204 PESD3V3L1BA,115

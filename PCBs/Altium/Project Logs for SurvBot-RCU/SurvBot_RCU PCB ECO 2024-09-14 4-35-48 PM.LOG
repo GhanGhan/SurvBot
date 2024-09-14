@@ -1,0 +1,62 @@
+Added Component: Designator=D300(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D301(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D302(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D303(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D304(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Added Component: Designator=D305(SC-76, SOD-323)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "PESD3V3L1BA,115"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C51450"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin D200-K1
+Add Pin To Net: Unknown Pin: Pin D200-K2
+Add Pin To Net: Unknown Pin: Pin D202-K1
+Add Pin To Net: Unknown Pin: Pin D202-K2
+Add Pin To Net: Unknown Pin: Pin D203-K1
+Add Pin To Net: Unknown Pin: Pin D203-K2
+Add Pin To Net: Unknown Pin: Pin D204-K1
+Add Pin To Net: Unknown Pin: Pin D204-K2
+Added Pin To Net: NetName=6V_RIGHTB_OUTPUT Pin=D300-K1
+Added Pin To Net: NetName=GND Pin=D300-K2
+Added Pin To Net: NetName=6V_RIGHTA_OUTPUT Pin=D301-K1
+Added Pin To Net: NetName=GND Pin=D301-K2
+Added Pin To Net: NetName=+6V Pin=D302-K1
+Added Pin To Net: NetName=GND Pin=D302-K2
+Added Pin To Net: NetName=6V_LEFTB_OUTPUT Pin=D303-K1
+Added Pin To Net: NetName=GND Pin=D303-K2
+Added Pin To Net: NetName=6V_LEFTA_OUTPUT Pin=D304-K1
+Added Pin To Net: NetName=GND Pin=D304-K2
+Added Pin To Net: NetName=+6V Pin=D305-K1
+Added Pin To Net: NetName=GND Pin=D305-K2
+Added Member To Class: ClassName=U_3_SurvBot_RCU_MotorControl Member=Component D300 PESD3V3L1BA,115
+Added Member To Class: ClassName=U_3_SurvBot_RCU_MotorControl Member=Component D301 PESD3V3L1BA,115
+Added Member To Class: ClassName=U_3_SurvBot_RCU_MotorControl Member=Component D302 PESD3V3L1BA,115
+Added Member To Class: ClassName=U_3_SurvBot_RCU_MotorControl Member=Component D303 PESD3V3L1BA,115
+Added Member To Class: ClassName=U_3_SurvBot_RCU_MotorControl Member=Component D304 PESD3V3L1BA,115
+Added Member To Class: ClassName=U_3_SurvBot_RCU_MotorControl Member=Component D305 PESD3V3L1BA,115
