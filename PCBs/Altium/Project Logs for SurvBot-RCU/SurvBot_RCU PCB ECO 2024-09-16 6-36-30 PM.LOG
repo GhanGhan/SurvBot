@@ -1,0 +1,4 @@
+Added Differential Pair: Name=BT_PROT_USB_D
+Added Differential Pair: Name=PROT_USB_D
+Added Member To Class: ClassName=USB Member=BT_PROT_USB_D
+Added Member To Class: ClassName=USB Member=PROT_USB_D
