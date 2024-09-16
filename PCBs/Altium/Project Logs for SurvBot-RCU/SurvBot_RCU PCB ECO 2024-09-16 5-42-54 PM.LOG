@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=BT_EN Pin=C406-2
+Removed Pin From Net: NetName=PROT_USB_D_N Pin=D201-1
+Removed Pin From Net: NetName=USB_D_N Pin=D201-3
+Removed Pin From Net: NetName=USB_D_P Pin=D201-4
+Removed Pin From Net: NetName=PROT_USB_D_P Pin=D201-6
+Removed Pin From Net: NetName=BT_PROT_USB_D_N Pin=D400-1
+Removed Pin From Net: NetName=BT_USB_D_N Pin=D400-3
+Removed Pin From Net: NetName=BT_USB_D_P Pin=D400-4
+Removed Pin From Net: NetName=BT_PROT_USB_D_P Pin=D400-6
+Removed Pin From Net: NetName=BT_EN Pin=R405-1
+Added Component: Designator=C408(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "C0603C104K5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C129621"; VariantName = "[No Variations]"
+Added Component: Designator=C409(CAP_0603)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "CL10A226MP8NUNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C86295"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C408-1
+Added Pin To Net: NetName=+3V3 Pin=C408-2
+Added Pin To Net: NetName=GND Pin=C409-1
+Added Pin To Net: NetName=+3V3 Pin=C409-2
+Added Pin To Net: NetName=USB_D_N Pin=D201-1
+Added Pin To Net: NetName=USB_D_P Pin=D201-3
+Added Pin To Net: NetName=PROT_USB_D_P Pin=D201-4
+Added Pin To Net: NetName=PROT_USB_D_N Pin=D201-6
+Added Pin To Net: NetName=BT_USB_D_N Pin=D400-1
+Added Pin To Net: NetName=BT_USB_D_P Pin=D400-3
+Added Pin To Net: NetName=BT_PROT_USB_D_P Pin=D400-4
+Added Pin To Net: NetName=BT_PROT_USB_D_N Pin=D400-6
+Added Pin To Net: NetName=NetC406_2 Pin=C406-2
+Added Pin To Net: NetName=NetC406_2 Pin=R405-1
+Added Net: Name=NetC406_2
+Added Member To Class: ClassName=U_4_SurvBot_RCU_Bluetooth Member=Component C408 100nF
+Added Member To Class: ClassName=U_4_SurvBot_RCU_Bluetooth Member=Component C409 22uF
