@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=BATT_FILT Pin=U102-1
+Removed Pin From Net: NetName=+3V3A Pin=U102-2
+Removed Pin From Net: NetName=GND Pin=U102-3
+Added Component: Designator=U102(TO-252-3, DPAK (2 Leads + Tab), SC-63)
+Add component (AddParameter): Name = "Case/Package"; Value = "TO-252-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "AZ1117ID-3.3TRG1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part #"; Value = "C2926306"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U102-1
+Added Pin To Net: NetName=+3V3A Pin=U102-2
+Added Pin To Net: NetName=BATT_FILT Pin=U102-3

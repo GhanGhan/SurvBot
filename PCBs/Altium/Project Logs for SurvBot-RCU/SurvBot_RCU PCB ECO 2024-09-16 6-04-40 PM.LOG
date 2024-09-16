@@ -1,0 +1,2 @@
+Change Net Name : Old Net Name=BATT_FILT New Net Name=VCOM_FILT
+Added Member To Class: ClassName=U_1_SurvBot_RCU_Power Member=Component U102 AZ1117ID-3.3TRG1
