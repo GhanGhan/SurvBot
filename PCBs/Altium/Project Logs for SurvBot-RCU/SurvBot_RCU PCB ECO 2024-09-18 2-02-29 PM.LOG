@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=U300 NewDesignator=U301
+Change Component Designator: OldDesignator=U301 NewDesignator=U302
+Change Component Designator: OldDesignator=U302 NewDesignator=U303
+Added Member To Class: ClassName=U_3_SurvBot_RCU_MotorControl Member=Component U302 OPA320AIDBVR
+Added Member To Class: ClassName=U_3_SurvBot_RCU_MotorControl Member=Component U303 DRV8876PWPR
