@@ -1,0 +1,29 @@
+Change component parameters: Designator = "D101" ("D101"); Footprint = "DIO-SOD-123FL"; UniqueID = "\GAKTXFZM\TGNABJXD" ("\GAKTXFZM\TGNABJXD")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "SOD-123FL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "MCC(Micro Commercial Components)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "SM5817PL-TP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part #"; Value = "C669022"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D102" ("D102"); Footprint = "DIO-SOD-123FL"; UniqueID = "\GAKTXFZM\QNLIGMHQ" ("\GAKTXFZM\QNLIGMHQ")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "SOD-123FL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "MCC(Micro Commercial Components)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "SM5817PL-TP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part #"; Value = "C669022"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D103" ("D103"); Footprint = "DIO-SOD-123FL"; UniqueID = "\GAKTXFZM\AGGEIANZ" ("\GAKTXFZM\AGGEIANZ")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "SOD-123FL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "MCC(Micro Commercial Components)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "SM5817PL-TP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part #"; Value = "C669022"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D104" ("D104"); Footprint = "DIO-SOD-123FL"; UniqueID = "\GAKTXFZM\OWSYLEEA" ("\GAKTXFZM\OWSYLEEA")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "SOD-123FL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "MCC(Micro Commercial Components)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "SM5817PL-TP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "JLCPCB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part #"; Value = "C669022"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = ""; VariantName = "[No Variations]"
+Added Member To Class: ClassName=U_3_SurvBot_RCU_MotorControl Member=Component U300 OPA320AIDBVR
