@@ -1,8 +1,23 @@
 # SurvBot
-Remote controlled robot that surveys the environment it is travelling in.
+Remote controlled robot that surveys the environment it is travelling in.  Designed in KiCad and Altium Designer.
 
 # Part One - Robot Control Unit (RCU)
-![Full3D2](https://github.com/user-attachments/assets/bea00074-208c-4e4a-b9cb-5af8c80a9def)
+***Figure 1: Altium Designer 3D View***
+![3d View](https://github.com/user-attachments/assets/8fb0b665-a536-49a9-b675-c503737b6a33)
+
+
+***Figure 2: KiCad 3D View***
+![Full3D](https://github.com/user-attachments/assets/90f6d3ef-7f1c-4ac4-8838-4249ae4c55d5)
+
+
+## Block Diagaram
+***Figure 3: SYSTEM BLOCK DIAGRAM (SIMPLE)***
+
+![Block_Diagram2](https://github.com/user-attachments/assets/daec5c4c-c453-48a4-85f0-1a4a5af760ed)
+
+
+
+
 ## Project Overview
 - Design and implement a PCB that has closed-loop control over 2 DC motors
 - Monitors and saves data about itself and the environment it is in:
@@ -14,16 +29,15 @@ Remote controlled robot that surveys the environment it is travelling in.
 - Possess Bluetooth communication
 - Entire system is powered by a 9V-12V battery
 
-## Block Diagaram
-![Block_Diagram2](https://github.com/user-attachments/assets/daec5c4c-c453-48a4-85f0-1a4a5af760ed)
+***Figure 4: SYSTEM OVERVIEW***
+![Overview](https://github.com/user-attachments/assets/f1233051-815b-4ca2-b81c-a65678752b47)
 
 
-***Figure 1: SYSTEM BLOCK DIAGRAM (SIMPLE)***
 
 ## Schematic Diagrams
 ### Power
+***Figure 5: Power Schematic***
 ![Power 1](https://github.com/user-attachments/assets/ac84a856-f3f7-4ddb-8305-b34f4061553d)
-***Figure 2: Power Schematic***
 - Can be connected to a < 20V at the battery terminals, as well as 5V at either USB connector
 - Schottky diodes allow for all three power sources to be connected at once
   - Battery terminal has the highest priority, followed by USB1, then USB2
@@ -35,8 +49,8 @@ Remote controlled robot that surveys the environment it is travelling in.
 
 
 ### Microconroller
+***Figure 6: Microconroller Schematic***
 ![Microcontroller 2](https://github.com/user-attachments/assets/95b3cc38-1538-41ee-b512-a862448206da)
-***Figure 3: Microconroller Schematic***
 - Powered by 3.3V
 - Using STM32G0B1CBT6 microcontroller with a clock speed of 16MHz
 - Using SWD Interface to program and debug
@@ -46,8 +60,8 @@ Remote controlled robot that surveys the environment it is travelling in.
 
 
 ### Motor Control
+***Figure 7: Motor Control Schematic***
 ![Motor_Control 3](https://github.com/user-attachments/assets/f751400b-4e1b-4aec-9535-00bd29f93e72)
-***Figure 4: Motor Control Schematic***
 - Powered by 6V
 - The DRV8876 driver, one for each motor, takes control input signals form microcontroller
 - Each motor driver can draw up to 1.5A before shutting down
@@ -57,8 +71,8 @@ Remote controlled robot that surveys the environment it is travelling in.
 
 
 ### Bluetooth
+***Figure 8: Bluetooth Schematic***
 ![Bluetooth 4](https://github.com/user-attachments/assets/2fa1292d-a9bd-44f6-bc49-8cb4086a68c3)
-***Figure 5: Bluetooth Schematic***
 - Powered by 3.3V
 - Using ESP32-Mini as a UART-Bluetooth bridge to communicate with a remote controller
 - Can be programmed using USB 2.0 via the USB-to-UART IC: CH340C
@@ -67,8 +81,8 @@ Remote controlled robot that surveys the environment it is travelling in.
 
 
 ### Sensors
+***Figure 9: Sensors Schematic***
 ![Sensors 5](https://github.com/user-attachments/assets/f80c8aa7-6785-46ac-9d46-46bed380aeb3)
-***Figure 6: Sensors Schematic***
 - Powered by 3.3V
 - Communicate with microcontroller via I2C interface
 - APDS-9306-065: Ambient light sensor, automatically rejects 60Hz flicker
@@ -77,8 +91,8 @@ Remote controlled robot that surveys the environment it is travelling in.
 
 
 ### Current Feedback
+***Figure 10: Current Feedback Schematic***
 ![Current_FDB 6](https://github.com/user-attachments/assets/ba6c2342-09d3-432e-842c-14d64108d192)
-***Figure 7: Current Feedback Schematic***
 - Powered by 3.3VA
 - Takes buffered current-sense output of left and right motor driver as input
   - Signals are filtered to attenuate switching noise before entering the buffer
@@ -88,8 +102,8 @@ Remote controlled robot that surveys the environment it is travelling in.
 
 
 ### External Memory
+***Figure 11: External Memory Schematic***
 ![External_Memory 7](https://github.com/user-attachments/assets/ce59d9ab-3ccf-4c5b-8fd0-67382fc3f497)
-***Figure 7: External Memory Schematic***
 - Powered by 3.3V
 - 32Mb NOR Flash memory
 - Communicates with microcontroller via SPI
