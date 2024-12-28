@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name "2024-04-19_01-31-40")(type "KiCad")(uri "${KIPRJMOD}/Project_Library/STM32G0B1CBT6/2024-04-19_01-31-40.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "ESP32-C3-MINI-1")(type "KiCad")(uri "${KIPRJMOD}/../Project_Library/ESP32_C3_MINI_1/ESP32-C3-MINI-1.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32G0B1CBT6")(type "KiCad")(uri "${KIPRJMOD}/../Project_Library/STM32G0B1CBT6/STM32G0B1CBT6.kicad_sym")(options "")(descr ""))
 )
