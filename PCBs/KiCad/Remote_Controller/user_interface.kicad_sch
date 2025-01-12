@@ -5,4 +5,16 @@
 	(uuid "4386996a-d11a-445b-b4b4-c21b46b14c56")
 	(paper "A4")
 	(lib_symbols)
+	(text "[3] User Interface\n"
+		(exclude_from_sim no)
+		(at 52.578 20.828 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "fde7caab-ff48-4ec1-b859-e55c0e5bf742")
+	)
 )

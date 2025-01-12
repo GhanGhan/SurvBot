@@ -17,7 +17,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "09df4e93-3f2c-46d1-a313-1fe3325a4f32")
-		(property "Sheetname" "User Interface"
+		(property "Sheetname" "[3] User Interface"
 			(at 41.91 118.0334 0)
 			(effects
 				(font
@@ -57,7 +57,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "79876373-4fa4-487a-ae74-dfa9ff220508")
-		(property "Sheetname" "Microcontroller And Bluetooth"
+		(property "Sheetname" "[2] Microcontroller And Bluetooth"
 			(at 139.7 29.1334 0)
 			(effects
 				(font
@@ -97,7 +97,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bc757f9b-317d-459c-8896-b31b23ed4983")
-		(property "Sheetname" "Power"
+		(property "Sheetname" "[1] Power"
 			(at 41.91 29.1334 0)
 			(effects
 				(font

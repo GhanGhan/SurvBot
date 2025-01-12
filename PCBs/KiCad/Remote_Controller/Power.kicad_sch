@@ -2212,6 +2212,18 @@
 		)
 		(uuid "2f323e35-9f39-4cdb-9a5a-a3d1869a357a")
 	)
+	(text "[1] Power"
+		(exclude_from_sim no)
+		(at 36.322 22.098 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "9c7186ee-97be-4633-a9b7-1706460dffd6")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 104.14 133.35 0)

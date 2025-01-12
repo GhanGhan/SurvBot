@@ -5162,6 +5162,18 @@
 		)
 		(uuid "2b3a400a-2063-4181-bfa3-a29c19146afc")
 	)
+	(text "[2] Microcontroller and Bluetooth"
+		(exclude_from_sim no)
+		(at 82.296 22.86 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "999845b0-a4c0-45b1-a3be-99a2a4ca66a8")
+	)
 	(text "USB to UART Programmer"
 		(exclude_from_sim no)
 		(at 119.888 165.608 0)

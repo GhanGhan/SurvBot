@@ -404,15 +404,15 @@
     ],
     [
       "bc757f9b-317d-459c-8896-b31b23ed4983",
-      "Power"
+      "[1] Power"
     ],
     [
       "79876373-4fa4-487a-ae74-dfa9ff220508",
-      "Microcontroller And Bluetooth"
+      "[2] Microcontroller And Bluetooth"
     ],
     [
       "09df4e93-3f2c-46d1-a313-1fe3325a4f32",
-      "User Interface"
+      "[3] User Interface"
     ]
   ],
   "text_variables": {}
