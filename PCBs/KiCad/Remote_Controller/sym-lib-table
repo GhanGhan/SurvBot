@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ESP32-C3-MINI-1")(type "KiCad")(uri "${KIPRJMOD}/../Project_Library/ESP32_C3_MINI_1/ESP32-C3-MINI-1.kicad_sym")(options "")(descr ""))
   (lib (name "NHD-C12832A1Z-FSW-FBW-3V3")(type "KiCad")(uri "${KIPRJMOD}/../Project_Library/LCD_Display/LCD_Display_Module.kicad_sym")(options "")(descr ""))
+  (lib (name "Thumb_Joystick")(type "KiCad")(uri "C:/Users/Ghani/Documents/ECE Projects/SurvBot/PCBs/KiCad/Project_Library/Thumb_Joystick/Thumb_Joystick.kicad_sym")(options "")(descr ""))
 )
