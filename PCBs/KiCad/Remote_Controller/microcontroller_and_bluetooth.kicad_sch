@@ -3112,12 +3112,6 @@
 		(uuid "53341e16-ae88-4469-9c74-edfbd5882d3b")
 	)
 	(junction
-		(at 236.22 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a448565-632f-4eee-8be4-745da1244d36")
-	)
-	(junction
 		(at 195.58 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3166,6 +3160,12 @@
 		(uuid "d7a8d111-f809-4520-ae53-4360185798ea")
 	)
 	(junction
+		(at 237.49 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da192f55-333a-407a-9c65-e14f55f1b8f6")
+	)
+	(junction
 		(at 111.76 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3176,11 +3176,11 @@
 		(uuid "03504630-479d-4767-beac-5b16046190c7")
 	)
 	(no_connect
-		(at 251.46 74.93)
+		(at 252.73 74.93)
 		(uuid "0e4f97e2-cee8-469d-9a87-b859029c0710")
 	)
 	(no_connect
-		(at 251.46 72.39)
+		(at 252.73 72.39)
 		(uuid "161813d9-936c-4342-87fa-4564e5bf6327")
 	)
 	(no_connect
@@ -3200,7 +3200,7 @@
 		(uuid "5a9825ed-f1b5-4635-9cc5-65be546088db")
 	)
 	(no_connect
-		(at 251.46 97.79)
+		(at 252.73 97.79)
 		(uuid "6b7ebb3a-7ae0-4514-88a9-c2e3772d3982")
 	)
 	(no_connect
@@ -3212,7 +3212,7 @@
 		(uuid "b0e5249e-fcd2-445f-ad97-756f74af7461")
 	)
 	(no_connect
-		(at 251.46 100.33)
+		(at 252.73 100.33)
 		(uuid "b3285630-0da8-4ea8-bddd-a1940dc6de3b")
 	)
 	(no_connect
@@ -3220,11 +3220,11 @@
 		(uuid "cfb73c28-dcd7-4ff9-982f-05277ab283e8")
 	)
 	(no_connect
-		(at 251.46 95.25)
+		(at 252.73 95.25)
 		(uuid "d849a821-8f48-4879-b298-39da80e286df")
 	)
 	(no_connect
-		(at 251.46 67.31)
+		(at 252.73 67.31)
 		(uuid "e21cdb75-8395-409e-9cde-d3bb87381b46")
 	)
 	(no_connect
@@ -3247,7 +3247,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 110.49) (xy 251.46 110.49)
+			(xy 255.27 110.49) (xy 252.73 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3277,7 +3277,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 69.85) (xy 220.98 69.85)
+			(xy 219.71 69.85) (xy 222.25 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3357,7 +3357,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 90.17) (xy 251.46 90.17)
+			(xy 255.27 90.17) (xy 252.73 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3367,7 +3367,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 85.09) (xy 255.27 85.09)
+			(xy 252.73 85.09) (xy 255.27 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3377,7 +3377,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 64.77) (xy 251.46 64.77)
+			(xy 265.43 64.77) (xy 252.73 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3397,7 +3397,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 39.37) (xy 236.22 39.37)
+			(xy 224.79 39.37) (xy 237.49 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3427,7 +3427,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 105.41) (xy 251.46 105.41)
+			(xy 255.27 105.41) (xy 252.73 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3487,7 +3487,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 62.23) (xy 265.43 62.23)
+			(xy 252.73 62.23) (xy 265.43 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +3627,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 80.01) (xy 251.46 80.01)
+			(xy 255.27 80.01) (xy 252.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3707,7 +3707,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 102.87) (xy 251.46 102.87)
+			(xy 255.27 102.87) (xy 252.73 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3727,7 +3727,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 82.55) (xy 251.46 82.55)
+			(xy 255.27 82.55) (xy 252.73 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3787,7 +3787,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 77.47) (xy 255.27 77.47)
+			(xy 252.73 77.47) (xy 255.27 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3807,7 +3807,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 115.57) (xy 251.46 115.57)
+			(xy 255.27 115.57) (xy 252.73 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3847,7 +3847,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 113.03) (xy 251.46 113.03)
+			(xy 255.27 113.03) (xy 252.73 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3867,7 +3867,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 62.23) (xy 220.98 62.23)
+			(xy 195.58 62.23) (xy 222.25 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3887,7 +3887,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 39.37) (xy 236.22 57.15)
+			(xy 237.49 128.27) (xy 237.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac31115a-7a01-48c1-aee2-034d684e44c1")
+	)
+	(wire
+		(pts
+			(xy 237.49 39.37) (xy 237.49 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3904,16 +3914,6 @@
 			(type default)
 		)
 		(uuid "b35e166d-e28d-471a-a332-dd10811fb19b")
-	)
-	(wire
-		(pts
-			(xy 236.22 128.27) (xy 236.22 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5ca9009-7f1a-43c7-bebd-3ab38f26ef20")
 	)
 	(wire
 		(pts
@@ -3977,7 +3977,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 87.63) (xy 251.46 87.63)
+			(xy 255.27 87.63) (xy 252.73 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3997,7 +3997,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 118.11) (xy 251.46 118.11)
+			(xy 255.27 118.11) (xy 252.73 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4027,7 +4027,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 38.1) (xy 236.22 39.37)
+			(xy 237.49 38.1) (xy 237.49 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4077,7 +4077,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 69.85) (xy 251.46 69.85)
+			(xy 265.43 69.85) (xy 252.73 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4197,7 +4197,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 107.95) (xy 251.46 107.95)
+			(xy 255.27 107.95) (xy 252.73 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4207,7 +4207,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 67.31) (xy 220.98 67.31)
+			(xy 219.71 67.31) (xy 222.25 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4217,7 +4217,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 120.65) (xy 251.46 120.65)
+			(xy 255.27 120.65) (xy 252.73 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4339,7 +4339,7 @@
 	)
 	(rectangle
 		(start 163.83 30.48)
-		(end 275.59 138.43)
+		(end 276.86 138.43)
 		(stroke
 			(width 0)
 			(type default)
@@ -4823,7 +4823,7 @@
 	)
 	(global_label "RIGHT_STICK"
 		(shape input)
-		(at 218.44 69.85 180)
+		(at 219.71 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4833,7 +4833,7 @@
 		)
 		(uuid "9f732d60-bb9f-4838-8225-37fa187c0920")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.7224 69.85 0)
+			(at 204.9924 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +4955,7 @@
 	)
 	(global_label "LEFT_STICK"
 		(shape input)
-		(at 218.44 67.31 180)
+		(at 219.71 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4965,7 +4965,7 @@
 		)
 		(uuid "e49203ad-2700-47de-bbda-d9711e052ee0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.932 67.31 0)
+			(at 206.202 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +5116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19a841b6-e3a4-4582-bceb-4ad68a1df4dc")
-		(property "Reference" "C?"
+		(property "Reference" "C202"
 			(at 228.6 43.1799 0)
 			(effects
 				(font
@@ -5170,7 +5170,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "C?")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -5186,7 +5186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "252f796e-9aef-45ef-90e3-203cab674e73")
-		(property "Reference" "Q?"
+		(property "Reference" "Q202"
 			(at 142.24 170.1801 0)
 			(effects
 				(font
@@ -5243,7 +5243,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "Q?")
+					(reference "Q202")
 					(unit 1)
 				)
 			)
@@ -5259,7 +5259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a35438c-2ea8-4c2a-87c0-3f44cd6c00a4")
-		(property "Reference" "U?"
+		(property "Reference" "U201"
 			(at 112.1411 85.09 0)
 			(effects
 				(font
@@ -5328,7 +5328,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "U?")
+					(reference "U201")
 					(unit 1)
 				)
 			)
@@ -5344,7 +5344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aa9e961-53a5-4868-901f-c15c2be916f5")
-		(property "Reference" "C?"
+		(property "Reference" "C205"
 			(at 25.4 154.9399 0)
 			(effects
 				(font
@@ -5398,7 +5398,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "C?")
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -5609,7 +5609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "581688d1-710e-45f7-b896-5385f9d2772b")
-		(property "Reference" "SW?"
+		(property "Reference" "SW201"
 			(at 170.18 69.8499 90)
 			(effects
 				(font
@@ -5663,7 +5663,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "SW?")
+					(reference "SW201")
 					(unit 1)
 				)
 			)
@@ -5679,7 +5679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62fd7773-36b2-4dea-8934-842a55eb23be")
-		(property "Reference" "Q?"
+		(property "Reference" "Q201"
 			(at 142.24 147.3199 0)
 			(effects
 				(font
@@ -5736,7 +5736,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "Q?")
+					(reference "Q201")
 					(unit 1)
 				)
 			)
@@ -5751,7 +5751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69f3b9f9-6caf-43a1-b4be-e6a1df3370fb")
-		(property "Reference" "R?"
+		(property "Reference" "R202"
 			(at 95.504 63.5 90)
 			(effects
 				(font
@@ -5803,7 +5803,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "R?")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -5884,7 +5884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77f2b808-1751-4d80-9354-5cd79eb6face")
-		(property "Reference" "J?"
+		(property "Reference" "J201"
 			(at 69.85 53.34 0)
 			(effects
 				(font
@@ -5981,7 +5981,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "J?")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -5997,7 +5997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78917b56-5b9f-4c98-b7a3-c04299d56cf3")
-		(property "Reference" "U?"
+		(property "Reference" "U203"
 			(at 80.9341 172.72 0)
 			(effects
 				(font
@@ -6094,7 +6094,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "U?")
+					(reference "U203")
 					(unit 1)
 				)
 			)
@@ -6110,7 +6110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78d9c701-cd51-4050-971c-fd08545c61a4")
-		(property "Reference" "C?"
+		(property "Reference" "C201"
 			(at 217.17 43.1799 0)
 			(effects
 				(font
@@ -6164,7 +6164,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "C?")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -6172,7 +6172,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-WROOM-32E")
-		(at 236.22 92.71 0)
+		(at 237.49 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6180,8 +6180,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d97d9d6-7975-4003-8f50-9ce5fb3e5136")
-		(property "Reference" "U?"
-			(at 238.4141 54.61 0)
+		(property "Reference" "U202"
+			(at 239.6841 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6190,7 @@
 			)
 		)
 		(property "Value" "ESP32-WROOM-32E"
-			(at 238.4141 57.15 0)
+			(at 239.6841 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6199,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
-			(at 252.73 127 0)
+			(at 254 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6208,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"
-			(at 236.22 92.71 0)
+			(at 237.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +6217,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WD-V3 SoC, without PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
-			(at 236.22 92.71 0)
+			(at 237.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +6345,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "U?")
+					(reference "U202")
 					(unit 1)
 				)
 			)
@@ -6360,7 +6360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "806aeaf7-0d3a-45da-907a-fa5c9b4705c9")
-		(property "Reference" "R?"
+		(property "Reference" "R203"
 			(at 95.504 71.12 90)
 			(effects
 				(font
@@ -6412,7 +6412,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "R?")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -6428,7 +6428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e2efe5-3a1d-47b5-8ab5-7674c1626f5c")
-		(property "Reference" "C?"
+		(property "Reference" "C207"
 			(at 50.8 154.9399 0)
 			(effects
 				(font
@@ -6482,7 +6482,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "C?")
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -6628,7 +6628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa76d681-919c-4feb-a991-99765b2e73fb")
-		(property "Reference" "R?"
+		(property "Reference" "R205"
 			(at 119.38 162.56 90)
 			(effects
 				(font
@@ -6680,7 +6680,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "R?")
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -6753,7 +6753,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 236.22 38.1 0)
+		(at 237.49 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6761,7 +6761,7 @@
 		(dnp no)
 		(uuid "b4947aad-f36e-4d6a-a56c-387d05b8a580")
 		(property "Reference" "#PWR012"
-			(at 236.22 41.91 0)
+			(at 237.49 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +6770,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 236.22 34.29 0)
+			(at 237.49 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +6778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +6787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +6796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 236.22 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,7 +6826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f4ec7e-05d3-44a6-b6cb-2552330b15b7")
-		(property "Reference" "C?"
+		(property "Reference" "C206"
 			(at 38.1 154.9399 0)
 			(effects
 				(font
@@ -6880,7 +6880,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "C?")
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -6888,7 +6888,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 132.08 0)
+		(at 237.49 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6896,7 +6896,7 @@
 		(dnp no)
 		(uuid "d17e730f-61d3-480b-92b1-1eb923ea50c0")
 		(property "Reference" "#PWR015"
-			(at 236.22 138.43 0)
+			(at 237.49 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +6905,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 136.144 0)
+			(at 237.49 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +6913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 132.08 0)
+			(at 237.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6922,7 +6922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 132.08 0)
+			(at 237.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,7 +6931,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 132.08 0)
+			(at 237.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +7026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3836fa1-c8d6-4e9b-8f5b-73b3ca0cd592")
-		(property "Reference" "R?"
+		(property "Reference" "R201"
 			(at 185.42 54.6099 0)
 			(effects
 				(font
@@ -7035,7 +7035,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 185.42 57.1499 0)
 			(effects
 				(font
@@ -7080,7 +7080,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "R?")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -7096,7 +7096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f38517df-8888-4269-b025-21eaf5138314")
-		(property "Reference" "C?"
+		(property "Reference" "C203"
 			(at 186.69 69.8499 0)
 			(effects
 				(font
@@ -7150,7 +7150,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "C?")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -7166,7 +7166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd018c92-4262-4efa-b3f8-c6470c4f064d")
-		(property "Reference" "R?"
+		(property "Reference" "R204"
 			(at 119.38 142.24 90)
 			(effects
 				(font
@@ -7218,7 +7218,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "R?")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -7234,7 +7234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe7ebeda-1133-4171-bbc2-e87e3945db8b")
-		(property "Reference" "C?"
+		(property "Reference" "C204"
 			(at 199.39 69.8499 0)
 			(effects
 				(font
@@ -7288,7 +7288,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/79876373-4fa4-487a-ae74-dfa9ff220508"
-					(reference "C?")
+					(reference "C204")
 					(unit 1)
 				)
 			)

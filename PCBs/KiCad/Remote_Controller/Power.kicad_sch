@@ -3985,7 +3985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01a9317f-f108-462e-8cf4-423ab85e604a")
-		(property "Reference" "C?"
+		(property "Reference" "C108"
 			(at 116.84 111.7599 0)
 			(effects
 				(font
@@ -4039,7 +4039,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "C?")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -4055,7 +4055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11bcd331-8b63-4c65-9f3f-204efd7dd12f")
-		(property "Reference" "C?"
+		(property "Reference" "C104"
 			(at 67.31 72.3899 0)
 			(effects
 				(font
@@ -4109,7 +4109,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "C?")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -4320,7 +4320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2256c2aa-80ef-4ddf-8f28-001a8952db9d")
-		(property "Reference" "C?"
+		(property "Reference" "C109"
 			(at 67.31 126.9999 0)
 			(effects
 				(font
@@ -4374,7 +4374,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "C?")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -4390,7 +4390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28d28c2d-5c39-4d18-8a0a-525ad0483f2b")
-		(property "Reference" "Q?"
+		(property "Reference" "Q102"
 			(at 97.79 100.33 90)
 			(effects
 				(font
@@ -4472,7 +4472,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "Q?")
+					(reference "Q102")
 					(unit 1)
 				)
 			)
@@ -4618,7 +4618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c526b4a-f698-4029-af47-5fb4c395c84d")
-		(property "Reference" "L?"
+		(property "Reference" "L101"
 			(at 227.33 54.61 90)
 			(effects
 				(font
@@ -4670,7 +4670,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "L?")
+					(reference "L101")
 					(unit 1)
 				)
 			)
@@ -4751,7 +4751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b3a2408-b26f-4cfa-9124-3a8173cf26a0")
-		(property "Reference" "C?"
+		(property "Reference" "C101"
 			(at 116.84 57.1499 0)
 			(effects
 				(font
@@ -4805,7 +4805,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "C?")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -4886,7 +4886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6850c7df-d53c-4ef3-946f-4d9658ecb4ee")
-		(property "Reference" "C?"
+		(property "Reference" "C107"
 			(at 80.01 77.4699 0)
 			(effects
 				(font
@@ -4940,7 +4940,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "C?")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -5151,7 +5151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79798a7d-88e0-4bea-ac3e-176574d4880d")
-		(property "Reference" "C?"
+		(property "Reference" "C112"
 			(at 80.01 132.0799 0)
 			(effects
 				(font
@@ -5205,7 +5205,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "C?")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -5221,7 +5221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a155465-b407-49a5-a3ae-3819f46e674e")
-		(property "Reference" "BT?"
+		(property "Reference" "BT101"
 			(at 29.21 66.7384 0)
 			(effects
 				(font
@@ -5275,7 +5275,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "BT?")
+					(reference "BT101")
 					(unit 1)
 				)
 			)
@@ -5291,7 +5291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cf5d096-6860-41ea-8118-16d55e329524")
-		(property "Reference" "D?"
+		(property "Reference" "D102"
 			(at 181.61 120.9674 90)
 			(effects
 				(font
@@ -5345,7 +5345,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "D?")
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -5361,7 +5361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d0f3d74-7da8-4b29-b13f-18c5bd094030")
-		(property "Reference" "U?"
+		(property "Reference" "U101"
 			(at 198.12 59.69 0)
 			(effects
 				(font
@@ -5425,7 +5425,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "U?")
+					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -5441,7 +5441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85ec0d49-ee01-4668-9d81-7b6bce9d72d7")
-		(property "Reference" "Q?"
+		(property "Reference" "Q101"
 			(at 97.79 45.72 90)
 			(effects
 				(font
@@ -5523,7 +5523,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "Q?")
+					(reference "Q101")
 					(unit 1)
 				)
 			)
@@ -5539,7 +5539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "872c9b6e-8958-4298-bdf4-7aef7d94a278")
-		(property "Reference" "U?"
+		(property "Reference" "U104"
 			(at 109.22 129.5399 0)
 			(effects
 				(font
@@ -5605,7 +5605,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "U?")
+					(reference "U104")
 					(unit 1)
 				)
 			)
@@ -5620,7 +5620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bfa86d3-df7f-4fcc-b75c-b8bfd6738668")
-		(property "Reference" "C?"
+		(property "Reference" "C111"
 			(at 259.588 129.794 0)
 			(effects
 				(font
@@ -5674,7 +5674,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "C?")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -5690,7 +5690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9a4826-051d-4f34-bd11-67d0171cf15d")
-		(property "Reference" "U?"
+		(property "Reference" "U103"
 			(at 242.57 120.65 0)
 			(effects
 				(font
@@ -5745,7 +5745,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "U?")
+					(reference "U103")
 					(unit 1)
 				)
 			)
@@ -5761,7 +5761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d4c8ee4-4bc2-46c9-9593-6f4861a90bb8")
-		(property "Reference" "C?"
+		(property "Reference" "C103"
 			(at 177.8 71.1199 0)
 			(effects
 				(font
@@ -5815,7 +5815,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "C?")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -5897,7 +5897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acaf7e70-18bf-4913-94a2-f158f2de935c")
-		(property "Reference" "C?"
+		(property "Reference" "C106"
 			(at 250.19 72.3899 0)
 			(effects
 				(font
@@ -5951,7 +5951,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "C?")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -5967,7 +5967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b34b6de9-2589-4ffe-ab17-b61f48c735ad")
-		(property "Reference" "SW?"
+		(property "Reference" "SW101"
 			(at 57.15 54.61 0)
 			(effects
 				(font
@@ -6019,7 +6019,7 @@
 		(instances
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "SW?")
+					(reference "SW101")
 					(unit 1)
 				)
 			)
@@ -6100,7 +6100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f20217-51ab-4158-ac64-fd6839c0cd82")
-		(property "Reference" "C?"
+		(property "Reference" "C102"
 			(at 223.52 63.4999 0)
 			(effects
 				(font
@@ -6154,7 +6154,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "C?")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -6169,7 +6169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd0cb6b9-e9e6-42f2-809f-1d0deec9cab2")
-		(property "Reference" "C?"
+		(property "Reference" "C110"
 			(at 225.298 129.794 0)
 			(effects
 				(font
@@ -6223,7 +6223,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "C?")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -6239,7 +6239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c73044ed-156e-4ba8-8c59-cd3a8801130c")
-		(property "Reference" "C?"
+		(property "Reference" "C105"
 			(at 237.49 72.3899 0)
 			(effects
 				(font
@@ -6293,7 +6293,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "C?")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -6439,7 +6439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7ba307c-3219-455e-820d-ea0d6fa99792")
-		(property "Reference" "U?"
+		(property "Reference" "U102"
 			(at 109.22 74.9299 0)
 			(effects
 				(font
@@ -6505,7 +6505,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "U?")
+					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -6782,7 +6782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec37bd5e-92c5-42cf-a729-3e7af901ab66")
-		(property "Reference" "R?"
+		(property "Reference" "R101"
 			(at 180.34 140.9699 0)
 			(effects
 				(font
@@ -6836,7 +6836,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "R?")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -6917,7 +6917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f859d770-fbde-4e8a-b1c6-16db27b43436")
-		(property "Reference" "D?"
+		(property "Reference" "D101"
 			(at 49.53 67.3099 90)
 			(effects
 				(font
@@ -6971,7 +6971,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "D?")
+					(reference "D101")
 					(unit 1)
 				)
 			)
