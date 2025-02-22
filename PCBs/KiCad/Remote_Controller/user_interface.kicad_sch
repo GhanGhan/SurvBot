@@ -6851,7 +6851,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Thumb_joy_stick_Library:XDCR_COM-09032"
 			(at 176.53 73.66 0)
 			(effects
 				(font
@@ -7485,7 +7485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Thumb_joy_stick_Library:XDCR_COM-09032"
 			(at 236.22 73.66 0)
 			(effects
 				(font

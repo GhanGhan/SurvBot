@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Thumb_joy_stick_Library")(type "KiCad")(uri "C:/Users/Ghani/Documents/ECE Projects/SurvBot/PCBs/KiCad/Project_Library/Thumb_Joystick/Thumb_joy_stick_Library.pretty")(options "")(descr ""))
+)
