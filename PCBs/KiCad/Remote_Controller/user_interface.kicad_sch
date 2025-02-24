@@ -262,240 +262,6 @@
 				)
 			)
 		)
-		(symbol "Joystick_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "COM-09032"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Joystick, 2 - Axis Analog (Resistive) Output"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Thumb joystick 2 axis analog resistive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Joystick_1_0_0"
-				(pin output line
-					(at -10.16 17.78 0)
-					(length 2.54)
-					(name "V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 17.78 180)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 15.24 0)
-					(length 2.54)
-					(name "H"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 15.24 180)
-					(length 2.54)
-					(name "H+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "H-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -10.16 12.7 0)
-					(length 2.54)
-					(name "SEL+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 3.81 180)
-					(length 2.54)
-					(name "SEL-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Joystick_1_1_1"
-				(rectangle
-					(start -7.62 20.32)
-					(end 7.62 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "NHD-C12832A1Z-FSW-FBW-3V3:NHD-C12832A1Z-FSW-FBW-3V3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1046,6 +812,296 @@
 				)
 			)
 		)
+		(symbol "Thumb_Joystick:Joystick"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JS"
+				(at 0 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "COM-09032"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Joystick, 2 - Axis Analog (Resistive) Output"
+				(at 0.508 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Thumb joystick 2 axis analog resistive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Joystick_0_0"
+				(pin power_in line
+					(at 11.43 15.24 180)
+					(length 2.54)
+					(name "H+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 15.24 0)
+					(length 2.54)
+					(name "H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 7.62 180)
+					(length 2.54)
+					(name "H-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "SHIELD_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "SHIELD_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "SHIELD_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 17.78 180)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 17.78 0)
+					(length 2.54)
+					(name "V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 10.16 180)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Joystick_1_0"
+				(pin power_out line
+					(at -12.7 12.7 0)
+					(length 3.81)
+					(name "SEL+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 3.81 180)
+					(length 3.81)
+					(name "SEL-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Joystick_1_1"
+				(rectangle
+					(start -8.89 20.32)
+					(end 8.89 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V0"
 			(power)
 			(pin_numbers hide)
@@ -1438,7 +1494,7 @@
 		(uuid "2585d819-6283-45aa-9005-1c4e99f97a7a")
 	)
 	(junction
-		(at 190.5 69.85)
+		(at 193.04 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34e619fb-217e-45ce-969d-c95c893705ac")
@@ -1492,7 +1548,7 @@
 		(uuid "b50fb1d6-5d01-4823-b2d7-d7918e4cc7a5")
 	)
 	(junction
-		(at 250.19 69.85)
+		(at 252.73 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccf24df7-24cb-40ea-94fd-92a59b3d89e6")
@@ -1528,48 +1584,72 @@
 		(uuid "f8ac1543-b7d8-45e9-a0ea-9b6e54d20683")
 	)
 	(no_connect
-		(at 226.06 66.04)
+		(at 224.79 73.66)
+		(uuid "18e38c15-8d29-4766-90fe-e7d858edcb0b")
+	)
+	(no_connect
+		(at 165.1 66.04)
+		(uuid "26a465d3-5c25-4fab-8fa7-c61ac4db1c04")
+	)
+	(no_connect
+		(at 224.79 66.04)
 		(uuid "2c3d4fba-02a3-4ebc-80d2-ae736da1f97d")
 	)
 	(no_connect
-		(at 246.38 66.04)
+		(at 224.79 68.58)
+		(uuid "354efd08-2f43-447b-86a8-81a2109ab8c4")
+	)
+	(no_connect
+		(at 165.1 71.12)
+		(uuid "37a812a0-5073-4b8b-a281-e7ed1643b52e")
+	)
+	(no_connect
+		(at 247.65 66.04)
 		(uuid "4ed21f7e-dbb3-4433-83b4-8de737c70995")
 	)
 	(no_connect
-		(at 186.69 55.88)
+		(at 187.96 55.88)
 		(uuid "53ec0ffd-c64b-4d30-8d38-e3cbbcc8dccf")
 	)
 	(no_connect
-		(at 226.06 60.96)
+		(at 223.52 60.96)
 		(uuid "5545d460-32fd-4860-ab8f-de3730078b7d")
 	)
 	(no_connect
-		(at 186.69 63.5)
+		(at 187.96 63.5)
 		(uuid "6b250fe4-d16e-4d7a-9304-da8921d489c9")
 	)
 	(no_connect
-		(at 226.06 58.42)
+		(at 224.79 71.12)
+		(uuid "6da645b5-25ad-4c15-a485-c057a7a1ec32")
+	)
+	(no_connect
+		(at 224.79 58.42)
 		(uuid "7271a618-e914-4d9d-844e-c9edd15d98e0")
 	)
 	(no_connect
-		(at 166.37 55.88)
+		(at 165.1 55.88)
 		(uuid "7b626f46-e933-4ee7-b530-615517cd394e")
 	)
 	(no_connect
-		(at 246.38 58.42)
+		(at 247.65 58.42)
 		(uuid "7f73f336-b3ff-42e3-89dc-945a03a33cb9")
 	)
 	(no_connect
-		(at 166.37 66.04)
-		(uuid "ba2548a1-a445-4fb8-b3c6-16ee06bf721a")
+		(at 165.1 68.58)
+		(uuid "90d7af74-612c-405e-8fa3-8e57a115e3e8")
 	)
 	(no_connect
-		(at 166.37 60.96)
+		(at 165.1 73.66)
+		(uuid "c3889b56-793b-43b2-9bae-148b13b42c2b")
+	)
+	(no_connect
+		(at 163.83 60.96)
 		(uuid "fdcffd1b-8df1-4125-a552-139be0baa7f7")
 	)
 	(wire
 		(pts
-			(xy 194.31 69.85) (xy 194.31 73.66)
+			(xy 196.85 69.85) (xy 196.85 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1629,7 +1709,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 58.42) (xy 186.69 58.42)
+			(xy 193.04 58.42) (xy 187.96 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1939,6 +2019,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 66.04) (xy 193.04 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b603c8-4d7c-4e1b-ae1f-87e98c744402")
+	)
+	(wire
+		(pts
 			(xy 218.44 142.24) (xy 208.28 142.24)
 		)
 		(stroke
@@ -1969,7 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 69.85) (xy 254 73.66)
+			(xy 256.54 69.85) (xy 256.54 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2039,6 +2129,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 58.42) (xy 165.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c24ab4-cec8-4468-a4d7-bcc62f646618")
+	)
+	(wire
+		(pts
 			(xy 167.64 142.24) (xy 166.37 142.24)
 		)
 		(stroke
@@ -2069,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 57.15) (xy 191.77 58.42)
+			(xy 193.04 57.15) (xy 193.04 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2089,7 +2189,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 69.85) (xy 250.19 69.85)
+			(xy 248.92 69.85) (xy 252.73 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2099,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 69.85) (xy 194.31 69.85)
+			(xy 193.04 69.85) (xy 196.85 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 54.61) (xy 251.46 55.88)
+			(xy 252.73 54.61) (xy 252.73 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2319,16 +2419,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 58.42) (xy 166.37 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7193da5b-bb1d-4c79-9c27-2c86e06d793c")
-	)
-	(wire
-		(pts
 			(xy 208.28 119.38) (xy 208.28 113.03)
 		)
 		(stroke
@@ -2336,6 +2426,16 @@
 			(type default)
 		)
 		(uuid "722629bc-5a9f-4dd3-95fc-e27f57e26ddd")
+	)
+	(wire
+		(pts
+			(xy 247.65 63.5) (xy 252.73 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73fa6627-aa98-4333-aa74-3eca44f881cc")
 	)
 	(wire
 		(pts
@@ -2409,7 +2509,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 55.88) (xy 226.06 55.88)
+			(xy 220.98 55.88) (xy 224.79 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2499,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 55.88) (xy 246.38 55.88)
+			(xy 252.73 55.88) (xy 247.65 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2516,16 +2616,6 @@
 			(type default)
 		)
 		(uuid "8bb8db5f-b851-4c74-a6b9-45a0c149a10c")
-	)
-	(wire
-		(pts
-			(xy 246.38 63.5) (xy 250.19 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c629e7a-cea7-459e-9ca2-88d06820ca87")
 	)
 	(wire
 		(pts
@@ -2729,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 66.04) (xy 190.5 69.85)
+			(xy 193.04 66.04) (xy 193.04 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3139,7 +3229,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 63.5) (xy 250.19 69.85)
+			(xy 252.73 63.5) (xy 252.73 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3156,16 +3246,6 @@
 			(type default)
 		)
 		(uuid "d80e473c-231b-41b3-aa04-8d6b0f125b24")
-	)
-	(wire
-		(pts
-			(xy 186.69 66.04) (xy 190.5 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc24ff62-55b4-48a2-b9d8-46c8a4d1b780")
 	)
 	(wire
 		(pts
@@ -3209,7 +3289,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 69.85) (xy 254 69.85)
+			(xy 252.73 69.85) (xy 256.54 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3309,7 +3389,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 69.85) (xy 190.5 69.85)
+			(xy 189.23 69.85) (xy 193.04 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3411,7 +3491,7 @@
 	)
 	(rectangle
 		(start 143.51 44.45)
-		(end 264.16 81.28)
+		(end 264.16 88.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -3455,7 +3535,7 @@
 	)
 	(text "Rotational Velocity"
 		(exclude_from_sim no)
-		(at 177.546 75.946 0)
+		(at 176.53 80.518 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3465,7 +3545,7 @@
 	)
 	(text "Linear Velocity"
 		(exclude_from_sim no)
-		(at 235.966 75.946 0)
+		(at 236.474 80.518 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3607,7 +3687,7 @@
 	)
 	(global_label "RIGHT_STICK"
 		(shape input)
-		(at 222.25 55.88 180)
+		(at 220.98 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3617,7 +3697,7 @@
 		)
 		(uuid "0428fd94-fa4d-472d-a28d-76681a1d05d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.5324 55.88 0)
+			(at 206.2624 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,28 +3747,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LEFT_STICK"
-		(shape input)
-		(at 162.56 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2d0b6c82-926e-4821-8ed2-9065eea364d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.052 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3799,6 +3857,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT_STICK"
+		(shape input)
+		(at 161.29 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "734ec012-ef2e-4fd1-9a61-9dda23bc5e98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.782 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3945,7 +4025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0103ba9a-e7fc-4bc7-9633-5d4cd9d04eea")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0321"
 			(at 96.52 160.02 0)
 			(effects
 				(font
@@ -3995,7 +4075,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR040")
+					(reference "#PWR0321")
 					(unit 1)
 				)
 			)
@@ -4011,7 +4091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "017412a0-354d-4d44-84e8-e11e46669fa8")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0317"
 			(at 71.12 143.51 0)
 			(effects
 				(font
@@ -4061,7 +4141,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR038")
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -4076,7 +4156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02258c54-ca9c-4248-9c0a-781f81f7bc9c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0305"
 			(at 107.95 64.77 0)
 			(effects
 				(font
@@ -4126,7 +4206,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR032")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -4745,7 +4825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "141e2351-d22f-4889-80ee-3f9f309b8207")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0313"
 			(at 96.52 130.81 0)
 			(effects
 				(font
@@ -4795,7 +4875,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR034")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -4811,7 +4891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16f0f08f-38f0-4379-8b23-175fd6fb3143")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0319"
 			(at 152.4 143.51 0)
 			(effects
 				(font
@@ -4861,7 +4941,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR046")
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -4945,7 +5025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d09511c-d426-4de9-bcce-25211e9478e8")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0324"
 			(at 218.44 160.02 0)
 			(effects
 				(font
@@ -4995,7 +5075,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR049")
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -5011,7 +5091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29d1a869-b2a9-4e80-9ec0-a15a6022edbd")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0322"
 			(at 137.16 160.02 0)
 			(effects
 				(font
@@ -5061,7 +5141,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR041")
+					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
@@ -5076,7 +5156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b443ddd-42b8-4512-a16f-ca8838e36d1e")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0306"
 			(at 124.46 72.39 0)
 			(effects
 				(font
@@ -5126,7 +5206,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR033")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -5211,7 +5291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37e64e04-3cf1-4e5b-972c-626304ae2ea4")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0320"
 			(at 193.04 143.51 0)
 			(effects
 				(font
@@ -5261,7 +5341,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR047")
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -5337,15 +5417,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 73.66 0)
+		(at 196.85 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3e1c8673-c310-4e75-8582-b22942749655")
-		(property "Reference" "#PWR055"
-			(at 194.31 80.01 0)
+		(property "Reference" "#PWR0307"
+			(at 196.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +5434,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 77.724 0)
+			(at 196.85 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +5442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 73.66 0)
+			(at 196.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +5451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 73.66 0)
+			(at 196.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 73.66 0)
+			(at 196.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5474,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR055")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -5470,34 +5550,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 191.77 57.15 0)
-		(mirror y)
+		(lib_id "Thumb_Joystick:Joystick")
+		(at 176.53 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "47a7a865-5d60-4351-9f07-54617a9a6ad5")
-		(property "Reference" "#PWR054"
-			(at 191.77 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 191.77 53.34 0)
+		(fields_autoplaced yes)
+		(uuid "42e3055a-ed76-4dd1-9bd2-bfdf54a6a38d")
+		(property "Reference" "JS301"
+			(at 176.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 191.77 57.15 0)
+		(property "Value" "COM-09032"
+			(at 176.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thumb_joy_stick_Library:XDCR_COM-09032"
+			(at 176.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5585,106 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 57.15 0)
+			(at 176.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Joystick, 2 - Axis Analog (Resistive) Output"
+			(at 177.038 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "H3"
+			(uuid "45a3535d-cc49-4832-b9dd-5eb1a8d80530")
+		)
+		(pin "V3"
+			(uuid "76d58ac7-f3a0-4a4b-801c-dda2a206fa9a")
+		)
+		(pin "B1A"
+			(uuid "dd16f7fa-5b31-4c17-a3cc-4d85c1b5bc32")
+		)
+		(pin "S1"
+			(uuid "f591c5db-8edd-4e65-a123-6aad47297ecc")
+		)
+		(pin "S4"
+			(uuid "573881b4-0330-4488-8f0f-2510ec2d86bb")
+		)
+		(pin "S3"
+			(uuid "06cc8537-d618-4ec1-8560-6efc4e98cd79")
+		)
+		(pin "S2"
+			(uuid "3dc031dd-4d82-49f6-8dac-6521eea3c273")
+		)
+		(pin "V2"
+			(uuid "243c9c82-a608-44a8-a60c-6ff9a494aba7")
+		)
+		(pin "B2A"
+			(uuid "47acc861-7232-4c1d-948a-da8b8b93ccaf")
+		)
+		(pin "H1"
+			(uuid "cf32ae68-b1d9-41f8-b5bc-a4f9f235b466")
+		)
+		(pin "H2"
+			(uuid "96b50fe1-470e-4a73-a77c-2590c831da3a")
+		)
+		(pin "V1"
+			(uuid "94a6fbf7-ab66-4d6a-b40e-5eb8ef18a1c5")
+		)
+		(instances
+			(project ""
+				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
+					(reference "JS301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 193.04 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47a7a865-5d60-4351-9f07-54617a9a6ad5")
+		(property "Reference" "#PWR0304"
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 193.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 191.77 57.15 0)
+			(at 193.04 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5707,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR054")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -5545,7 +5723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ac0a14e-176c-49c8-a428-b42ddaef9fec")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0309"
 			(at 71.12 114.3 0)
 			(effects
 				(font
@@ -5595,7 +5773,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR035")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -5682,7 +5860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "548135ea-2266-4eb9-9225-0146cb058181")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0316"
 			(at 218.44 130.81 0)
 			(effects
 				(font
@@ -5732,7 +5910,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR045")
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -5747,7 +5925,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5492295d-5acf-4c81-b661-3eafc5e07c00")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0301"
 			(at 71.12 49.53 0)
 			(effects
 				(font
@@ -5797,7 +5975,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR030")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -5813,7 +5991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d8a0924-586a-48c5-8c1d-bd2978b2426d")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0314"
 			(at 137.16 130.81 0)
 			(effects
 				(font
@@ -5863,7 +6041,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR037")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -5871,7 +6049,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 251.46 54.61 0)
+		(at 252.73 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5879,8 +6057,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60f1a1ca-7955-4991-a583-565074c0f653")
-		(property "Reference" "#PWR052"
-			(at 251.46 58.42 0)
+		(property "Reference" "#PWR0303"
+			(at 252.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +6067,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 251.46 50.8 0)
+			(at 252.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,7 +6075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 54.61 0)
+			(at 252.73 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +6084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 54.61 0)
+			(at 252.73 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +6093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 251.46 54.61 0)
+			(at 252.73 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +6107,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR052")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -5945,7 +6123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "610fec27-fa95-4c93-af3b-add22cfa3f27")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0312"
 			(at 193.04 114.3 0)
 			(effects
 				(font
@@ -5995,7 +6173,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR043")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -6288,7 +6466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "759aeda3-7411-4c59-9596-2ae41fd8c0a7")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0323"
 			(at 177.8 160.02 0)
 			(effects
 				(font
@@ -6338,7 +6516,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR048")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -6547,6 +6725,104 @@
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
 					(reference "R308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thumb_Joystick:Joystick")
+		(at 236.22 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8733a28a-bd76-4f5f-a897-8f019123bc00")
+		(property "Reference" "JS302"
+			(at 236.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "COM-09032"
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thumb_joy_stick_Library:XDCR_COM-09032"
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Joystick, 2 - Axis Analog (Resistive) Output"
+			(at 236.728 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "H3"
+			(uuid "3656400a-3e24-4a4a-bb00-2782cb27b196")
+		)
+		(pin "V3"
+			(uuid "12d51071-9ee2-47f2-9726-6159af7f39c7")
+		)
+		(pin "B1A"
+			(uuid "3c53b1b9-53a1-49fe-8787-33389f1ce23d")
+		)
+		(pin "S1"
+			(uuid "4fc40c68-b8bd-4456-80ae-3092c3e2dd01")
+		)
+		(pin "S4"
+			(uuid "6d679b63-869a-4da3-ae27-880784dd4eea")
+		)
+		(pin "S3"
+			(uuid "4251ea37-8245-4500-87d1-a47c175c63e3")
+		)
+		(pin "S2"
+			(uuid "30a1dbe5-814f-40bb-9ed0-4eeb6358804f")
+		)
+		(pin "V2"
+			(uuid "4e11e828-44a3-4a5d-b8a2-3a81eb6a6471")
+		)
+		(pin "B2A"
+			(uuid "d02794e3-20c0-4940-8e0c-8cb360275c43")
+		)
+		(pin "H1"
+			(uuid "46ab8b5d-0836-430d-a50f-eb532905548d")
+		)
+		(pin "H2"
+			(uuid "cfe3ad4d-d1a4-4b6e-b3d0-d89d899a2f4e")
+		)
+		(pin "V1"
+			(uuid "0ae8d9c9-964d-46c7-9131-578cced6d20e")
+		)
+		(instances
+			(project "Remote_Controller"
+				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
+					(reference "JS302")
 					(unit 1)
 				)
 			)
@@ -6768,7 +7044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "916a54c1-8761-4f40-a0e3-cf8cc9cece3a")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0311"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -6818,97 +7094,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Joystick_1")
-		(lib_id "Thumb_Joystick:Joystick")
-		(at 176.53 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93424ed2-0304-4cd5-a78a-a790b437c190")
-		(property "Reference" "JS301"
-			(at 176.53 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "COM-09032"
-			(at 176.53 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Thumb_joy_stick_Library:XDCR_COM-09032"
-			(at 176.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Joystick, 2 - Axis Analog (Resistive) Output"
-			(at 176.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "5445c5e3-955d-4753-aab4-74b871664575")
-		)
-		(pin "2"
-			(uuid "c7575ba1-c556-49c1-8912-f1e5f3254c7a")
-		)
-		(pin "4"
-			(uuid "1ac9a0f0-155e-46a4-bce1-3fb292fc12a0")
-		)
-		(pin "3"
-			(uuid "97520641-dca0-46dd-b9e3-e0a92c853ada")
-		)
-		(pin "9"
-			(uuid "cab659a9-8406-46ef-866b-6abe62fe814f")
-		)
-		(pin "1"
-			(uuid "066bb7fc-d213-49e2-83e1-cd1ffa435eb4")
-		)
-		(pin "6"
-			(uuid "7b7da684-ed1e-464c-bf1b-2a580ec59314")
-		)
-		(pin "8"
-			(uuid "613338c5-3393-40fc-8082-e09b90f55c8c")
-		)
-		(pin "7"
-			(uuid "6e583314-19e7-404a-bd3c-672e88893747")
-		)
-		(instances
-			(project "Remote_Controller"
-				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "JS301")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -6924,7 +7110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d9c830f-de58-4bd3-b884-9c12def126ae")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0310"
 			(at 111.76 114.3 0)
 			(effects
 				(font
@@ -6974,7 +7160,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR036")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -6990,7 +7176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0b00813-cfa9-4b04-bf78-a48271d331d7")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0318"
 			(at 111.76 143.51 0)
 			(effects
 				(font
@@ -7040,7 +7226,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR039")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -7395,15 +7581,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 73.66 0)
+		(at 256.54 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cf0cc4e0-a0d4-4ece-a99a-ab72b5c77362")
-		(property "Reference" "#PWR053"
-			(at 254 80.01 0)
+		(property "Reference" "#PWR0308"
+			(at 256.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7598,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 77.724 0)
+			(at 256.54 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,7 +7606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 73.66 0)
+			(at 256.54 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7429,7 +7615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 73.66 0)
+			(at 256.54 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,7 +7624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 73.66 0)
+			(at 256.54 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,97 +7638,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Joystick_1")
-		(lib_id "Thumb_Joystick:Joystick")
-		(at 236.22 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d192d675-9fc1-472b-8761-73e9356d31e6")
-		(property "Reference" "JS302"
-			(at 236.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "COM-09032"
-			(at 236.22 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Thumb_joy_stick_Library:XDCR_COM-09032"
-			(at 236.22 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Joystick, 2 - Axis Analog (Resistive) Output"
-			(at 236.22 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "9b10f1d6-f105-4b08-89ea-65649c18016b")
-		)
-		(pin "2"
-			(uuid "89bb1d60-e098-4f4d-abc1-0855c1fa6dc4")
-		)
-		(pin "4"
-			(uuid "023680bf-8a1d-45b8-831c-ccef179472bf")
-		)
-		(pin "3"
-			(uuid "cb8e12ff-9ee8-460a-9062-5f6bcf4c831d")
-		)
-		(pin "9"
-			(uuid "81043879-313f-45ba-95a5-495f1fd1364c")
-		)
-		(pin "1"
-			(uuid "abb605a5-c7bc-4422-bfe8-1a9e4428fb40")
-		)
-		(pin "6"
-			(uuid "a30f827c-b21d-47d8-98db-e029ceafbbd6")
-		)
-		(pin "8"
-			(uuid "b506f9c9-65cd-4e99-bd26-c2b18845b2bf")
-		)
-		(pin "7"
-			(uuid "99e58ae6-58a1-434f-8727-f9db94134f27")
-		)
-		(instances
-			(project "Remote_Controller"
-				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "JS302")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -7626,7 +7722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d33b2777-45f5-40b6-b8de-baf326de40f8")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0302"
 			(at 64.77 50.8 0)
 			(effects
 				(font
@@ -7676,7 +7772,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR031")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -7763,7 +7859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d62c89c9-cdc2-4b66-9327-e526cc445bca")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0315"
 			(at 177.8 130.81 0)
 			(effects
 				(font
@@ -7813,7 +7909,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/09df4e93-3f2c-46d1-a313-1fe3325a4f32"
-					(reference "#PWR044")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)

@@ -4578,6 +4578,16 @@
 		)
 		(uuid "e39ef390-b6cf-4858-b5be-db696d894951")
 	)
+	(text "Using symbol-\nIRF7309IPBF"
+		(exclude_from_sim no)
+		(at 110.236 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e48d6628-7746-42c3-9f73-fb957c51f43d")
+	)
 	(text "System Power Multiplexer: 9V Battery & USB Power"
 		(exclude_from_sim no)
 		(at 81.534 90.424 0)
@@ -4634,6 +4644,28 @@
 		)
 		(uuid "2927a014-c453-45e8-ad74-24fe81a058ca")
 	)
+	(label "PWR_SW_CAP"
+		(at 87.63 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35d2a22d-f173-4483-b32f-4d3abf9b827d")
+	)
+	(label "PW_SW_R"
+		(at 123.19 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c8185d1-9118-46c9-a7a1-adf76bbfd3e9")
+	)
 	(label "GATE_U"
 		(at 93.98 161.29 0)
 		(fields_autoplaced yes)
@@ -4644,6 +4676,17 @@
 			(justify left bottom)
 		)
 		(uuid "610058e6-bce4-406f-8206-3905b9910295")
+	)
+	(label "PW_SW_R_G_S"
+		(at 85.09 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88c12c97-a197-490f-a3b5-6b03e4a8162b")
 	)
 	(label "V_Battery"
 		(at 49.53 109.22 0)
@@ -5277,7 +5320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28d28c2d-5c39-4d18-8a0a-525ad0483f2b")
-		(property "Reference" "Q104"
+		(property "Reference" "Q103"
 			(at 93.98 144.78 90)
 			(effects
 				(font
@@ -5359,7 +5402,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "Q104")
+					(reference "Q103")
 					(unit 1)
 				)
 			)
@@ -5626,97 +5669,6 @@
 			(project ""
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
 					(reference "L101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRF7309IPBF")
-		(at 104.14 57.15 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "541bf87a-dce3-4f60-af48-f3fb2964570d")
-		(property "Reference" "Q102"
-			(at 106.426 48.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF7319TRPBF"
-			(at 115.824 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220F-5_P3.4x2.06mm_StaggerEven_Lead1.86mm_Vertical"
-			(at 99.06 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf"
-			(at 99.06 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "3A Id, 30V Vds, Dual HEXFET N- and P-Channel MOSFET, SO-8"
-			(at 104.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "53482e3e-5d69-45d7-b35e-7e465c041698")
-		)
-		(pin "1"
-			(uuid "c721d3b8-c11a-49a6-9a06-03b7f00d4781")
-		)
-		(pin "7"
-			(uuid "e9f543cd-bdc8-4a8d-99c9-19366af21a48")
-		)
-		(pin "8"
-			(uuid "481e249f-c79d-4b12-a1a0-54cc76e81b3c")
-		)
-		(pin "3"
-			(uuid "8d9099a0-62c3-4f2a-8d07-a4cc8e563ca3")
-		)
-		(pin "5"
-			(uuid "da6ea5a2-82cf-4956-9f1c-5c13d16dccdb")
-		)
-		(pin "2"
-			(uuid "dbfe525c-db49-4742-a07a-076218372c32")
-		)
-		(pin "4"
-			(uuid "513fbeaf-a84a-4284-b49a-de416038dd5d")
-		)
-		(instances
-			(project ""
-				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "Q102")
 					(unit 1)
 				)
 			)
@@ -6552,7 +6504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85ec0d49-ee01-4668-9d81-7b6bce9d72d7")
-		(property "Reference" "Q103"
+		(property "Reference" "Q102"
 			(at 93.98 93.98 90)
 			(effects
 				(font
@@ -6634,7 +6586,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "Q103")
+					(reference "Q102")
 					(unit 1)
 				)
 			)
@@ -7002,6 +6954,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRF7309IPBF")
+		(at 101.6 41.91 270)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a2cad94-9c8c-4c4f-b63a-2983e94c6c9c")
+		(property "Reference" "Q101"
+			(at 101.6 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRF7319"
+			(at 101.6 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 99.695 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf"
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A Id, 30V Vds, Dual HEXFET N- and P-Channel MOSFET, SO-8"
+			(at 101.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42107d79-5008-4fba-8953-3addf2ab6c08")
+		)
+		(pin "3"
+			(uuid "90b50530-df83-440e-871f-b7a66415b68f")
+		)
+		(pin "2"
+			(uuid "11c18baf-c34d-4041-8dc4-5c6284b58eb1")
+		)
+		(pin "6"
+			(uuid "9f9f7f13-ab3e-47f6-8445-d60c6d04d9c4")
+		)
+		(pin "8"
+			(uuid "f36fb9a9-38dd-426c-befe-1296d1adbccf")
+		)
+		(pin "5"
+			(uuid "768b8c83-bf75-4585-924e-c3586738f3bb")
+		)
+		(pin "7"
+			(uuid "25110579-d732-4437-ad0d-5fda82dc4bc6")
+		)
+		(pin "4"
+			(uuid "693b19c7-7e8d-45c9-8a31-61bb0fc76767")
+		)
+		(instances
+			(project ""
+				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
+					(reference "Q101")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 77.47 54.61 0)
 		(unit 1)
@@ -7081,7 +7122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a32cba4e-1b54-49cc-8be3-8515f8c7c7e2")
-		(property "Reference" "#FLG0102"
+		(property "Reference" "#FLG0104"
 			(at 49.53 158.115 0)
 			(effects
 				(font
@@ -7131,7 +7172,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "#FLG0102")
+					(reference "#FLG0104")
 					(unit 1)
 				)
 			)
@@ -7477,95 +7518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF7309IPBF")
-		(at 101.6 41.91 270)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be01ad04-20a7-40ba-af8d-8230f744955e")
-		(property "Reference" "Q101"
-			(at 101.6 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IRF7309IPBF"
-			(at 101.6 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220F-5_P3.4x2.06mm_StaggerEven_Lead1.86mm_Vertical"
-			(at 99.695 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf"
-			(at 97.79 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "3A Id, 30V Vds, Dual HEXFET N- and P-Channel MOSFET, SO-8"
-			(at 101.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "53482e3e-5d69-45d7-b35e-7e465c041698")
-		)
-		(pin "1"
-			(uuid "c721d3b8-c11a-49a6-9a06-03b7f00d4781")
-		)
-		(pin "7"
-			(uuid "e9f543cd-bdc8-4a8d-99c9-19366af21a48")
-		)
-		(pin "8"
-			(uuid "481e249f-c79d-4b12-a1a0-54cc76e81b3c")
-		)
-		(pin "3"
-			(uuid "8d9099a0-62c3-4f2a-8d07-a4cc8e563ca3")
-		)
-		(pin "5"
-			(uuid "da6ea5a2-82cf-4956-9f1c-5c13d16dccdb")
-		)
-		(pin "2"
-			(uuid "dbfe525c-db49-4742-a07a-076218372c32")
-		)
-		(pin "4"
-			(uuid "513fbeaf-a84a-4284-b49a-de416038dd5d")
-		)
-		(instances
-			(project ""
-				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "Q101")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 233.68 73.66 0)
 		(unit 1)
@@ -7836,6 +7788,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRF7309IPBF")
+		(at 104.14 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d636e961-6928-4a5a-9440-f6b8535f3f5f")
+		(property "Reference" "Q101"
+			(at 97.79 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF7319"
+			(at 97.79 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 99.06 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf"
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A Id, 30V Vds, Dual HEXFET N- and P-Channel MOSFET, SO-8"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42107d79-5008-4fba-8953-3addf2ab6c08")
+		)
+		(pin "3"
+			(uuid "90b50530-df83-440e-871f-b7a66415b68f")
+		)
+		(pin "2"
+			(uuid "11c18baf-c34d-4041-8dc4-5c6284b58eb1")
+		)
+		(pin "6"
+			(uuid "9f9f7f13-ab3e-47f6-8445-d60c6d04d9c4")
+		)
+		(pin "8"
+			(uuid "f36fb9a9-38dd-426c-befe-1296d1adbccf")
+		)
+		(pin "5"
+			(uuid "768b8c83-bf75-4585-924e-c3586738f3bb")
+		)
+		(pin "7"
+			(uuid "25110579-d732-4437-ad0d-5fda82dc4bc6")
+		)
+		(pin "4"
+			(uuid "693b19c7-7e8d-45c9-8a31-61bb0fc76767")
+		)
+		(instances
+			(project ""
+				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
+					(reference "Q101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Management:LM74700")
 		(at 93.98 124.46 0)
 		(unit 1)
@@ -7927,7 +7970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc35c016-5a52-484f-8490-ae40c44289ad")
-		(property "Reference" "#FLG0104"
+		(property "Reference" "#FLG0102"
 			(at 181.61 65.405 0)
 			(effects
 				(font
@@ -7977,7 +8020,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "#FLG0104")
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -7993,7 +8036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e09a2a48-d6de-469e-a1c0-1ca0e94a09c7")
-		(property "Reference" "#FLG0101"
+		(property "Reference" "#FLG0103"
 			(at 72.39 107.315 0)
 			(effects
 				(font
@@ -8043,7 +8086,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "#FLG0101")
+					(reference "#FLG0103")
 					(unit 1)
 				)
 			)
@@ -8324,7 +8367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3d6ae62-dd55-4b12-97bd-b585f7c22bf0")
-		(property "Reference" "#FLG0103"
+		(property "Reference" "#FLG0101"
 			(at 64.77 37.465 0)
 			(effects
 				(font
@@ -8374,7 +8417,7 @@
 		(instances
 			(project "Remote_Controller"
 				(path "/7afb5074-6b77-4607-a5eb-938c2def45ba/bc757f9b-317d-459c-8896-b31b23ed4983"
-					(reference "#FLG0103")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
