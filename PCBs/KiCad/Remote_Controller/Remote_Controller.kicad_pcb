@@ -11847,9 +11847,20 @@
 			(pintype "passive")
 			(uuid "b17d0625-2591-4d6a-975c-61cefb2993bf")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR.wrl"
+		(model "C:/Users/Ghani/Documents/ECE Projects/SurvBot/PCBs/KiCad/Project_Library/Tactile_Button/Download_STP_430172073816_rev1.stp"
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/Ghani/Documents/ECE Projects/SurvBot/PCBs/KiCad/Project_Library/Tactile_Button/SW_Cap-A24-Red.stp"
+			(offset
+				(xyz 0 0 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -23118,15 +23129,26 @@
 			(pintype "passive")
 			(uuid "32c5e8fb-e546-4560-9269-0c3204591d22")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_MPD_BA9VPC_1xPP3.wrl"
+		(model "C:/Users/Ghani/Documents/ECE Projects/SurvBot/PCBs/KiCad/Project_Library/Battery_Holder/BA9VPC--3DModel-STEP-269445.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 25.5 -6.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 180)
+			)
+		)
+		(model "C:/Users/Ghani/Documents/ECE Projects/SurvBot/PCBs/KiCad/Project_Library/Battery_Holder/9V-battery.stp"
+			(offset
+				(xyz -37.5 -26.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
 			)
 		)
 	)
