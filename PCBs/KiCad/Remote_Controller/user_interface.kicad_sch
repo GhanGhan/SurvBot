@@ -4268,6 +4268,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25531"
+			(at 96.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0402WGJ0103TCE"
+			(at 96.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04659386-0693-46d9-b1d9-454c89e38fdc")
 		)
@@ -4329,6 +4347,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C455234"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "TS-1003ST-26"
 			(at 120.65 113.03 0)
 			(effects
 				(font
@@ -4405,6 +4441,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C155422"
+			(at 80.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
+			(at 80.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "559c292e-2790-4f3e-9be7-e7d71ba4a028")
 		)
@@ -4466,6 +4520,24 @@
 		)
 		(property "Description" "Graphic LCD Display Module Transflective Black (White - Inverted) FSTN - Film Super-Twisted Nematic SPI 128 x 32"
 			(at 82.804 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 82.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "NHD-C12832A1Z-FSW-FBW-3V3"
+			(at 82.55 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,6 +4664,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C155422"
+			(at 201.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
+			(at 201.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b64cbbbd-b77c-4da7-a288-4dd3cb20a03d")
 		)
@@ -4655,6 +4745,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 177.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25531"
+			(at 177.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0402WGJ0103TCE"
 			(at 177.8 147.32 0)
 			(effects
 				(font
@@ -4731,6 +4839,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C155422"
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5297366-38b6-4971-b321-86097476127e")
 		)
@@ -4792,6 +4918,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14445"
+			(at 107.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05A105KP5NNNC"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -4992,6 +5136,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C155422"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
 			(at 161.29 148.59 0)
 			(effects
 				(font
@@ -5266,6 +5428,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C14445"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05A105KP5NNNC"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "69acda54-8001-49ce-a5c1-954d36a07452")
 		)
@@ -5392,6 +5572,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C155422"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
 			(at 161.29 119.38 0)
 			(effects
 				(font
@@ -5534,6 +5732,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C455234"
+			(at 161.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "TS-1003ST-26"
+			(at 161.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "67e44ad4-b83c-4c20-835a-fe062c06de92")
 		)
@@ -5595,6 +5811,24 @@
 		)
 		(property "Description" "Joystick, 2 - Axis Analog (Resistive) Output"
 			(at 177.038 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 176.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "COM-09032"
+			(at 176.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,6 +6061,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25531"
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0402WGJ0103TCE"
 			(at 137.16 118.11 0)
 			(effects
 				(font
@@ -6233,6 +6485,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C72203"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "GRM155R61E225ME15D"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c0d69bd3-455c-4d90-8da9-189c27efedac")
 		)
@@ -6296,6 +6566,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 96.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25531"
+			(at 96.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0402WGJ0103TCE"
 			(at 96.52 147.32 0)
 			(effects
 				(font
@@ -6372,6 +6660,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C155422"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4e18629-282f-4797-875b-269255054c4d")
 		)
@@ -6433,6 +6739,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14445"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05A105KP5NNNC"
 			(at 114.3 44.45 0)
 			(effects
 				(font
@@ -6576,6 +6900,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C72203"
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "GRM155R61E225ME15D"
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1137a81a-101e-4adf-8d74-9818387e903f")
 		)
@@ -6636,6 +6978,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C155422"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
 			(at 120.65 119.38 0)
 			(effects
 				(font
@@ -6715,6 +7075,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25531"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0402WGJ0103TCE"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5da1c0b-0d91-4d64-b2cf-f17464ace0a2")
 		)
@@ -6776,6 +7154,24 @@
 		)
 		(property "Description" "Joystick, 2 - Axis Analog (Resistive) Output"
 			(at 236.728 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "COM-09032"
+			(at 236.22 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,6 +7278,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C455234"
+			(at 161.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "TS-1003ST-26"
+			(at 161.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13e26ad7-14dd-4584-850c-3f467ec2772c")
 		)
@@ -6951,6 +7365,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C14445"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05A105KP5NNNC"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d0a68e1-1424-4e5c-b9f3-1f37c87df524")
 		)
@@ -7011,6 +7443,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C155422"
+			(at 80.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
 			(at 80.01 148.59 0)
 			(effects
 				(font
@@ -7288,6 +7738,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25531"
+			(at 177.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0402WGJ0103TCE"
+			(at 177.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a66e1049-e033-4d88-b0eb-86afa314862d")
 		)
@@ -7349,6 +7817,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 120.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C455234"
+			(at 120.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "TS-1003ST-26"
 			(at 120.65 142.24 0)
 			(effects
 				(font
@@ -7426,6 +7912,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C455234"
+			(at 80.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "TS-1003ST-26"
+			(at 80.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "98dec4c6-4807-4b14-9a12-c52f950c20d8")
 		)
@@ -7495,6 +7999,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C455234"
+			(at 201.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "TS-1003ST-26"
+			(at 201.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b1e1d252-7d14-48e1-9142-826a2b26cd53")
 		)
@@ -7556,6 +8078,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C455234"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "TS-1003ST-26"
 			(at 80.01 113.03 0)
 			(effects
 				(font
@@ -7690,6 +8230,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C455234"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "TS-1003ST-26"
 			(at 201.93 113.03 0)
 			(effects
 				(font
@@ -7834,6 +8392,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25531"
+			(at 137.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0402WGJ0103TCE"
+			(at 137.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79ec81e1-6f47-4205-abd0-f0b13fe3bd6e")
 		)
@@ -7969,6 +8545,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C14445"
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05A105KP5NNNC"
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9acfcf51-edfb-4916-ba89-90724b865753")
 		)
@@ -8040,6 +8634,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25531"
+			(at 218.44 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0402WGJ0103TCE"
+			(at 218.44 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9508815b-3f02-42b9-9663-bedf46bf954a")
 		)
@@ -8101,6 +8713,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C72203"
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "GRM155R61E225ME15D"
 			(at 115.57 69.85 0)
 			(effects
 				(font

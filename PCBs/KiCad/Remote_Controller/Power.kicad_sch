@@ -4820,6 +4820,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C155422"
+			(at 109.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
+			(at 109.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "16f43bd8-9a57-4497-a718-5054f44f8e7d")
 		)
@@ -4890,6 +4908,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C77091"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "GRM31CR61E226KE15L"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "298f3c6b-de15-4534-97f6-eef56a0095c4")
 		)
@@ -4952,6 +4988,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25531"
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0402WGJ0103TCE"
 			(at 123.19 49.53 0)
 			(effects
 				(font
@@ -5225,6 +5279,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C320520"
+			(at 59.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "P6SMB22CA"
+			(at 59.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8ff2c60-2127-4910-8a54-ad1243ca7ce8")
 		)
@@ -5287,6 +5359,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 59.69 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C77091"
+			(at 59.69 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "GRM31CR61E226KE15L"
 			(at 59.69 172.72 0)
 			(effects
 				(font
@@ -5390,6 +5480,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C5381404"
+			(at 93.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "IRFML8244TRPBF"
+			(at 93.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0534f055-d0a0-4242-9eb6-ecbe0dc213c3")
 		)
@@ -5453,6 +5561,24 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C455234"
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "TS-1003ST-26"
 			(at 113.03 71.12 0)
 			(effects
 				(font
@@ -5659,6 +5785,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C257229"
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "SQH6012S-4R0N-LF"
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d4402f5-f425-49ef-a293-c5a48ec1adc4")
 		)
@@ -5794,6 +5938,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C155422"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "940bde9f-addd-4f86-af3a-ffad3cca94cc")
 		)
@@ -5921,6 +6083,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C155422"
+			(at 72.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
 			(at 72.39 127 0)
 			(effects
 				(font
@@ -6259,6 +6439,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C155422"
+			(at 72.39 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
+			(at 72.39 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "930f3206-6afb-4bd6-9387-76e7b796ea26")
 		)
@@ -6320,7 +6518,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green Light emitting diode"
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5252984"
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "150060GS75000"
 			(at 177.8 120.65 0)
 			(effects
 				(font
@@ -6389,6 +6605,24 @@
 			)
 		)
 		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+			(at 198.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "AP63203WU-7"
+			(at 198.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "C780769"
 			(at 198.12 69.85 0)
 			(effects
 				(font
@@ -6471,6 +6705,24 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "BA9VPC"
 			(at 39.37 48.26 0)
 			(effects
 				(font
@@ -6574,6 +6826,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C5381404"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "IRFML8244TRPBF"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "249ad953-e5ab-4906-9d29-a57f33377765")
 		)
@@ -6639,6 +6909,24 @@
 			)
 		)
 		(property "Description" "Low Iq reverse battery protection ideal diode controller, SOT-23-6"
+			(at 93.98 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2941042"
+			(at 93.98 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "LM74700QDBVRQ1"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -6728,6 +7016,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C14445"
+			(at 259.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05A105KP5NNNC"
+			(at 259.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f1805598-994d-4bc3-8402-62af8575c8a8")
 		)
@@ -6788,6 +7094,24 @@
 			)
 		)
 		(property "Description" "250mA Low Quiscent Current LDO, 3.0V output, SOT-23"
+			(at 242.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C62244"
+			(at 242.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "MCP1700T-3002E/TT"
 			(at 242.57 127 0)
 			(effects
 				(font
@@ -6869,6 +7193,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C84416"
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "GRM21BR61E106KA73L"
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c647536a-be80-4237-a497-63f9c9d6f5fb")
 		)
@@ -6930,6 +7272,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 77.47 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14445"
+			(at 77.47 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05A105KP5NNNC"
 			(at 77.47 66.04 0)
 			(effects
 				(font
@@ -7001,6 +7361,24 @@
 			)
 		)
 		(property "Description" "3A Id, 30V Vds, Dual HEXFET N- and P-Channel MOSFET, SO-8"
+			(at 101.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2760082"
+			(at 101.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "IRF7319TRPBF"
 			(at 101.6 41.91 0)
 			(effects
 				(font
@@ -7089,6 +7467,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C14675"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "RC0603FR-07100KL"
 			(at 77.47 54.61 0)
 			(effects
 				(font
@@ -7233,6 +7629,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C77091"
+			(at 246.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "GRM31CR61E226KE15L"
+			(at 246.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3766d86b-538e-4fcd-a343-8f378b7f465f")
 		)
@@ -7360,6 +7774,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C155422"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KA5NNNC"
 			(at 219.71 64.77 0)
 			(effects
 				(font
@@ -7502,6 +7934,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C14445"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05A105KP5NNNC"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15edc378-0720-4b9f-ae9e-2fc141993a74")
 		)
@@ -7564,6 +8014,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 233.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C77091"
+			(at 233.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "GRM31CR61E226KE15L"
 			(at 233.68 73.66 0)
 			(effects
 				(font
@@ -7699,6 +8167,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25531"
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0402WGJ0103TCE"
 			(at 77.47 44.45 0)
 			(effects
 				(font
@@ -7845,6 +8331,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C2760082"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "IRF7319TRPBF"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42107d79-5008-4fba-8953-3addf2ab6c09")
 		)
@@ -7925,6 +8429,24 @@
 			)
 		)
 		(property "Description" "Low Iq reverse battery protection ideal diode controller, SOT-23-6"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2941042"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "LM74700QDBVRQ1"
 			(at 93.98 124.46 0)
 			(effects
 				(font
@@ -8306,7 +8828,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "160R"
+		(property "Value" "200R"
 			(at 180.34 143.5099 0)
 			(effects
 				(font
@@ -8334,6 +8856,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 177.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C8218"
+			(at 177.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0603WAF2000T5E"
 			(at 177.8 142.24 0)
 			(effects
 				(font
