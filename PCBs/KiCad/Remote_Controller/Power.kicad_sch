@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "de538085-8a3a-4001-a3f8-570e52cdc475")
 	(paper "A4")
+	(title_block
+		(title "SurvBot - Remote Controller")
+		(date "2025-03-17")
+		(rev "1.0.0.")
+	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
 			(pin_numbers hide)
