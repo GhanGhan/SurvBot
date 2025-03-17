@@ -4447,7 +4447,7 @@
 		)
 		(uuid "3122bba3-8bd1-4bec-bfc9-dd970b7dba0d")
 	)
-	(label "D_RAW+"
+	(label "D_RAW-"
 		(at 97.79 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4469,7 +4469,7 @@
 		)
 		(uuid "7dbbc4bc-7c9a-47c9-9dc8-816c03099887")
 	)
-	(label "D_RAW-"
+	(label "D_RAW+"
 		(at 97.79 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4491,7 +4491,7 @@
 		)
 		(uuid "84b12567-a5ef-4616-9a18-4ea7dec5aa41")
 	)
-	(label "D+"
+	(label "D-"
 		(at 120.65 95.25 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4601,7 +4601,7 @@
 		)
 		(uuid "e5ce8567-644c-4bb5-a6d7-d1479f5aa3d1")
 	)
-	(label "D-"
+	(label "D+"
 		(at 120.65 92.71 180)
 		(fields_autoplaced yes)
 		(effects
