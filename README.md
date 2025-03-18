@@ -108,6 +108,46 @@ Remote controlled robot that surveys the environment it is travelling in.  Desig
 - 32Mb NOR Flash memory
 - Communicates with microcontroller via SPI
 
+# Part Two - Remote Controller
+***Figure 12: 3D View***
+![3D View Front](https://github.com/user-attachments/assets/3c9de429-c06d-4cf7-b5a8-fc2a2e617862)
+
+Battery powered hand-held device that controls and monitors the state of the SurvBot. Commands are sent and data is received over Bluetooth. The design includes joysticks to control the robot’s velocity, buttons to change the mode it is in and a screen to display the sensor data. Can be used outdoors or indoors.
+
+## Project Overview
+***Figure 13: Remote controller Bloack Diagram***
+![Block Diagram](https://github.com/user-attachments/assets/d62cd169-dad3-4300-8110-bfc14246c96f)
+The user interface will contain joysticks and buttons to control the robot’s velocity and the state it is in.   Such states will determine whether the robot responds to velocity inputs, recording sensor data, is in low power mode etc.  Velocity commands and state changes are sent from the controller to the robot via Bluetooth.  The controller will receive sensor data; encoders, temperature, humidity and motor current from the robot in and display it on the onboard screen in real time.
+The system will:
+- be powered by a 9V battery
+- use 2 thumb joysticks, one to control the robot’s linear velocity and another to control it’s angular velocity
+- provide a USB interface to to program the microcontroller
+- communicate with the SurvBot over Bluetooth
+- provide a screen to view the data from the SurvBot’s motion and environment sensors, and Bluetooth connection status
 
 
+## Schematic Diagrams
+### Power
+***Figure 14: Power Schematic***
+![Power](https://github.com/user-attachments/assets/72ecf214-fc5a-486a-a89e-54a019f90e5d)
+- Primary power source is a rechargeable 9V battery
+- Secondary power source is a USB vable
+- Power multiplexing circuitry used to decide the power source
+- Power Rails 3.3V and 3V (for the LCD screen)
+
+
+### Microcontroller
+***Figure 7: Microconroller Schematic***
+![uC and BT](https://github.com/user-attachments/assets/459cad85-2a47-4353-a654-0e8753169450)
+- Programmed via a USB cable whose signals are converted to UART
+- Peripherals: ADC, SPI and GPIO
+- Has integrated Bluetooth antenna
+
+
+### User Interface
+***Figure 7: User Interface: Screen, Buttons, and Joysticks***
+![User Interface](https://github.com/user-attachments/assets/6d6959cb-9086-4036-bf81-b993c2741b3c)
+- LCD screen displays information such as state of Bluetooth connection, current speed, temperature, recorded data etc.
+- Features 8 buttons to control the state of the robot
+- Left joysticks controls rotational speed, right joystick controls linear speed
 
